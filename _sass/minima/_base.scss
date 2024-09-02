@@ -29,10 +29,15 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   text-shadow: 3px 3px 0px $text-shadow-color;
+  padding-top: 20px;
 }
 
 p, a {
   text-shadow: 2px 2px 0px $text-shadow-color;
+}
+
+p {
+  text-align: justify;
 }
 
 /**
@@ -258,3 +263,45 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+.text-wrap {
+  max-width: 600px;
+  margin: 20px auto;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+}
+
+.text-wrap img {
+  float: left;
+  margin-right: 20px;
+  width: 200px; /* oder jede gewünschte Breite */
+  height: auto;
+}
+
+.text-wrap p {
+  overflow: hidden;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters label {
+  margin-right: 10px;
+}
+
+.filters select {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.post-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-item h2 {
+  margin-top: 0;
+}
+

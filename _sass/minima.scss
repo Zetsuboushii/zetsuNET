@@ -1,0 +1,58 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'GBFont';
+  src: url('fonts/ZeldaOracles.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+// Define defaults for each variable.
+
+$base-font-family: "GBFont" !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+$small-font-size: $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$spacing-unit: 30px !default;
+
+$text-color: #a9a77f !default;
+$text-shadow-color: #3f4900 !default;
+$background-color: #1a1b00 !default;
+$backdrop-color: #74783f !default;
+$brand-color: $text-color !default;
+
+$grey-color: $text-color !default;
+$grey-color-light: $text-color !default;
+$grey-color-dark: $text-color !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width: 800px !default;
+
+$on-palm: 600px !default;
+$on-laptop: 800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $base-font-size * $ratio;
+}
+
+// Import partials.
+@import "minima/base",
+"minima/layout",
+"minima/syntax-highlighting";

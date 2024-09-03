@@ -7,14 +7,16 @@
         <div class="footer-col-wrapper">
             <div class="footer-col footer-col-1">
                 <ul class="contact-list">
-                    {%- if site.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                    {%- endif -%}
+                    <li><a class="u-email" href="mailto:{{ site.email }}">E-Mail</a></li>
+                    <li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><span class="username">GitHub</span></a></li>
                 </ul>
             </div>
 
             <div class="footer-col footer-col-2">
-                {%- include social.html -%}
+                <ul class="social-media-list">
+                    <li><a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><span class="username">Instagram</span></a></li>
+                    <li><a href="https://open.spotify.com/user/{{ site.spotify_username| cgi_escape | escape }}"><span class="username">Spotify</span></a></li>
+                </ul>
             </div>
 
             <div class="footer-col footer-col-3">

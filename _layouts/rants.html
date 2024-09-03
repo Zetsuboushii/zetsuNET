@@ -15,7 +15,7 @@ layout: default
         {% for post in sorted_posts %}
         <div class="post-item" data-category="{{ post.categories | join: ' ' }}" data-date="{{ post.date | date: '%Y' }}">
             <h2>{{ post.title | escape }}</h2>
-            <span class="post-meta">{{ post.date | date: "%B %d, %Y" }} * {{ post.categories }}</span>
+            <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
             <p>{{ post.excerpt }}</p>
             <a href="{{ post.url | relative_url }}">Read more</a>
         </div>

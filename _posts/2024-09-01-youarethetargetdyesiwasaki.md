@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "you are the target feat.初音ミク"
-date: 2024-09-03
+date: 2024-09-01
 category: Music
 ytlink: "https://youtu.be/Wo3cY82e2ec?si=FuAtumCmEMsL0KQc"
 ---

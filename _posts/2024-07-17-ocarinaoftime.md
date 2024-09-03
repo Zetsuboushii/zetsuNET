@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Legend of Zelda: Ocarina of Time"
-date:   2024-09-03
+date:   2024-07-17
 category: Games
 platform: "N64"
 ---

@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zetsuboushii
 instagram_username: zetsuboushii
+spotify_username: fefuqa5sxojouw2paqibdy5wi
 
 # Build settings
 theme: minima

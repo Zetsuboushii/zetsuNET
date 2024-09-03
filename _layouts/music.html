@@ -11,7 +11,7 @@ layout: default
 
     <!-- Posts List -->
     <div id="post-list">
-        {% assign music_posts = site.posts | where: "category", "music" | sort: "date" %}
+        {% assign music_posts = site.posts | where: "category", "Music" | sort: "date" %}
 
         <ul class="video-list">
 
@@ -21,8 +21,8 @@ layout: default
             {% assign video_id = video_id | split: "?" | first %}
 
             <li class="video-item">
-                <a href="{{ youtube_url }}"><img src="https://img.youtube.com/vi/{{ video_id }}/mqdefault.jpg" alt=""></a>
-                <a href="{{ youtube_url }}"><h3>{{ post.title }}</h3></a>
+                <a href="{{ post.url | relative_url }}"><img src="https://img.youtube.com/vi/{{ video_id }}/mqdefault.jpg" alt=""></a>
+                <a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a>
             </li>
 
             {% endfor %}

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+
+    {{ content }}
+
+    <!-- Posts List -->
+    <div id="post-list">
+        {% assign music_posts = site.posts | where: "category", "music" | sort: "date" %}
+
+        <ul class="video-list">
+
+            {% for post in music_posts %}
+            {% assign youtube_url = post.ytlink %}
+            {% assign video_id = youtube_url | split: "youtu.be/" | last %}
+            {% assign video_id = video_id | split: "?" | first %}
+
+            <li class="video-item">
+                <a href="{{ youtube_url }}"><img src="https://img.youtube.com/vi/{{ video_id }}/mqdefault.jpg" alt=""></a>
+                <a href="{{ youtube_url }}"><h3>{{ post.title }}</h3></a>
+            </li>
+
+            {% endfor %}
+        </ul>
+    </div>
+</div>

@@ -7,5 +7,5 @@ layout: home
 
 Heya, ich bin Zetsu.
 
-Auf dieer Seite schreibe ich über meine Gedanken zu verschiedenen Themen wie Programmieren, Sprache, Videospiele, Musik,
+Auf dieser Seite schreibe ich über meine Gedanken zu verschiedenen Themen wie Programmieren, Sprache, Videospiele, Musik,
 oder Dungeons & Dragons.

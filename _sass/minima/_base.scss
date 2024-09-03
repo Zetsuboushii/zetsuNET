@@ -243,19 +243,20 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: lighten($text-color, 18%);
+  color: $text-color;
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
   tr {
     &:nth-child(even) {
       background-color: lighten($grey-color-light, 6%);
+      color: $text-shadow-color;
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
+    background-color: $text-shadow-color;
     border: 1px solid darken($grey-color-light, 4%);
     border-bottom-color: darken($grey-color-light, 12%);
   }
@@ -305,3 +306,36 @@ table {
   margin-top: 0;
 }
 
+.video-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: $text-shadow-color;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.video-item img {
+  width: 120px;
+  height: 67px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.video-item h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: $text-color;
+  text-shadow: 0 0 0;
+}

@@ -52,9 +52,8 @@ hr {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
@@ -186,7 +185,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-height: 700px;
+  max-height: 650px;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
@@ -205,7 +204,6 @@ pre {
 
   overflow: scroll;
 }
-
 
 /**
  * Clearfix

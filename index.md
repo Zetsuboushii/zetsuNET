@@ -14,8 +14,9 @@ Musik, Anime/Manga und Dungeons & Dragons.
 
 Zu meiner Person: Mein 21-jähriges Ich befindet sich gerade in einem Dualen Studium für Angewandte Informatik (daher die
 autistischen Themen) und arbeitet dabei bei der Deutschen Bahn (ÖPV based). Zum Thema "Öffentliche Verkehrsmittel"
-werden sicherlich einige elitäre Meinungen folgen. Man mag es kaum glauben, aber ich habe Hobbies. Dazu folgt eine
-Tierlist meiner liebsten Freizeitaktivitäten:
+werden sicherlich einige elitäre Meinungen folgen. Man mag es kaum glauben, aber ich habe Hobbies.
+
+Dazu folgt eine Tierlist meiner liebsten Freizeitaktivitäten:
 
 | Tier | Hobby                                                       |
 |------|-------------------------------------------------------------|

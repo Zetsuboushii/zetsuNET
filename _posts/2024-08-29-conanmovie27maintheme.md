@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Detective Conan Main Theme (The Million-Dollar Pentagram Version)"
+title: "Main Theme (The Million-Dollar Pentagram Version)"
 date: 2024-08-29
 category: Music
 ytlink: "https://youtu.be/nKig5lLunV8?si=YjH9pFak35i3xOPA"

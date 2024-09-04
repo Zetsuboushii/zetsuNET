@@ -53,7 +53,7 @@ hr {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6, blockquote, pre,
-ol, dl, figure,
+p, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
@@ -263,24 +263,6 @@ table {
   }
 }
 
-.text-wrap {
-  max-width: 600px;
-  margin: 20px auto;
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
-}
-
-.text-wrap img {
-  float: left;
-  margin-right: 20px;
-  width: 200px; /* oder jede gewünschte Breite */
-  height: auto;
-}
-
-.text-wrap p {
-  overflow: hidden;
-}
-
 .filters {
   margin-bottom: 20px;
 }
@@ -334,7 +316,6 @@ table {
 .video-item h3 {
   padding: 0;
   margin: 0;
-  font-size: 16px;
   color: $text-color;
   text-shadow: 0 0 0;
   white-space: wrap;

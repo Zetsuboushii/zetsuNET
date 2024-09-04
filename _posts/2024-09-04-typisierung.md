@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Statische Typisierung :) Schwache Typisierung >:("
+title: "Statische Typisierung ☺ Schwache Typisierung ☻"
 date: 2024-09-04
 category: Hacken
 ---

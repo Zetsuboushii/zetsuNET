@@ -28,4 +28,4 @@ eine gültige Fahrkarte". In welcher Welt ist das fair? Die Semestertickets alle
 UND HEIDELBERG, WEITER GILT DAS TICKET NICHT!!!!). Und dann soll ich bei jeder Fahrt mit der Straßenbahn paranoid mein
 Handy überprüfen, dass ja die rnv-App nicht meine Anmeldedaten gelöscht hat???? Der Service der rnv ist ohnehin extrem
 mangelhaft, aber auch noch ein solcher Betrug schlägt dem Fass ja wohl den Boden aus. Danke rnv, wirklich ein
-aufrichtiges Danke :) Ihr habt's einfach geschafft.
+aufrichtiges Danke ☺ Ihr habt's einfach geschafft.

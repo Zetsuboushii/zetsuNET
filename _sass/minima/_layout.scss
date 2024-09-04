@@ -103,8 +103,8 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  padding: 0 0;
+  background: $backdrop-color;
 }
 
 .footer-heading {

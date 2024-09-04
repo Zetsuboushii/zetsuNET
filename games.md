@@ -1,6 +1,6 @@
 ---
 layout: games
-title: Games
+title: Geming
 permalink: /games/
 header: true
 ---

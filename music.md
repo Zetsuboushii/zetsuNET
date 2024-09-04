@@ -1,8 +1,8 @@
 ---
 layout: music
-title: Music
+title: Bëpen-Böpen
 permalink: /music/
-header: false
+header: true
 ---
 
 Songs, OSTs und so die ich mag.

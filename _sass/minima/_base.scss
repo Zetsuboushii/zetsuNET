@@ -41,6 +41,11 @@ p {
   overflow-wrap: break-word;
 }
 
+p img, .text-wrap img {
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
 hr {
   border-top: 1px solid $grey-color;
   border-bottom: 0;
@@ -147,6 +152,7 @@ blockquote {
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
+  font-size: 16pt;
 
   > :last-child {
     margin-bottom: 0;
@@ -162,7 +168,8 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $text-shadow-color;
+  font-size: 16pt;
 }
 
 code {
@@ -242,11 +249,10 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
+  text-shadow: 2px 2px 0px $text-shadow-color;
   color: $text-color;
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
-
-
 
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);

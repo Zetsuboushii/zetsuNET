@@ -5,10 +5,11 @@
 layout: home
 ---
 
-Heya, ich bin Zetsu.
+オイ, ich bin Zetsu.
 
 Auf dieser Seite schreibe ich über meine Gedanken zu verschiedenen Themen wie Programmieren, Sprache, Videospiele,
-Musik, Anime/Manga und Dungeons & Dragons.
+Musik, Anime/Manga und Dungeons & Dragons. Ich führe diese Seite vermutlich aus dem Grund, dass ich massiv vergesslich
+bin und mich gerne auch noch nächste Woche daran erinnern möchte, worüber ich so nachgedacht habe.
 
 ---
 
@@ -24,4 +25,6 @@ Dazu folgt eine Tierlist meiner liebsten Freizeitaktivitäten:
 | A    | Klavier spielen, Serien/Filme schauen                       |
 | B    | Kochen, Konsolenrestaurierung, Japanisch lernen             |
 
-
+Meine Lieblingsserien wären wahrscheinlich Detektiv Conan, Steins;Gate und SpongeBob. Was Filme angeht, schaue ich
+eigentlich echt nicht viel. Ich würde sagen meine Favoriten sind hier, der zum Schreibzeitpunkt frisch herausgekommene,
+Detektiv Conan Film 27: Das 1-Million-Dollar-Pentagramm, Your Name. und Demon Slayer: Mugen Train.

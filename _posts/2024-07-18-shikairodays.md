@@ -2,7 +2,7 @@
 layout: post
 title: "Shika-iro Days"
 date: 2024-07-18
-category: Music
+category: Musik
 ytlink: "https://youtu.be/fxPcJTU-A8U?si=_wRz0GuMiFWOv9Vo"
 ---
 

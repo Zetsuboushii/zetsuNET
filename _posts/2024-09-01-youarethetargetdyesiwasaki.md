@@ -2,7 +2,7 @@
 layout: post
 title: "you are the target"
 date: 2024-09-01
-category: Music
+category: Musik
 ytlink: "https://youtu.be/Wo3cY82e2ec?si=FuAtumCmEMsL0KQc"
 ---
 

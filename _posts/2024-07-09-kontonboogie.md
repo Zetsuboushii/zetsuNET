@@ -2,7 +2,7 @@
 layout: post
 title: "Konton Boogie"
 date: 2024-07-09
-category: Music
+category: Musik
 ytlink: "https://youtu.be/1Swg-aBO9eY?si=aNIgs0ZffOAbd-PV"
 ---
 

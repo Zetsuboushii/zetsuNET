@@ -13,8 +13,9 @@ layout: default
     <div id="post-list">
         {% assign sorted_posts = site.posts | where: "category", "Rant" | sort: "date" %}
         {% for post in sorted_posts %}
-        <div class="post-item" data-category="{{ post.categories | join: ' ' }}" data-date="{{ post.date | date: '%Y' }}">
-            <h2>{{ post.title | escape }}</h2>
+        <div class="post-item" data-category="{{ post.categories | join: ' ' }}"
+             data-date="{{ post.date | date: '%Y' }}">
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
             <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
             <p>{{ post.excerpt }}</p>
             <a href="{{ post.url | relative_url }}">Read more</a>

@@ -1,6 +1,4 @@
 @charset "utf-8";
-
-/* Font-face definition */
 @font-face {
   font-family: 'GBFont';
   src: url('fonts/nds-true-bios.ttf') format('truetype');
@@ -8,7 +6,9 @@
   font-style: normal;
 }
 
-/* Default variable definitions */
+
+// Define defaults for each variable.
+
 $base-font-family: "GBFont" !default;
 $base-font-size: 28px !default;
 $base-font-weight: 800 !default;
@@ -16,6 +16,7 @@ $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
+
 $text-color: #a9a77f !default;
 $text-shadow-color: #3f4900 !default;
 $background-color: #1a1b00 !default;
@@ -27,23 +28,31 @@ $grey-color-light: $text-color !default;
 $grey-color-dark: $text-color !default;
 
 $table-text-align: left !default;
+
+// Width of the content area
 $content-width: 800px !default;
 
-/* Breakpoints for responsive design */
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
-/* Mixin for media queries */
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
   }
 }
 
-/* Mixin for relative font size */
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
 
-/* Importing partial SCSS files */
-@import "minima/base", "minima/layout", "minima/syntax-highlighting";
+// Import partials.
+@import "minima/base",
+"minima/layout",
+"minima/syntax-highlighting";

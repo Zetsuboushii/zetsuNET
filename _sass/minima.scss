@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
   font-family: 'GBFont';
-  src: url('fonts/alttp.ttf') format('truetype');
+  src: url('fonts/nds-true-bios.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,17 +10,17 @@
 // Define defaults for each variable.
 
 $base-font-family: "GBFont" !default;
-$base-font-size: 16px !default;
-$base-font-weight: 400 !default;
+$base-font-size: 28px !default;
+$base-font-weight: 800 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit: 30px !default;
 
-$text-color: #9775a6 !default;
-$backdrop-color: #683a68 !default;
-$text-shadow-color: #412752 !default;
-$background-color: #2d162c !default;
+$text-color: #a9a77f !default;
+$text-shadow-color: #3f4900 !default;
+$background-color: #1a1b00 !default;
+$backdrop-color: #74783f !default;
 
 $brand-color: $text-color !default;
 $grey-color: $text-color !default;

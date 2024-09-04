@@ -21,7 +21,7 @@
 title: Zetsuboushii
 email: zetsuboushii@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal blog to publish my inner thoughts
+  Ein persönlicher Blog, um meinen innersten Gedanken freien Lauf zu lassen
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zetsuboushii

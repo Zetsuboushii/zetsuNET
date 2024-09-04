@@ -28,17 +28,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-shadow: 1px 1px 0px $text-shadow-color;
+  text-shadow: 2px 2px 0px $text-shadow-color;
   padding-top: 20px;
 }
 
 p, a {
-  text-shadow: 1px 1px 0px $text-shadow-color;
+  text-shadow: 2px 2px 0px $text-shadow-color;
 }
 
 p {
   text-align: justify;
   overflow-wrap: break-word;
+}
+
+hr {
+  border-top: 1px solid $grey-color;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 15px;
 }
 
 /**
@@ -240,12 +248,7 @@ table {
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
 
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
-      color: $text-shadow-color;
-    }
-  }
+
 
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);

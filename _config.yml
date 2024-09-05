@@ -23,9 +23,15 @@ email: zetsuboushii@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  zetsuboushii
+github_username: zetsuboushii
 instagram_username: zetsuboushii
 spotify_username: fefuqa5sxojouw2paqibdy5wi
+
+collections:
+  posts:
+    output: true
+  conan:
+    output: true
 
 # Build settings
 theme: minima

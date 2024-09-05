@@ -247,4 +247,10 @@
       @include relative-font-size(1.125);
     }
   }
+
+  img {
+    display: block;
+    margin: 20px auto 0 auto;
+    max-width: 600px;
+  }
 }

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">Episode {{ page.ep | escape }}: {{ page.title | escape }}</h1>
+    </header>
+
+    <div class="post-content">
+        {{ content }}
+
+        <h3 style="text-align: center">Score: {{ page.judgement }} / 10</h3>
+        <img src="https://conanwiki.org/images/thumb/a/a1/Episode_{{ page.ep }}.png/800px-Episode_{{ page.ep }}.png?20210315154154">
+    </div>
+</article>

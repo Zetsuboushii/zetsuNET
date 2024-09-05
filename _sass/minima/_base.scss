@@ -46,6 +46,21 @@ p img, .text-wrap img {
   margin: 20px auto 0 auto;
 }
 
+.good-list {
+  ul {
+    column-count: 2;
+    column-gap: 20px;
+    list-style-type: none;
+  }
+
+  li {
+  }
+
+  li::marker {
+    content: '• ';
+  }
+}
+
 hr {
   border-top: 1px solid $grey-color;
   border-bottom: 0;

@@ -32,6 +32,8 @@ collections:
     output: true
   conan:
     output: true
+  favourites:
+    output: true
 
 # Build settings
 theme: minima

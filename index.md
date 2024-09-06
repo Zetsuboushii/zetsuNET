@@ -15,6 +15,6 @@ bin und mich gerne auch noch nächste Woche daran erinnern möchte, worüber ich
 
 ## Zu meiner Person
 
-Mein 21-jähriges Ich befindet sich gerade in einem Dualen Studium für Angewandte Informatik (daher die
-autistischen Themen) und arbeitet dabei bei der Deutschen Bahn (ÖPV based). Zum Thema "Öffentliche Verkehrsmittel"
-werden sicherlich einige elitäre Meinungen folgen.
+Mein 21-jähriges Ich befindet sich gerade in einem Dualen Studium für Angewandte Informatik (bei den ganzen
+autistischen Themen kein Wunder) und arbeitet dabei bei der Deutschen Bahn (ÖPV based). Zum Thema "Öffentliche
+Verkehrsmittel" werden sicherlich einige elitäre Meinungen folgen.

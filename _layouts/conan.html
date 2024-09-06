@@ -36,4 +36,17 @@ layout: default
         </tr>
         {% endfor %}
     </table>
+
+    <div class="post-content">
+        <p>
+            Das hier sind übrigens meine Lieblingsfolgen:
+        </p>
+        <ul class="good-list">
+            {% for post in conan_posts %}
+            {% if post.judgement >= 9 %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
 </article>

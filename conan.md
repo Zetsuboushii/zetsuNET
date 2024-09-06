@@ -12,4 +12,6 @@ Joa.
 Eine Tabelle der Episoden, die ich gesehen habe mit ein paar Gedanken dazu. Ich habe nur die deutschen Folgen gesehen,
 daher mag es Abweichungen zum Original geben.
 
+Achja, Spoilerwarnung für alle Episoden und Filme, sowie möglicherweise für Magic Kaito.
+
 <img src="../assets/imgs/conan_smile_logo.png" style="width: 50px;">

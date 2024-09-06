@@ -3,7 +3,7 @@ layout: conan_post
 title: "Kleiner Mann ganz groß"
 category: Conan
 ep: 2
-judgement: 9
+judgement: 8
 summary: Mit Bestürzung stellt Shin’ichi fest, dass er durch das Gift, das ihm Verbrecher eingeflößt haben, auf die Größe eines Grundschülers geschrumpft ist. Der Einzige, dem er sich anvertraut, ist sein Freund Professor Agasa.
 ---
 

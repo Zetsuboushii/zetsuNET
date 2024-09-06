@@ -1,0 +1,11 @@
+---
+layout: conan_post
+title: "Explosion im Express"
+category: Conan
+ep: 5
+judgement: 9
+summary: Während einer Zugreise mit seiner neuen Familie – Privatdetektiv Kogorô Môri und dessen Tochter Ran – kommt Conans feine Spürnase einer hochexplosiven Aktion auf die Spur.
+---
+
+Die erste "Zug-Folge". Ich liebe die Fälle, die in Zügen stattfinden. Die Spannung, die durch die Bombe an Bord
+aufkommt, sorgt für den Zeitdruck, unter den Conan gestellt wird.

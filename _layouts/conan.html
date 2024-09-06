@@ -13,18 +13,26 @@ layout: default
 
     <table>
         <tr>
-            <th>Nummer</th>
-            <th>Bild</th>
+            <th>Episode</th>
             <th>Name</th>
+            <th>Abriss</th>
             <th>Score</th>
         </tr>
         {% assign conan_posts = site.conan | where: "category", "Conan" %}
         {% for post in conan_posts %}
         <tr>
-            <td><a href="{{ post.url | relative_url }}">Episode {{ post.ep }}</a></td>
-            <td style="width: 250px"><a href="{{ post.url | relative_url }}"><img src="https://conanwiki.org/images/thumb/a/a1/Episode_{{ post.ep }}.png/800px-Episode_{{ post.ep }}.png?20210315154154" style="width: 250px"></a></td>
+            <td style="width: 125px">
+                Episode {{ post.ep }}
+                {% if post.to %}
+                {% assign start = post.ep | plus: 1 %}
+                {% for counter in (start..post.to) %}
+                <br>Episode {{ counter }}
+                {% endfor %}
+                {% endif %}
+            </td>
             <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
-            <td style="text-align: center;">{{ post.judgement | escape }} / 10</td>
+            <td style="width: 350px; text-align: justify;">{{ post.summary }}</td>
+            <td style="width: 55px; text-align: center;">{{ post.judgement | escape }} / 10</td>
         </tr>
         {% endfor %}
     </table>

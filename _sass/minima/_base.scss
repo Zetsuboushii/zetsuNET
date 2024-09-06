@@ -46,6 +46,11 @@ p img, .text-wrap img {
   margin: 20px auto 0 auto;
 }
 
+p:visited, a:visited {
+  color: $text-color;
+  text-decoration: none;
+}
+
 .good-list {
   ul {
     column-count: 2;

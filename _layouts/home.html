@@ -16,7 +16,7 @@ layout: default
         <p>Für die, die gefragt haben; hier eine Sammlung verschiedener Listen:</p>
 
         <ul class="good-list">
-            {% for post in site.favourites %}
+            {% for post in site.favourites | sort: 'title' %}
             <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
             {% endfor %}
         </ul>
@@ -27,6 +27,4 @@ layout: default
             Bilder, Namen, etc. gehören ihren respektiven Besitzern.
         </p>
     </div>
-
-
 </div>

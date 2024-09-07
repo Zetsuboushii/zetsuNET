@@ -6,7 +6,7 @@ category: Musik
 ytlink: "https://youtu.be/IqNbgviZmuM?si=rOSFPSfaA39TYIcV"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IqNbgviZmuM?si=rOSFPSfaA39TYIcV&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IqNbgviZmuM?si=rOSFPSfaA39TYIcV&amp;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 DAMN. Als großer Anno-Connoisseur sagt mir dieses orchestrale Meisterwerk bis ins Vollste zu. Die Main Themes der vier
 neu-aufgelegten Annos sind an sich schon unglaublich gut. Aber nochmal anlässlich der History Collection diese Klassiker

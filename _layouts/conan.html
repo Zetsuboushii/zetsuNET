@@ -22,12 +22,17 @@ layout: default
         {% for post in conan_posts %}
         <tr>
             <td style="width: 125px">
+                {% if post.ep %}
                 Episode {{ post.ep }}
                 {% if post.to %}
                 {% assign start = post.ep | plus: 1 %}
                 {% for counter in (start..post.to) %}
                 <br>Episode {{ counter }}
                 {% endfor %}
+                {% endif %}
+                {% endif %}
+                {% if post.film %}
+                Film {{ post.film }}
                 {% endif %}
             </td>
             <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>

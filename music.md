@@ -1,6 +1,6 @@
 ---
 layout: music
-title: Bëpen-Böpen
+title: Musik
 permalink: /music/
 header: true
 ---

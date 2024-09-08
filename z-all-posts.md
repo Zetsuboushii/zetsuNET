@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Alle Posts
+title: Sonstiges
 permalink: /posts/
 header: true
 ---

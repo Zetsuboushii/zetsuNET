@@ -15,14 +15,14 @@ layout: default
         <tr>
             <th>Title</th>
             <th>Platform</th>
-            <th>Finished</th>
+            <th>Last Finished</th>
         </tr>
-        {% assign games_posts = site.posts | where: "category", "Videospiele" | sort: "date" %}
+        {% assign games_posts = site.games | sort: "date" %}
         {% for post in games_posts %}
         <tr>
             <td><a href="{{ post.url | relative_url }}">{{ post.title }}</a></td>
             <td>{{ post.platform }}</td>
-            <td>{{ post.date | date: "%d.%m.%Y" }}</td>
+            <td>{{ post.lastfinished | date: "%d.%m.%Y" }}</td>
         </tr>
         {% endfor %}
     </table>

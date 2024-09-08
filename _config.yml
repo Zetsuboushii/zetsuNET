@@ -36,6 +36,8 @@ collections:
     output: true
   music:
     output: true
+  games:
+    output: true
 
 # Build settings
 theme: minima

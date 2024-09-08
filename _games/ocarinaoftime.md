@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "The Legend of Zelda: Ocarina of Time"
-date: 2024-07-17
-category: Videospiele
+lastfinished: 2024-07-17
 platform: "N64"
 ---
 

@@ -40,6 +40,8 @@ collections:
     output: true
   hacken:
     output: true
+  rants:
+    output: true
 
 # Build settings
 theme: minima

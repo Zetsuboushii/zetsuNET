@@ -11,7 +11,7 @@ layout: default
 
     <!-- Posts List -->
     <div id="post-list">
-        {% assign music_posts = site.posts | where: "category", "Musik" | sort: "date" | reverse %}
+        {% assign music_posts = site.music | sort: "date" | reverse %}
 
         <ul class="video-list">
 

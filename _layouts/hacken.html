@@ -12,7 +12,7 @@ layout: default
     </div>
 
     <div id="post-list">
-        {% assign sorted_posts = site.posts | where: "category", "Hacken" | sort: "date" %}
+        {% assign sorted_posts = site.hacken | where: "category", "Hacken" | sort: "date" %}
         {% for post in sorted_posts %}
         <div class="post-item" data-category="{{ post.categories | join: ' ' }}" data-date="{{ post.date | date: '%Y' }}">
             <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>

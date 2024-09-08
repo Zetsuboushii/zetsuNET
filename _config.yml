@@ -42,6 +42,8 @@ collections:
     output: true
   rants:
     output: true
+  misc:
+    output: true
 
 # Build settings
 theme: minima

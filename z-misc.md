@@ -1,6 +1,6 @@
 ---
-layout: blog
+layout: misc
 title: Sonstiges
-permalink: /posts/
+permalink: /misc/
 header: true
 ---

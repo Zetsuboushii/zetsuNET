@@ -318,33 +318,37 @@ table {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+
+  hr {
+    margin-bottom: 0;
+  }
 }
 
 .video-item {
   display: flex;
   align-items: center;
   gap: 15px;
-  background-color: $text-shadow-color;
-  border-radius: 8px;
   padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
-.video-item img {
-  width: 120px;
-  height: 67px;
-  object-fit: cover;
-  border-radius: 4px;
-  flex-shrink: 0;
-}
+  img {
+    width: 120px;
+    height: 67px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+  }
 
-.video-item h3 {
-  padding: 0;
-  margin: 0;
-  color: $text-color;
-  text-shadow: 0 0 0;
-  white-space: wrap;
+  h3 {
+    padding: 0 10px 0 10px;
+    margin: 0;
+    color: $text-color;
+    text-shadow: 0 0 0;
+    white-space: wrap;
+    background-color: $text-shadow-color;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+  }
 }
 
 iframe {

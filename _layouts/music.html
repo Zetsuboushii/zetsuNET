@@ -20,6 +20,8 @@ layout: default
             {% assign video_id = youtube_url | split: "youtu.be/" | last %}
             {% assign video_id = video_id | split: "?" | first %}
 
+            <hr>
+
             <li class="video-item">
                 <a href="{{ post.url | relative_url }}"><img src="https://img.youtube.com/vi/{{ video_id }}/mqdefault.jpg" alt=""></a>
                 <a href="{{ post.url | relative_url }}"><h3>{{ post.title }}</h3></a>

@@ -14,8 +14,8 @@ layout: default
     <table>
         <tr>
             <th>Episode</th>
-            <th>Name</th>
-            <th>Abriss</th>
+            <th>Fall</th>
+            <th>Kurzzusammenfassung</th>
             <th>Score</th>
         </tr>
         {% assign conan_posts = site.conan | where: "category", "Conan" %}
@@ -23,11 +23,11 @@ layout: default
         <tr>
             <td style="width: 125px">
                 {% if post.ep %}
-                Episode {{ post.ep }}
+                {{ post.ep }}
                 {% if post.to %}
                 {% assign start = post.ep | plus: 1 %}
                 {% for counter in (start..post.to) %}
-                <br>Episode {{ counter }}
+                <br>{{ counter }}
                 {% endfor %}
                 {% endif %}
                 {% endif %}
@@ -44,7 +44,7 @@ layout: default
 
     <div class="post-content">
         <p>
-            Das hier sind übrigens meine Lieblingsfolgen:
+            Das hier sind übrigens meine Lieblingsfälle:
         </p>
         <ul class="good-list">
             {% for post in conan_posts %}

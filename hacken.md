@@ -3,6 +3,7 @@ layout: hacken
 title: Hacken
 permalink: /hacken/
 header: true
+published: false
 ---
 
 In IPA-Lautschrift ausgesprochen ˈhakn̩ .

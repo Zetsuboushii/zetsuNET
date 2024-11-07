@@ -2,7 +2,7 @@
 layout: conan
 title: Detektiv Conan
 permalink: /conan/
-header: true
+header: false
 ---
 
 Detektiv Conan ist meine all-time favourite Serie. Die Fälle, die Conan behandelt, sind ehct einprägsam in Setting, Plot

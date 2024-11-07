@@ -7,7 +7,6 @@ title: "Die objektiv besten Charaktere"
 * Aqua (Konosuba)
 * Cirno (Touhou)
 * Conan Edogawa / Shinichi Kudo (Detektiv Conan)
-* Fern (Sousou no Frieren)
 * Frieren (Sousou no Frieren)
 * Heiji Hattori (Detektiv Conan)
 * Hershel Layton (Professor Layton)

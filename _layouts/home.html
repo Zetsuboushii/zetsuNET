@@ -12,19 +12,5 @@ layout: default
              style="max-width: 200px;">
 
         {{ content }}
-
-        <p>Für die, die gefragt haben; hier eine Sammlung verschiedener Listen:</p>
-
-        <ul class="good-list">
-            {% for post in site.favourites | sort: 'title' %}
-            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-            {% endfor %}
-        </ul>
-
-        <p>
-            Dieser Webblog wurde erstellt mit Jekyll, und wird durch GitHub Pages gehostet. Die Font ist gerippt vom
-            Betriebssystem des Nintendo DS. Die 2-Bit Farbgestaltung ist an den Nintendo Game Boy angelehnt. Alle
-            Bilder, Namen, etc. gehören ihren respektiven Besitzern.
-        </p>
     </div>
 </div>

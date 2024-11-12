@@ -5,10 +5,25 @@
 layout: home
 ---
 
-<h4 style="text-align: center">Heya, und schön, dass du hier bist</h4>
+## Willkommen
 
-Ich bin Zetsu. Auf dieser Seite möchte ich dir etwas über mich, meine Leidenschaften und meine Projekte erzählen – damit
-du einen Eindruck davon bekommst, wer ich bin und was mich antreibt.
+<div class="window" style="width: 300px">
+    <div class="title-bar">
+        <div class="title-bar-text" id="hello">greeting.md</div>
+        <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+        </div>
+    </div>
+    <div class="window-body">
+        <img src="https://avatars.githubusercontent.com/u/65507051?v=4" alt=""
+             style="max-width: 200px; display: block; margin: 10px auto 10px auto">
+
+        Ich bin Zetsu. Auf dieser Seite möchte ich dir etwas über mich, meine Leidenschaften und meine Projekte erzählen – damit
+        du einen Eindruck davon bekommst, wer ich bin und was mich antreibt.
+    </div>
+</div>
 
 ## Über mich
 

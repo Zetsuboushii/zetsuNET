@@ -1,9 +1,11 @@
 ---
-layout: music
+layout: home
 title: Musik
 permalink: /music/
 header: true
-category: Musik
+category: music
 ---
 
-Songs, OSTs und so die ich mag.
+<div class="sunken-panel">
+
+</div>

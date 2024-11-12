@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #00807F;
+}
+
+.body-flex {
+  display: flex;
+  margin: 0 auto;
+}
+
+summary::marker {
+  content: none !important;
+}
+
+aside {
+  width: 300px;
+  top: 21px;
+  bottom: 0;
+  padding: 8px;
+  align-items: stretch;
+
+  ul {
+    width: 300px;
+  }
+}
+
+main {
+  margin: 10px 0 60px 30px;
+  text-align: justify;
+  flex-grow: 1;
+
+  .window {
+    font-size: 14px;
+  }
+}
+
+footer {
+  width: 300px;
+  padding: 10px 40px 10px 40px;
+}
+
+.spin {
+  animation: spin-3d 3s linear infinite;
+  transform-style: preserve-3d;
+
+  @keyframes spin-3d {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+}
+
+li[role="tab"] {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+li[aria-selected="true"] {
+  background-color: #007bff;
+  color: white;
+}
+
+.tabpanel {
+  display: none;
+}
+
+.tabpanel[aria-hidden="false"] {
+  display: block;
+}

@@ -6,8 +6,6 @@ category: music
 ytlink: "https://youtu.be/4aKFdpJ4_bo?si=tboLbUM4mtKSI_cf"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4aKFdpJ4_bo?si=GDF78gLXA0bzFRAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 Als ich damals zum Release von Octopath Traveler von der grandiosen Musik gehört habe, war ich hin und weg. Gerade aber
 die Bosskämpfe mit den dynamischen Übergängen zwischen dem jeweiligen Charakter-Theme und den Boss Fight Themes ist SO
 GÖTTLICH. Yasunori Nishiki ist ein absolutes Genie, mit dem, was er hier gezaubert hat.

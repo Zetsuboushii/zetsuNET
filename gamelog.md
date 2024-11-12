@@ -6,7 +6,7 @@ header: true
 category: game
 ---
 
-<div class="sunken-panel" style="width: 340px; height: ">
+<div class="sunken-panel" style="width: 340px">
     <table>
         <thead>
         <tr>
@@ -54,7 +54,7 @@ category: game
 <div class="window tabpanel-container">
     {% for group in grouped_posts %}
         <div id="{{ group.name }}" class="window-body tabpanel" role="tabpanel"
-             aria-hidden="{{ forloop.first | not }}">
+             aria-hidden="{% if forloop.last %}false{% else %}true{% endif %}">
             {% for post in group.items %}
                 <h4>{{ post.title }}</h4>
                 <p>

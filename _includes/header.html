@@ -2,10 +2,6 @@
     <ul class="tree-view">
         <li>
             <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-        </li>
-        <li>
-            <details open>
-                <summary>Sitemap</summary>
             <ul>
                 {% assign default_paths = site.pages | map: "path" %}
                 {% assign page_paths = site.header_pages | default: default_paths %}
@@ -13,35 +9,37 @@
                     {% assign my_page = site.pages | where: "path", path | first %}
                     {% if my_page.header == true %}
                         <li>
-                            <details>
-                                <summary>
-                                    <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
-                                </summary>
-                                <ul>
-                                    {% assign posts = site.entries %}
-                                    {% for subpage in posts %}
-                                        {% if subpage.category == my_page.category %}
-                                            <li>
-                                                {{ subpage.title | escape }}
-                                            </li>
-                                        {% endif %}
-                                    {% endfor %}
-                                </ul>
-                            </details>
+                            {% if my_page.category == "shrine" %}
+                                <details>
+                                    <summary>
+                                        <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
+                                    </summary>
+                                    <ul>
+                                        {% assign posts = site.entries %}
+                                        {% for subpage in posts %}
+                                            {% if subpage.category == my_page.category %}
+                                                <li>
+                                                    <a href="{{ subpage.url | relative_url }}">{{ subpage.title | escape }}</a>
+                                                </li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </details>
+                            {% else %}
+                                <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
+                            {% endif %}
                         </li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            </details>
         </li>
         <li>
             <details open>
-                <summary>Kontakt</summary>
+                <summary>Socials</summary>
                 <ul>
                     <li><a class="u-email" href="mailto:{{ site.email }}">E-Mail</a></li>
                     <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><span
                                     class="username">GitHub</span></a></li>
-                    <li><a href="{{ 'feed.xml' | relative_url }}"><span>RSS Feed</span></a></li>
                     <li><a href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}"><span
                                     class="username">Instagram</span></a></li>
                     <li><a href="https://open.spotify.com/user/{{ site.spotify_username | cgi_escape | escape }}"><span
@@ -49,5 +47,15 @@
                 </ul>
             </details>
         </li>
+        <li>
+            <details open>
+                <summary>Gensoukyou Webring</summary>
+                <ul>
+                    <li><a href=""></a></li>
+                </ul>
+            </details>
+        </li>
+        <li><a href="https://zetsuboushii.github.io/tome-of-the-vastlands"><span>Tome of the Vastlands</span></a></li>
+        <li><a href="{{ 'feed.xml' | relative_url }}"><span>RSS Feed</span></a></li>
     </ul>
 </aside>

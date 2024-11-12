@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Zetsus Wissensstiftende Website
+title: Zetsu's Wacky Webzone
 email: zetsuboushii@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -28,22 +28,9 @@ instagram_username: zetsuboushii
 spotify_username: fefuqa5sxojouw2paqibdy5wi
 
 collections:
-  posts:
+  entries:
     output: true
-  conan:
-    output: true
-  favourites:
-    output: true
-  music:
-    output: true
-  games:
-    output: true
-  hacken:
-    output: true
-  rants:
-    output: true
-  misc:
-    output: true
+    permalink: /:path/
 
 # Build settings
 theme: minima

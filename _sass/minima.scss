@@ -1,26 +1,21 @@
 @charset "utf-8";
-@font-face {
-  font-family: 'GBFont';
-  src: url('fonts/nds-true-bios.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 // Define defaults for each variable.
 
-$base-font-family: "GBFont" !default;
-$base-font-size: 24px !default;
-$base-font-weight: 800 !default;
+$base-font-size: 18px !default;
+$base-font-weight: 400 !default;
 $small-font-size: $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
+$heading-font-size: 24px !default;
+$heading-font-weight: 400 !default;
+
 $spacing-unit: 30px !default;
 
-$text-color:  #2e2622  !default;
-$text-shadow-color:  #77746f  !default;
-$backdrop-color:  #a09f97  !default;
-$background-color:  #cccec7  !default;
+$text-color: #2e2622 !default;
+$text-shadow-color: #77746f !default;
+$backdrop-color: #a09f97 !default;
+$background-color: #cccec7 !default;
 
 // $text-color: #cccec7 !default;
 // $text-shadow-color: #a09f97 !default;
@@ -35,7 +30,7 @@ $grey-color-dark: $text-color !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width: 800px !default;
+$content-width: 1000px !default;
 
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
@@ -59,5 +54,4 @@ $on-laptop: 800px !default;
 
 // Import partials.
 @import "minima/base",
-"minima/layout",
-"minima/syntax-highlighting";
+"minima/layout";

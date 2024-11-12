@@ -1,16 +1,20 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Index
 ---
 
-<h4 style="text-align: center">Heya, und schön, dass du hier bist</h4>
+## Willkommen
 
-Ich bin Zetsu. Auf dieser Seite möchte ich dir etwas über mich, meine Leidenschaften und meine Projekte erzählen – damit
+<div class="sunken-panel" style="width: 200px; height: 200px; overflow: hidden">
+    <img src="https://avatars.githubusercontent.com/u/65507051?v=4" alt=""
+         style="max-width: 200px">
+</div>
+
+Ich bin Zetsu. Auf dieser Seite möchte ich dir etwas über mich, meine Leidenschaften und meine Projekte erzählen –
+damit
 du einen Eindruck davon bekommst, wer ich bin und was mich antreibt.
 
-## Über mich
+### Über mich
 
 Schon als Kind haben mich Technik und Videospiele begeistert. Meine ersten Erfahrungen in der Gaming-Welt habe ich auf
 dem SNES und dem Game Boy gemacht. Schnell wollte ich verstehen, wie diese faszinierenden Geräte funktionieren, und mein

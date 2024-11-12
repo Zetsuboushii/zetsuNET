@@ -6,4 +6,3 @@ platform: GBC
 category: game
 rating: 3
 ---
-good gaem.

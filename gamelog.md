@@ -6,7 +6,7 @@ header: true
 category: game
 ---
 
-<div class="sunken-panel" style="width: 340px">
+<div class="sunken-panel" style="width: 379px">
     <table>
         <thead>
         <tr>
@@ -47,7 +47,7 @@ category: game
 
     {% for group in grouped_posts %}
         <li role="tab" aria-selected="{{ forloop.last }}" data-tab="{{ group.name }}">
-            <a href="#{{ group.name }}">{{ group.name | date: "%B %Y" }}</a>
+            {{ group.name | date: "%B %Y" }}
         </li>
     {% endfor %}
 </menu>
@@ -56,12 +56,18 @@ category: game
         <div id="{{ group.name }}" class="window-body tabpanel" role="tabpanel"
              aria-hidden="{% if forloop.last %}false{% else %}true{% endif %}">
             {% for post in group.items %}
-                <h4>{{ post.title }}</h4>
-                <p>
-                    <b>Plattform:</b> {{ post.platform }} /
-                    <b>Bewertung:</b> {% for i in (1..5) %}{% if i <= post.rating %}★{% else %}☆{% endif %}{% endfor %}
-                </p>
-                {{ post.content }}
+                <fieldset>
+                    <legend>{{ post.title }}</legend>
+                    <p>
+                        <b>Plattform:</b> {{ post.platform }} /
+                        <b>Bewertung:</b> {% for i in (1..5) %}{% if i <= post.rating %}★{% else %}☆{% endif %}{% endfor %}
+                    </p>
+                    {% assign filename = post.path | split: '/' | last %}
+                    {% assign basename = filename | split: '.' | first %}
+                    <img src="{{ "/assets/imgs/games/" | relative_url }}{{ basename }}.png" alt=""
+                         style="max-width: 616px; max-height: 300px">
+                    {{ post.content }}
+                </fieldset>
             {% endfor %}
         </div>
     {% endfor %}

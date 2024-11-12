@@ -99,7 +99,7 @@ category: shrine
             Stimme sehr.
         </p>
         <div>
-            <b>Lieblingssongs von Rin & Ren:</b>
+            <b>Lieblingssongs von KAFU:</b>
             <ul>
                 <li><a href="https://youtu.be/978nElfOkL8?si=MSxi1iJtDYkLhOCN">KAFU-chan's Curry Udon</a></li>
                 <li><a href="https://youtu.be/9QLT1Aw_45s?si=7bYhoHY_11hjMkBh">phony</a></li>

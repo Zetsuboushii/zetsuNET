@@ -77,19 +77,6 @@
                 <br>
                 <button type="submit">Eintrag hinzufügen</button>
             </form>
-
-            <div>
-                <h2>Gästebuch</h2>
-                <ul>
-                    {% assign entries = site.entries.guestbook | sort: 'date' | reverse %}
-                    {% for entry in entries %}
-                        <li>
-                            <strong>{{ entry.name }}</strong>: {{ entry.message }}
-                            <br><small>Erstellt am {{ entry.date | date: "%d.%m.%Y %H:%M" }}</small>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
         </div>
     </fieldset>
 </aside>

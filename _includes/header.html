@@ -58,4 +58,38 @@
         <li><a href="https://zetsuboushii.github.io/tome-of-the-vastlands"><span>Tome of the Vastlands</span></a></li>
         <li><a href="{{ 'feed.xml' | relative_url }}"><span>RSS Feed</span></a></li>
     </ul>
+
+
+    <fieldset style="width: 288px">
+        <legend>Guestbook</legend>
+
+        <div class="field-row">
+            <form id="guestbook-form"
+                  action="https://api.staticman.net/v3/entry/zetsuboushii/zetsuboushii.github.io/main/guestbook"
+                  method="POST"
+                  style="width: 312px">
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="message">Nachricht:</label><br>
+                <textarea name="message" id="message" required style=""></textarea>
+                <input type="hidden" name="date" value="{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%z' }}">
+                <br>
+                <button type="submit">Eintrag hinzufügen</button>
+            </form>
+
+            <div>
+                <h2>Gästebuch</h2>
+                <ul>
+                    {% assign entries = site.entries.guestbook | sort: 'date' | reverse %}
+                    {% for entry in entries %}
+                        <li>
+                            <strong>{{ entry.name }}</strong>: {{ entry.message }}
+                            <br><small>Erstellt am {{ entry.date | date: "%d.%m.%Y %H:%M" }}</small>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </fieldset>
 </aside>

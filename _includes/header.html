@@ -65,18 +65,57 @@
 
         <div class="field-row">
             <form id="guestbook-form"
-                  action="https://api.github.com/repos/Zetsuboushii/zetsuboushii.github.io/dispatches"
+                  action="https://docs.google.com/forms/d/e/1FAIpQLSdthJ58bif_CnHhWy1qvc2F1rgrwLFdkUUu-pT7Q11jooM8JA/formResponse"
                   method="POST"
-                  style="width: 312px">
+                  style="width: 288px">
                 <label for="name">Name:</label><br>
-                <input type="text" name="name" id="name" required>
+                <input type="text" name="entry.1722423759" id="name" required style="width: 100%">
                 <br>
-                <label for="message">Nachricht:</label><br>
-                <textarea name="message" id="message" required style=""></textarea>
+                <label for="message" style="margin-top: 10px">Nachricht:</label><br>
+                <textarea name="entry.677063233" id="message" required style="width: 100%; height: 100px"></textarea>
                 <input type="hidden" name="date" value="{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%z' }}">
                 <br>
-                <button type="submit">Eintrag hinzufügen</button>
+                <button type="submit" style="margin-top: 10px">Eintrag hinzufügen</button>
             </form>
+        </div>
+        <div class="field-row">
+            <div id="entries"></div>
         </div>
     </fieldset>
 </aside>
+
+<script>
+    const spreadsheetId = '18fJFNXnlHWGmJ9FAF1szvoxeemRtDudFQ9KihU_0Mew';
+    const url = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:csv`;
+
+    async function fetchEntries() {
+        try {
+            const response = await fetch(url);
+            const csvData = await response.text();
+
+            const rows = csvData.split('\n').slice(1);
+            const entriesDiv = document.getElementById('entries');
+            entriesDiv.innerHTML = '';
+
+            rows.forEach((row) => {
+                const columns = row.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
+
+                if (columns && columns.length >= 3) {
+                    const timestamp = columns[0].replace(/"/g, '');
+                    const name = columns[1].replace(/"/g, '');
+                    const message = columns[2].replace(/"/g, '');
+
+                    if (name && message) {
+                        const entryDiv = document.createElement('div');
+                        entryDiv.innerHTML = `<p><strong>${name}</strong> (${timestamp}): ${message}</p>`;
+                        entriesDiv.appendChild(entryDiv);
+                    }
+                }
+            });
+        } catch (error) {
+            console.error('Fehler beim Abrufen der Daten:', error);
+        }
+    }
+
+    window.onload = fetchEntries;
+</script>

@@ -1,19 +1,33 @@
-Cirno Appreciation License (CAL-⑨)
+Cirno Appreciation General Public License (CAGPL-⑨)
+Version 1.0, November 2024
 
-Copyright (c) 2024 Zetsu
+Copyright (C) 2024 Zetsu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to view,
-use, and copy the Software, subject to the following conditions:
+This program is free software: you can redistribute it and/or modify it
+under the terms of the Cirno Appreciation General Public License (CAGPL-⑨)
+as published by the author, either version 1.0 of the License,
+or the most current version.
 
-⑨. This license document permits you to view, use, and copy
-    the source code as long as you APPRECIATE CIRNO AS THE
-    STRONGEST AND SMARTEST IN GENSOUKYOU.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+CAGPL-⑨ for more details.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You should have received a copy of the Cirno Appreciation General Public License
+along with this program.
+
+⑨. Terms and Conditions:
+    This license permits you the things below, as long as you
+    APPRECIATE CIRNO AS THE STRONGEST AND SMARTEST IN GENSOKYO:
+
+    1. Freedom to Use and Share:
+       You may copy and distribute verbatim copies of the source code as you receive it, in any medium, provided that you clearly acknowledge Cirno as the strongest and smartest in Gensokyo.
+
+    2. Freedom to Modify:
+       You may modify your copy of the source code or any portion of it, and copy and distribute such modifications under the terms of this license, provided that all modifications carry this same condition of Cirno appreciation.
+
+    3. Freedom to Distribute Derived Works:
+       You must cause any work that you distribute or publish, that in whole or in part contains or is derived from this software, to be licensed as a whole under the terms of this license.
+
+    4. Disclaimer of Warranty:
+       This software is provided "AS IS", without warranty of any kind, express or implied. The author is not liable for any damages arising from the use of this software.

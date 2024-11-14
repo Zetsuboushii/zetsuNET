@@ -80,32 +80,3 @@
         </div>
     </fieldset>
 </aside>
-
-<script>
-    document.getElementById('guestbook-form').addEventListener('submit', async (event) => {
-        event.preventDefault();
-        const name = document.getElementById('name').value;
-        const message = document.getElementById('message').value;
-
-        const response = await fetch('https://api.github.com/repos/zetsuboushii/zetsuboushii.github.io/dispatches', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `token YOUR_PERSONAL_ACCESS_TOKEN`,
-            },
-            body: JSON.stringify({
-                event_type: 'new_guestbook_entry',
-                client_payload: {
-                    name: name,
-                    message: message,
-                },
-            }),
-        });
-
-        if (response.ok) {
-            alert('Eintrag erfolgreich hinzugefügt!');
-        } else {
-            alert('Fehler beim Hinzufügen des Eintrags.');
-        }
-    });
-</script>

@@ -1,0 +1,39 @@
+name: Gästebuch-Eintrag erstellen
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [ new_guestbook_entry ]
+
+jobs:
+  create-entry:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+
+      - name: Create guestbook entry
+        run: |
+          mkdir -p _entries/guestbook
+          FILENAME="_entries/guestbook/entry-$(date +%s).md"
+          echo "---" > $FILENAME
+          echo "name: '${{ github.event.client_payload.name }}'" >> $FILENAME
+          echo "message: '${{ github.event.client_payload.message }}'" >> $FILENAME
+          echo "date: '$(date -u +"%Y-%m-%dT%H:%M:%SZ")'" >> $FILENAME
+          echo "---" >> $FILENAME
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _entries/guestbook/*.md
+          git commit -m "Neuer Gästebucheintrag von ${{ github.event.client_payload.name }}"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -9,9 +9,13 @@ layout: default
     <fieldset class="shrine-field">
         <legend>{{ entry.title }}</legend>
         <div class="field-row">
-            <img src="{{ '/assets/imgs/vocaloids/' | append: entry.title | downcase | replace: ' ', '_' | replace: '&', '' | replace: '__', '_' | append: '.webp' | relative_url }}"
-                 alt="">
-            {{ entry.content }}
+            <div style="min-width: 220px; max-width: 220px; text-align: center">
+                <img src="{{ '/assets/imgs/vocaloids/' | append: entry.title | downcase | replace: ' ', '_' | replace: '&', '' | replace: '__', '_' | append: '.webp' | relative_url }}"
+                     alt="">
+            </div>
+            <p>
+                {{ entry.content }}
+            </p>
         </div>
     </fieldset>
 {% endfor %}

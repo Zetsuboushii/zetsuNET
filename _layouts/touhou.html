@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<menu role="tablist" id="tablist" style="margin-top: 20px">
+    <li role="tab" aria-selected="true" data-tab="characters">Favourite Chars</li>
+    <li role="tab" aria-selected="false" data-tab="fumo">My Fumos</li>
+</menu>
+<div class="window tabpanel-container">
+    <div id="characters" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
+        {% assign touhou_entries = site.entries | where: "category", "touhou_chars" | sort: "title" %}
+        {% for entry in touhou_entries %}
+            <fieldset class="shrine-field">
+                <legend>{{ entry.title }}</legend>
+                <div class="field-row">
+                    <div style="min-width: 220px; max-width: 220px; text-align: center">
+                        {% assign img_path = entry.url | split: "/" | last | split: "." %}
+                        <img src="{{ '/assets/imgs/touhou/' | append: img_path[0] | append: '.png' | relative_url }}"
+                             alt="">
+                    </div>
+                    <p>
+                        {{ entry.content }}
+                    </p>
+                </div>
+            </fieldset>
+        {% endfor %}
+
+    </div>
+    <div id="fumo" class="window-body tabpanel" role="tabpanel" aria-hidden="true" style="">
+        <fieldset class="shrine-field" style="width: 196px">
+            <legend>Cirnu</legend>
+            <div class="field-row">
+                <img src="{{ "/assets/imgs/touhou/cirno_fumo.jpg" | relative_url }}" alt="">
+            </div>
+        </fieldset>
+        <fieldset class="shrine-field" style="width: 196px">
+            <legend>Udonge</legend>
+            <div class="field-row">
+                <img src="{{ "/assets/imgs/touhou/reisen_fumo.jpg" | relative_url }}" alt="">
+            </div>
+        </fieldset>
+        <fieldset class="shrine-field" style="width: 196px">
+            <legend>Patche</legend>
+            <div class="field-row">
+                <img src="{{ "/assets/imgs/touhou/patchouli_fumo.jpg" | relative_url }}" alt="">
+            </div>
+        </fieldset>
+        <fieldset class="shrine-field" style="width: 196px">
+            <legend>Yukari</legend>
+            <div class="field-row">
+                <img src="{{ "/assets/imgs/touhou/yukari_fumo.jpg" | relative_url }}" alt="">
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const tabs = document.querySelectorAll('[role="tab"]');
+        const panels = document.querySelectorAll('.tabpanel');
+
+        tabs.forEach((tab) => {
+            tab.addEventListener("click", () => {
+                tabs.forEach((t) => t.setAttribute("aria-selected", "false"));
+                panels.forEach((p) => p.setAttribute("aria-hidden", "true"));
+
+                tab.setAttribute("aria-selected", "true");
+                const tabId = tab.getAttribute("data-tab");
+                document.getElementById(tabId).setAttribute("aria-hidden", "false");
+            });
+        });
+    });
+</script>

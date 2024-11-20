@@ -4,7 +4,7 @@ title: Kafu
 category: vocaloids
 ---
 
-KAFU ist ein "Musical Isotope", die auf der realen Künstlerin KAF basiert.
+KAFU ist ein Musical Isotope, die auf der realen Künstlerin KAF basiert.
 
 <div>
     <b>Lieblingssongs von KAFU:</b>

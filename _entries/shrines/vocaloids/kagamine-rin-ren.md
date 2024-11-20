@@ -4,7 +4,8 @@ title: Kagamine Rin & Ren
 category: vocaloids
 ---
 
-Rin & Ren
+Kagamine Rin und Ren (oder auch Len) waren 2007 die zweiten Vocaloids nach Miku. Die beiden sind Zwillinge und erhalten
+ihre Stimmen beide von der Synchronsprecherin Shimoda Asami, obwohl ihr familiärer Status nicht offiziell bestätigt ist.
 
 <div>
     <b>Lieblingssongs von Rin & Ren:</b>

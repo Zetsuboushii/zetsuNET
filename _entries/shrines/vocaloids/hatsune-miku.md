@@ -4,7 +4,11 @@ title: Hatsune Miku
 category: vocaloids
 ---
 
-Miku
+Hatsune Miku ist das Aushängeschild der Vocaloid-Welt und hat sich seit ihrer Einführung 2007 zu einer globalen Ikone
+entwickelt. Ihre Stimme, basierend auf den Aufnahmen der japanischen Synchronsprecherin
+Fujita Saki, hat unzählige Künstler inspiriert, eigene Songs zu kreieren. Besonders beeindruckend sind ihre
+Live-Auftritte, bei denen sie vor tausenden begeisterten Fans performt. Miku steht für die kreative
+Freiheit der Community und zeigt, wie virtuelle Künstler die Musiklandschaft revolutionieren können.
 
 <div>
     <b>Lieblingssongs von Miku:</b>

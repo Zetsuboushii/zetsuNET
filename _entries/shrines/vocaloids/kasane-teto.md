@@ -4,7 +4,11 @@ title: Kasane Teto
 category: vocaloids
 ---
 
-Teto
+Teto wurde ursprünglich am 1. April 2008 als Aprilscherz von Fans der Vocaloid-Community ins Leben gerufen. Obwohl sie
+zunächst als Parodie auf Vocaloid gedacht war, entwickelte sie sich schnell zu einer eigenständigen und beliebten Figur
+in der Vocaloid-Szene. Ihre Stimme basiert auf der UTAU-Software und bekommt ihre Stimme von Oyamano Mayo. Teto zeichnet
+sich durch ihre charakteristischen roten Drillzöpfe aus. Ein markantes Merkmal ist ihre Vorliebe für Baguettes, die oft
+in Memes und Fanart dargestellt wird.
 
 <div>
     <b>Lieblingssongs von Teto:</b>

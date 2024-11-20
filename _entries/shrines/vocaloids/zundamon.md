@@ -4,7 +4,7 @@ title: Zundamon
 category: vocaloids
 ---
 
-Sushi wo tabetai!
+Zundamon
 
 <div>
     <b>Lieblingssongs von Zundamon:</b>

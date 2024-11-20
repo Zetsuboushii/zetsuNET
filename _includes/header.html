@@ -67,6 +67,8 @@
             <form id="guestbook-form"
                   action="https://docs.google.com/forms/d/e/1FAIpQLSdthJ58bif_CnHhWy1qvc2F1rgrwLFdkUUu-pT7Q11jooM8JA/formResponse"
                   method="POST"
+                  target="hidden_iframe"
+                  onsubmit="submitted=true;"
                   style="width: 288px">
                 <label for="name">Name:</label><br>
                 <input type="text" name="entry.1722423759" id="name" required style="width: 100%">
@@ -77,6 +79,8 @@
                 <br>
                 <button type="submit" style="margin-top: 10px">Eintrag hinzufügen</button>
             </form>
+
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
         </div>
         <div class="field-row">
             <div id="entries"></div>
@@ -116,6 +120,16 @@
             console.error('Fehler beim Abrufen der Daten:', error);
         }
     }
+
+    let submitted = false;
+    const form = document.getElementById('guestbook-form');
+    form.addEventListener('submit', function(e) {
+        if (submitted) {
+            e.preventDefault();
+            alert('Danke für deinen Eintrag :)');
+            form.reset();
+        }
+    });
 
     window.onload = fetchEntries;
 </script>

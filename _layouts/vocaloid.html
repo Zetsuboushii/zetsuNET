@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% assign vocaloid_entries = site.entries | where: "category", "vocaloids" %}
+{% for entry in vocaloid_entries %}
+    <fieldset class="shrine-field">
+        <legend>{{ entry.title }}</legend>
+        <div class="field-row">
+            <img src="{{ '/assets/imgs/vocaloids/' | append: entry.title | downcase | replace: ' ', '_' | replace: '&', '' | replace: '__', '_' | append: '.webp' | relative_url }}"
+                 alt="">
+            {{ entry.content }}
+        </div>
+    </fieldset>
+{% endfor %}

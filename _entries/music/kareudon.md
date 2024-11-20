@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "カレーうどん"
+title: "KAFU-chan no Karee Udon"
 date: 2024-09-05
 category: music
 ytlink: "https://youtu.be/978nElfOkL8?si=yqaxfyBZgGARg3ZJ"

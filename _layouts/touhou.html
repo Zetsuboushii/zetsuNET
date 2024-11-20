@@ -9,7 +9,8 @@ layout: default
     <li role="tab" aria-selected="false" data-tab="fumo">My Fumos</li>
 </menu>
 <div class="window tabpanel-container">
-    <div id="characters" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
+    <div id="characters" class="window-body tabpanel" role="tabpanel" aria-hidden="false"
+         style="height: 600px; overflow-y: scroll">
         {% assign touhou_entries = site.entries | where: "category", "touhou_chars" | sort: "title" %}
         {% for entry in touhou_entries %}
             <fieldset class="shrine-field">
@@ -28,7 +29,8 @@ layout: default
         {% endfor %}
 
     </div>
-    <div id="fumo" class="window-body tabpanel" role="tabpanel" aria-hidden="true" style="">
+    <div id="fumo" class="window-body tabpanel" role="tabpanel" aria-hidden="true"
+         style="height: 600px; overflow-y: scroll">
         <fieldset class="shrine-field" style="width: 196px">
             <legend>Cirnu</legend>
             <div class="field-row">

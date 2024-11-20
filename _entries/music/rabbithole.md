@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ラビットホール"
+title: "Rabbit Hole"
 date: 2024-04-24
 category: music
 ytlink: "https://youtu.be/eSW2LVbPThw?si=KlM0ef6_cG7Yqfbs"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "スウェアー"
+title: "Swear"
 date: 2024-08-05
 category: music
 ytlink: "https://youtu.be/aAk4F1Mxw6M?si=ab-YI3s-v50IW7WB"

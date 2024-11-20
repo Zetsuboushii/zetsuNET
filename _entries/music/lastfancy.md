@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ラストファンシー"
+title: "Last Fancy"
 date: 2024-06-04
 category: music
 ytlink: "https://youtu.be/7-nkPV3YjIY?si=E8DRnNfYQNTSApi0"

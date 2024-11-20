@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "シカいろデイズ"
+title: "Shikairo Days"
 date: 2024-07-18
 category: music
 ytlink: "https://youtu.be/fxPcJTU-A8U?si=_wRz0GuMiFWOv9Vo"

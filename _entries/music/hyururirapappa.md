@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ひゅるりらぱっぱ"
+title: "Hyururirapappa"
 date: 2024-09-23
 category: music
 ytlink: "https://youtu.be/AOfaWrBwo7I?si=TDRcdmhxu-f2mAY_"

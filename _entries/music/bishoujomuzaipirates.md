@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "びしょうじょむざい♥パイレーツ"
+title: "Bishoujo Muzai ♥ Pirates"
 date: 2024-09-05
 category: music
 ytlink: "https://youtu.be/KfZR9jVP6tw?si=8_Prl1bOBfnyzIJu"

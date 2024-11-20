@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ましょうしょうじょ"
+title: "Mashoushoujo"
 date: 2024-09-18
 category: music
 ytlink: "https://youtu.be/HvScug2tmfA?si=ezozrnBsSAlNtb8_"

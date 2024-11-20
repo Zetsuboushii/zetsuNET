@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "あいしてあいしてあいして"
+title: "Aishite Aishite Aishite"
 date: 2024-07-17
 category: music
 ytlink: "https://youtu.be/NTrm_idbhUk?si=1mW7TPN71hHx4HxN"

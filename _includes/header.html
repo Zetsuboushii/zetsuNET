@@ -86,6 +86,9 @@
             <div id="entries"></div>
         </div>
     </fieldset>
+
+    <img src="{{ '/assets/imgs/demon_girl_computer.png' | relative_url }}" alt=""
+         style="width: 250px; transform: scaleX(-1);">
 </aside>
 
 <script>
@@ -123,7 +126,7 @@
 
     let submitted = false;
     const form = document.getElementById('guestbook-form');
-    form.addEventListener('submit', function(e) {
+    form.addEventListener('submit', function (e) {
         if (submitted) {
             e.preventDefault();
             alert('Danke für deinen Eintrag :)');

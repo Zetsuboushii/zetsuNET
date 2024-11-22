@@ -1,138 +1,135 @@
 <aside>
-    <ul class="tree-view">
-        <li>
-            <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-            <ul>
-                {% assign default_paths = site.pages | map: "path" %}
-                {% assign page_paths = site.header_pages | default: default_paths %}
-                {% for path in page_paths %}
-                    {% assign my_page = site.pages | where: "path", path | first %}
-                    {% if my_page.header == true %}
+    <div style="position: relative; height: 840px; max-height: 840px ;padding: 8px; box-sizing: border-box;">
+        <ul class="tree-view" style="max-height: 208px; overflow-y: scroll; overflow-x: hidden">
+            <li>
+                <a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+                <ul>
+                    {% assign default_paths = site.pages | map: "path" %}
+                    {% assign page_paths = site.header_pages | default: default_paths %}
+                    {% for path in page_paths %}
+                        {% assign my_page = site.pages | where: "path", path | first %}
+                        {% if my_page.header == true %}
+                            <li>
+                                {% if my_page.category == "shrine" %}
+                                    <details>
+                                        <summary>
+                                            <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
+                                        </summary>
+                                        <ul>
+                                            {% assign posts = site.entries %}
+                                            {% for subpage in posts %}
+                                                {% if subpage.category == my_page.category %}
+                                                    <li>
+                                                        <a href="{{ subpage.url | relative_url }}">{{ subpage.title | escape }}</a>
+                                                    </li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    </details>
+                                {% else %}
+                                    <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
+                                {% endif %}
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </li>
+            <li>
+                <details open>
+                    <summary>Socials</summary>
+                    <ul>
+                        <li><a class="u-email" href="mailto:{{ site.email }}">E-Mail</a></li>
+                        <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><span
+                                        class="username">GitHub</span></a></li>
+                        <li><a href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}"><span
+                                        class="username">Instagram</span></a></li>
                         <li>
-                            {% if my_page.category == "shrine" %}
-                                <details>
-                                    <summary>
-                                        <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
-                                    </summary>
-                                    <ul>
-                                        {% assign posts = site.entries %}
-                                        {% for subpage in posts %}
-                                            {% if subpage.category == my_page.category %}
-                                                <li>
-                                                    <a href="{{ subpage.url | relative_url }}">{{ subpage.title | escape }}</a>
-                                                </li>
-                                            {% endif %}
-                                        {% endfor %}
-                                    </ul>
-                                </details>
-                            {% else %}
-                                <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
-                            {% endif %}
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </li>
-        <li>
-            <details open>
-                <summary>Socials</summary>
-                <ul>
-                    <li><a class="u-email" href="mailto:{{ site.email }}">E-Mail</a></li>
-                    <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><span
-                                    class="username">GitHub</span></a></li>
-                    <li><a href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}"><span
-                                    class="username">Instagram</span></a></li>
-                    <li><a href="https://open.spotify.com/user/{{ site.spotify_username | cgi_escape | escape }}"><span
-                                    class="username">Spotify</span></a></li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details open>
-                <summary>Gensoukyou Webring</summary>
-                <ul>
-                    <li><a href=""></a></li>
-                </ul>
-            </details>
-        </li>
-        <li><a href="https://zetsuboushii.github.io/tome-of-the-vastlands"><span>Tome of the Vastlands</span></a></li>
-        <li><a href="{{ 'feed.xml' | relative_url }}"><span>RSS Feed</span></a></li>
-    </ul>
+                            <a href="https://open.spotify.com/user/{{ site.spotify_username | cgi_escape | escape }}"><span
+                                        class="username">Spotify</span></a></li>
+                    </ul>
+                </details>
+            </li>
+            <li>
+                <details open>
+                    <summary>Gensoukyou Webring</summary>
+                    <ul>
+                        <li><a href=""></a></li>
+                    </ul>
+                </details>
+            </li>
+            <li><a href="https://zetsuboushii.github.io/tome-of-the-vastlands"><span>Tome of the Vastlands</span></a></li>
+            <li><a href="{{ 'feed.xml' | relative_url }}"><span>RSS Feed</span></a></li>
+        </ul>
 
+        <fieldset>
+            <legend>Guestbook</legend>
+            <div class="field-row" style="width: 276px">
+                <form id="guestbook-form"
+                      action="https://docs.google.com/forms/d/e/1FAIpQLSdthJ58bif_CnHhWy1qvc2F1rgrwLFdkUUu-pT7Q11jooM8JA/formResponse"
+                      method="POST" target="hidden_iframe" onsubmit="submitted=true;" style="width: 288px">
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="entry.1722423759" id="name" required style="width: 100%">
+                    <br>
+                    <label for="message" style="margin-top: 10px">Nachricht:</label><br>
+                    <textarea name="entry.677063233" id="message" required style="width: 100%; max-width: 275px; height: 100px; max-height: 140px"></textarea>
+                    <input type="hidden" name="date" value="{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%z' }}">
+                    <br>
+                    <button type="submit" style="margin-top: 10px">Eintrag hinzufügen</button>
+                </form>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+            </div>
+            <div class="field-row" style="width: 276px">
+                <div id="entries" style="max-height: 100px; overflow-y: scroll"></div>
+            </div>
+        </fieldset>
 
-    <fieldset style="width: 288px">
-        <legend>Guestbook</legend>
+        <img src="{{ '/assets/imgs/demon_girl_computer.png' | relative_url }}" alt=""
+             style="position: absolute; bottom: 0; left: 0; width: 250px; transform: scaleX(-1);">
+    </div>
 
-        <div class="field-row">
-            <form id="guestbook-form"
-                  action="https://docs.google.com/forms/d/e/1FAIpQLSdthJ58bif_CnHhWy1qvc2F1rgrwLFdkUUu-pT7Q11jooM8JA/formResponse"
-                  method="POST"
-                  target="hidden_iframe"
-                  onsubmit="submitted=true;"
-                  style="width: 288px">
-                <label for="name">Name:</label><br>
-                <input type="text" name="entry.1722423759" id="name" required style="width: 100%">
-                <br>
-                <label for="message" style="margin-top: 10px">Nachricht:</label><br>
-                <textarea name="entry.677063233" id="message" required style="width: 100%; height: 100px"></textarea>
-                <input type="hidden" name="date" value="{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%z' }}">
-                <br>
-                <button type="submit" style="margin-top: 10px">Eintrag hinzufügen</button>
-            </form>
+    <script>
+        const spreadsheetId = '18fJFNXnlHWGmJ9FAF1szvoxeemRtDudFQ9KihU_0Mew';
+        const url = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:csv`;
 
-            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-        </div>
-        <div class="field-row">
-            <div id="entries"></div>
-        </div>
-    </fieldset>
+        async function fetchEntries() {
+            try {
+                const response = await fetch(url);
+                const csvData = await response.text();
 
-    <img src="{{ '/assets/imgs/demon_girl_computer.png' | relative_url }}" alt=""
-         style="width: 250px; transform: scaleX(-1);">
-</aside>
+                const rows = csvData.split('\n').slice(1);
+                const entriesDiv = document.getElementById('entries');
+                entriesDiv.innerHTML = '';
 
-<script>
-    const spreadsheetId = '18fJFNXnlHWGmJ9FAF1szvoxeemRtDudFQ9KihU_0Mew';
-    const url = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:csv`;
+                rows.forEach((row) => {
+                    const columns = row.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
 
-    async function fetchEntries() {
-        try {
-            const response = await fetch(url);
-            const csvData = await response.text();
+                    if (columns && columns.length >= 3) {
+                        const timestamp = columns[0].replace(/"/g, '');
+                        const name = columns[1].replace(/"/g, '');
+                        const message = columns[2].replace(/"/g, '');
 
-            const rows = csvData.split('\n').slice(1);
-            const entriesDiv = document.getElementById('entries');
-            entriesDiv.innerHTML = '';
-
-            rows.forEach((row) => {
-                const columns = row.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
-
-                if (columns && columns.length >= 3) {
-                    const timestamp = columns[0].replace(/"/g, '');
-                    const name = columns[1].replace(/"/g, '');
-                    const message = columns[2].replace(/"/g, '');
-
-                    if (name && message) {
-                        const entryDiv = document.createElement('div');
-                        entryDiv.innerHTML = `<p><strong>${name}</strong> (${timestamp}): ${message}</p>`;
-                        entriesDiv.appendChild(entryDiv);
+                        if (name && message) {
+                            const entryDiv = document.createElement('div');
+                            entryDiv.innerHTML = `<p><strong>${name}</strong> (${timestamp}): ${message}</p>`;
+                            entriesDiv.appendChild(entryDiv);
+                        }
                     }
-                }
-            });
-        } catch (error) {
-            console.error('Fehler beim Abrufen der Daten:', error);
+                });
+            } catch (error) {
+                console.error('Fehler beim Abrufen der Daten:', error);
+            }
         }
-    }
 
-    let submitted = false;
-    const form = document.getElementById('guestbook-form');
-    form.addEventListener('submit', function (e) {
-        if (submitted) {
-            e.preventDefault();
-            alert('Danke für deinen Eintrag :)');
-            form.reset();
-        }
-    });
+        let submitted = false;
+        const form = document.getElementById('guestbook-form');
+        form.addEventListener('submit', function (e) {
+            if (submitted) {
+                e.preventDefault();
+                alert('Danke für deinen Eintrag :)');
+                form.reset();
+            }
+        });
 
-    window.onload = fetchEntries;
-</script>
+        window.onload = fetchEntries;
+    </script>
+</aside>

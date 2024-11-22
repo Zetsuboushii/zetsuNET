@@ -6,38 +6,11 @@
 <body>
 
 <div class="body-flex">
-    {%- include ads-left.html -%}
+    {% include ads-left.html %}
 
-    <div class="window" style="width: 1016px; height: 95vh; margin: 20px auto; display: flex; flex-direction: column;">
-        <div class="title-bar">
-            <div class="title-bar-text">{{ page.title }} | {{ site.title }}</div>
-            <div class="title-bar-controls">
-                <button aria-label="Minimize"></button>
-                <button aria-label="Maximize"></button>
-                <button aria-label="Close"></button>
-            </div>
-        </div>
-        <div class="window-body" style="flex: 1; width: 1000px; overflow-y: auto;">
-            <div class="body-flex">
-                {%- include header.html -%}
+    {% include main-window.html %}
 
-                <main class="page-content" aria-label="Content">
-                    <div class="wrapper">
-                        {{ content }}
-                    </div>
-                </main>
-            </div>
-        </div>
-        <div class="status-bar">
-            {% assign seconds = "now" | date: "%S" %}
-            {% assign random_number = seconds | modulo: 100 | plus: 1 %}
-            <p class="status-bar-field">Press Alt+f4 for help</p>
-            <p class="status-bar-field">Slide 1</p>
-            <p class="status-bar-field">CPU Usage: {{ random_number }}%</p>
-        </div>
-    </div>
-
-    {%- include ads-right.html -%}
+    {% include ads-right.html %}
 </div>
 
 </body>

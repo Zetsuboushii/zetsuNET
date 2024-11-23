@@ -176,12 +176,30 @@
 
             <script>
                 document.addEventListener('DOMContentLoaded', () => {
+                    const form = document.getElementById('survey-form');
                     const showResultsButton = document.getElementById('show-results');
                     const resultsDiv = document.getElementById('results');
+                    const localStorageKey = 'hasVoted';
+
+                    // Check if the user has already voted
+                    if (localStorage.getItem(localStorageKey)) {
+                        alert('Sie haben bereits abgestimmt.');
+                        form.remove();
+                    }
+
+                    form.addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        if (!localStorage.getItem(localStorageKey)) {
+                            localStorage.setItem(localStorageKey, 'true');
+                            alert('Danke für Ihre Teilnahme!');
+                            form.reset();
+                        } else {
+                            alert('Sie haben bereits abgestimmt.');
+                        }
+                    });
 
                     showResultsButton.addEventListener('click', async () => {
                         resultsDiv.innerText = 'Lade Ergebnisse...';
-
                         const p_spreadsheetId = '1cbVq26jCHjEaOycsqRBwX91D6YN_3Tz7myE_eZijNTo';
                         const p_url = `https://docs.google.com/spreadsheets/d/${p_spreadsheetId}/gviz/tq?tqx=out:csv`;
 
@@ -192,12 +210,12 @@
                             }
 
                             const csvData = await response.text();
-                            const rows = csvData.split('\n').slice(1); // Überspringe die Kopfzeile
+                            const rows = csvData.split('\n').slice(1);
                             const results = {};
 
                             rows.forEach(row => {
                                 const columns = row.split(',');
-                                const answer = columns[1]?.trim(); // Annahme: Die Antwort befindet sich in der zweiten Spalte
+                                const answer = columns[1]?.trim();
                                 if (answer) {
                                     if (!results[answer]) {
                                         results[answer] = 0;
@@ -207,7 +225,6 @@
                             });
 
                             let chart = '';
-                            const maxCount = Math.max(...Object.values(results));
                             Object.entries(results).forEach(([label, count]) => {
                                 const bar = '█ '.repeat(count);
                                 chart += `${label.padEnd(10)} | ${bar}(${count})\n`;
@@ -217,17 +234,6 @@
                         } catch (error) {
                             resultsDiv.innerText = 'Fehler beim Laden der Ergebnisse.';
                             console.error(error);
-                        }
-                    });
-
-                    let submitted = false;
-                    const form = document.getElementById('survey-form');
-
-                    form.addEventListener('submit', function (e) {
-                        if (submitted) {
-                            e.preventDefault();
-                            alert('Danke für Ihre Teilnahme!');
-                            form.reset();
                         }
                     });
                 });

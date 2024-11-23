@@ -8,10 +8,10 @@ layout: default
     <li role="tab" aria-selected="true" data-tab="characters">Favourite Vocaloids</li>
 </menu>
 <div class="window tabpanel-container">
-    <div id="characters" class="window-body tabpanel" role="tabpanel" aria-hidden="false"
-         style="height: 600px; overflow-y: scroll">
+    <div id="characters" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
         {% assign vocaloid_entries = site.entries | where: "category", "vocaloids" %}
         {% for entry in vocaloid_entries %}
+            {% assign entry_parts = entry.content | split: '<!--more-->' %}
             <fieldset class="shrine-field">
                 <legend>{{ entry.title }}</legend>
                 <div class="field-row">
@@ -19,29 +19,12 @@ layout: default
                         <img src="{{ '/assets/imgs/vocaloids/' | append: entry.title | downcase | replace: ' ', '_' | replace: '&', '' | replace: '__', '_' | append: '.webp' | relative_url }}"
                              alt="">
                     </div>
-                    <p>
-                        {{ entry.content }}
-                    </p>
+                    <p style="max-width: 230px">{{ entry_parts[0] }}</p>
+                    <p>{{ entry_parts[1] }}</p>
                 </div>
             </fieldset>
         {% endfor %}
     </div>
 </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const tabs = document.querySelectorAll('[role="tab"]');
-        const panels = document.querySelectorAll('.tabpanel');
-
-        tabs.forEach((tab) => {
-            tab.addEventListener("click", () => {
-                tabs.forEach((t) => t.setAttribute("aria-selected", "false"));
-                panels.forEach((p) => p.setAttribute("aria-hidden", "true"));
-
-                tab.setAttribute("aria-selected", "true");
-                const tabId = tab.getAttribute("data-tab");
-                document.getElementById(tabId).setAttribute("aria-hidden", "false");
-            });
-        });
-    });
-</script>
+<script src="{{ '/assets/js/menu-tabs.js' | relative_url }}"></script>

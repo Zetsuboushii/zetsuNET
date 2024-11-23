@@ -1,6 +1,6 @@
 ---
 layout: vocaloid
-title: Vocaloids
+title: Vocaloid
 category: shrine
 ---
 

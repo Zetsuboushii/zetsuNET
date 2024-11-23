@@ -10,6 +10,8 @@ Community wird Zundamon oft mit KAFU zusammen in humorvolle Situationen gepackt.
 für Sushi und bevorzugt dieses vor allem über Curry Udon. Zudem gibt es die Zundamon Geography Lessons, in denen
 Zundamon verschiedene Länder, Regionen und vieles mehr vorliest.
 
+<!--more-->
+
 <div>
     <b>Lieblingssongs von Zundamon:</b>
     <ul>

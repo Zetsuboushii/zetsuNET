@@ -10,6 +10,8 @@ in der Vocaloid-Szene. Ihre Stimme basiert auf der UTAU-Software und bekommt ihr
 sich durch ihre charakteristischen roten Drillzöpfe aus. Ein markantes Merkmal ist ihre Vorliebe für Baguettes, die oft
 in Memes und Fanart dargestellt wird.
 
+<!--more-->
+
 <div>
     <b>Lieblingssongs von Teto:</b>
     <ul>

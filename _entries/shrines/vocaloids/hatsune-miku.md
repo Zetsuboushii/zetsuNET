@@ -10,6 +10,8 @@ Fujita Saki, hat unzählige Künstler inspiriert, eigene Songs zu kreieren. Beso
 Live-Auftritte, bei denen sie vor tausenden begeisterten Fans performt. Miku steht für die kreative
 Freiheit der Community und zeigt, wie virtuelle Künstler die Musiklandschaft revolutionieren können.
 
+<!--more-->
+
 <div>
     <b>Lieblingssongs von Miku:</b>
     <ul>
@@ -23,5 +25,6 @@ Freiheit der Community und zeigt, wie virtuelle Künstler die Musiklandschaft re
         <li><a href="https://youtu.be/qrwVthk38b0?si=7glhiPg7iC0mOyEE">World is mine</a></li>
         <li><a href="https://youtu.be/HhN4wdpbPrg?si=nHtq07TNzBmrhMPj">Triple Baka</a></li>
         <li><a href="https://youtu.be/Wo3cY82e2ec?si=xOfW-mx8L8SJl8vk">you are the target</a></li>
+        <li><a href="https://youtu.be/bmkY2yc1K7Q?si=TL8lOIHmVD3oIs0P">Omoi</a></li>
     </ul>
 </div>

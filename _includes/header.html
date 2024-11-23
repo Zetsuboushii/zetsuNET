@@ -164,12 +164,12 @@
                             </div>
                             <br>
                             <button type="submit">Absenden</button>
-                            <button type="button" id="show-results">Ergebnisse anzeigen</button>
                         </form>
                         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
                     </td>
                     <td style="max-width: 138px">
                         <div id="results" class="results"></div>
+                        <button type="button" id="show-results">Ergebnisse anzeigen</button>
                     </td>
                 </tr>
             </table>
@@ -181,13 +181,13 @@
                     const resultsDiv = document.getElementById('results');
                     const localStorageKey = 'hasVoted';
 
-                    // Check if the user has already voted
-                    if (localStorage.getItem(localStorageKey)) {
-                        alert('Sie haben bereits abgestimmt.');
-                        form.remove();
-                    }
+
 
                     form.addEventListener('submit', function (e) {
+                        if (localStorage.getItem(localStorageKey)) {
+                            form.remove();
+                        }
+
                         e.preventDefault();
                         if (!localStorage.getItem(localStorageKey)) {
                             localStorage.setItem(localStorageKey, 'true');

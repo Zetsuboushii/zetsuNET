@@ -136,12 +136,12 @@
             <table style="max-width: 276px; background: none">
                 <tr>
                     <td style="max-width: 138px">
+                        <div class="field-row">
+                            Welche Ramen-Sorte bevorzugst du?
+                        </div>
                         <form id="survey-form"
                               action="https://docs.google.com/forms/d/e/1FAIpQLSe4IBN1ioBi0iva8QszvU5leDUZEW2ylYNdCTuP76Im0ogeRg/formResponse"
                               method="POST" target="hidden_iframe" onsubmit="submitted=true;">
-                            <div class="field-row">
-                                Welche Ramen-Sorte bevorzugst du?
-                            </div>
                             <div class="field-row">
                                 <input id="radio1" type="radio" name="entry.1130118951" value="Shoyu">
                                 <label for="radio1">Shoyu</label>
@@ -165,11 +165,13 @@
                             <br>
                             <button type="submit">Absenden</button>
                         </form>
+                        <button type="button" id="show-results">Ergebnisse anzeigen</button>
                         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
                     </td>
                     <td style="max-width: 138px">
-                        <div id="results" class="results"></div>
-                        <button type="button" id="show-results">Ergebnisse anzeigen</button>
+                        <div class="field-row">
+                            <div id="results" class="results"></div>
+                        </div>
                     </td>
                 </tr>
             </table>
@@ -180,7 +182,6 @@
                     const showResultsButton = document.getElementById('show-results');
                     const resultsDiv = document.getElementById('results');
                     const localStorageKey = 'hasVoted';
-
 
 
                     form.addEventListener('submit', function (e) {

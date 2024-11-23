@@ -57,7 +57,8 @@
                     </ul>
                 </details>
             </li>
-            <li><a href="https://zetsuboushii.github.io/tome-of-the-vastlands"><span>Tome of the Vastlands</span></a></li>
+            <li><a href="https://zetsuboushii.github.io/tome-of-the-vastlands"><span>Tome of the Vastlands</span></a>
+            </li>
             <li><a href="{{ 'feed.xml' | relative_url }}"><span>RSS Feed</span></a></li>
         </ul>
 
@@ -71,7 +72,8 @@
                     <input type="text" name="entry.1722423759" id="name" required style="width: 100%">
                     <br>
                     <label for="message" style="margin-top: 10px">Nachricht:</label><br>
-                    <textarea name="entry.677063233" id="message" required style="width: 100%; height: 50px; resize: none"></textarea>
+                    <textarea name="entry.677063233" id="message" required
+                              style="width: 100%; height: 50px; resize: none"></textarea>
                     <input type="hidden" name="date" value="{{ 'now' | date: '%Y-%m-%dT%H:%M:%S%z' }}">
                     <br>
                     <button type="submit" style="margin-top: 10px">Eintrag hinzufügen</button>
@@ -81,55 +83,159 @@
             <div class="field-row" style="width: 276px">
                 <div id="entries" style="height: 100px; max-height: 100px; overflow-y: scroll"></div>
             </div>
-        </fieldset>
 
-        <img src="{{ '/assets/imgs/demon_girl_computer.png' | relative_url }}" alt=""
-             style="position: absolute; bottom: 0; left: 0; width: 200px; transform: scaleX(-1);">
-    </div>
+            <script>
+                const g_spreadsheetId = '18fJFNXnlHWGmJ9FAF1szvoxeemRtDudFQ9KihU_0Mew';
+                const g_url = `https://docs.google.com/spreadsheets/d/${g_spreadsheetId}/gviz/tq?tqx=out:csv`;
 
-    <script>
-        const spreadsheetId = '18fJFNXnlHWGmJ9FAF1szvoxeemRtDudFQ9KihU_0Mew';
-        const url = `https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:csv`;
+                async function fetchEntries() {
+                    try {
+                        const response = await fetch(g_url);
+                        const csvData = await response.text();
 
-        async function fetchEntries() {
-            try {
-                const response = await fetch(url);
-                const csvData = await response.text();
+                        const rows = csvData.split('\n').slice(1);
+                        const entriesDiv = document.getElementById('entries');
+                        entriesDiv.innerHTML = '';
 
-                const rows = csvData.split('\n').slice(1);
-                const entriesDiv = document.getElementById('entries');
-                entriesDiv.innerHTML = '';
+                        rows.forEach((row) => {
+                            const columns = row.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
 
-                rows.forEach((row) => {
-                    const columns = row.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g);
+                            if (columns && columns.length >= 3) {
+                                const timestamp = columns[0].replace(/"/g, '');
+                                const name = columns[1].replace(/"/g, '');
+                                const message = columns[2].replace(/"/g, '');
 
-                    if (columns && columns.length >= 3) {
-                        const timestamp = columns[0].replace(/"/g, '');
-                        const name = columns[1].replace(/"/g, '');
-                        const message = columns[2].replace(/"/g, '');
+                                if (name && message) {
+                                    const entryDiv = document.createElement('div');
+                                    entryDiv.innerHTML = `<p><strong>${name}</strong> (${timestamp}): ${message}</p>`;
+                                    entriesDiv.appendChild(entryDiv);
+                                }
+                            }
+                        });
+                    } catch (error) {
+                        console.error('Fehler beim Abrufen der Daten:', error);
+                    }
+                }
 
-                        if (name && message) {
-                            const entryDiv = document.createElement('div');
-                            entryDiv.innerHTML = `<p><strong>${name}</strong> (${timestamp}): ${message}</p>`;
-                            entriesDiv.appendChild(entryDiv);
-                        }
+                let submitted = false;
+                const form = document.getElementById('guestbook-form');
+                form.addEventListener('submit', function (e) {
+                    if (submitted) {
+                        e.preventDefault();
+                        alert('Danke für deinen Eintrag :)');
+                        form.reset();
                     }
                 });
-            } catch (error) {
-                console.error('Fehler beim Abrufen der Daten:', error);
-            }
-        }
 
-        let submitted = false;
-        const form = document.getElementById('guestbook-form');
-        form.addEventListener('submit', function (e) {
-            if (submitted) {
-                e.preventDefault();
-                alert('Danke für deinen Eintrag :)');
-                form.reset();
-            }
-        });
+                window.onload = fetchEntries;
+            </script>
+        </fieldset>
 
-        window.onload = fetchEntries;
-    </script>
+        <fieldset>
+            <legend>Poll</legend>
+            <table style="max-width: 276px; background: none">
+                <tr>
+                    <td style="max-width: 138px">
+                        <form id="survey-form"
+                              action="https://docs.google.com/forms/d/e/1FAIpQLSe4IBN1ioBi0iva8QszvU5leDUZEW2ylYNdCTuP76Im0ogeRg/formResponse"
+                              method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+                            <div class="field-row">
+                                Welche Ramen-Sorte bevorzugst du?
+                            </div>
+                            <div class="field-row">
+                                <input id="radio1" type="radio" name="entry.1130118951" value="Shoyu">
+                                <label for="radio1">Shoyu</label>
+                            </div>
+                            <div class="field-row">
+                                <input id="radio2" type="radio" name="entry.1130118951" value="Miso">
+                                <label for="radio2">Miso</label>
+                            </div>
+                            <div class="field-row">
+                                <input id="radio3" type="radio" name="entry.1130118951" value="Shio">
+                                <label for="radio3">Shio</label>
+                            </div>
+                            <div class="field-row">
+                                <input id="radio4" type="radio" name="entry.1130118951" value="Tonkotsu">
+                                <label for="radio4">Tonkotsu</label>
+                            </div>
+                            <div class="field-row">
+                                <input id="radio5" type="radio" name="entry.1130118951" value="Sapporo">
+                                <label for="radio5">Sapporo</label>
+                            </div>
+                            <br>
+                            <button type="submit">Absenden</button>
+                            <button type="button" id="show-results">Ergebnisse anzeigen</button>
+                        </form>
+                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+                    </td>
+                    <td style="max-width: 138px">
+                        <div id="results" class="results"></div>
+                    </td>
+                </tr>
+            </table>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const showResultsButton = document.getElementById('show-results');
+                    const resultsDiv = document.getElementById('results');
+
+                    showResultsButton.addEventListener('click', async () => {
+                        resultsDiv.innerText = 'Lade Ergebnisse...';
+
+                        const p_spreadsheetId = '1cbVq26jCHjEaOycsqRBwX91D6YN_3Tz7myE_eZijNTo';
+                        const p_url = `https://docs.google.com/spreadsheets/d/${p_spreadsheetId}/gviz/tq?tqx=out:csv`;
+
+                        try {
+                            const response = await fetch(p_url);
+                            if (!response.ok) {
+                                throw new Error(`Fehler beim Laden der Daten: ${response.status}`);
+                            }
+
+                            const csvData = await response.text();
+                            const rows = csvData.split('\n').slice(1); // Überspringe die Kopfzeile
+                            const results = {};
+
+                            rows.forEach(row => {
+                                const columns = row.split(',');
+                                const answer = columns[1]?.trim(); // Annahme: Die Antwort befindet sich in der zweiten Spalte
+                                if (answer) {
+                                    if (!results[answer]) {
+                                        results[answer] = 0;
+                                    }
+                                    results[answer]++;
+                                }
+                            });
+
+                            let chart = '';
+                            const maxCount = Math.max(...Object.values(results));
+                            Object.entries(results).forEach(([label, count]) => {
+                                const bar = '█ '.repeat(count);
+                                chart += `${label.padEnd(10)} | ${bar}(${count})\n`;
+                            });
+
+                            resultsDiv.innerText = chart;
+                        } catch (error) {
+                            resultsDiv.innerText = 'Fehler beim Laden der Ergebnisse.';
+                            console.error(error);
+                        }
+                    });
+
+                    let submitted = false;
+                    const form = document.getElementById('survey-form');
+
+                    form.addEventListener('submit', function (e) {
+                        if (submitted) {
+                            e.preventDefault();
+                            alert('Danke für Ihre Teilnahme!');
+                            form.reset();
+                        }
+                    });
+                });
+            </script>
+        </fieldset>
+
+
+        <img src="{{ '/assets/imgs/demon_girl_computer.png' | relative_url }}" alt=""
+             style="position: absolute; bottom: 0; left: 0; width: 150px; transform: scaleX(-1);">
+    </div>
 </aside>

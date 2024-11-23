@@ -4,8 +4,8 @@ layout: default
 
 {{ content }}
 
-<div class="sunken-panel" style="width: 379px">
-    <table>
+<div class="sunken-panel" style="width: 634px">
+    <table style="width: 630px">
         <thead>
         <tr>
             <th>Title</th>
@@ -52,8 +52,7 @@ layout: default
 <div class="window tabpanel-container">
     {% for group in grouped_posts %}
         <div id="{{ group.name }}" class="window-body tabpanel" role="tabpanel"
-             aria-hidden="{% if forloop.last %}false{% else %}true{% endif %}"
-             style="max-height: 600px; overflow-y: scroll">
+             aria-hidden="{% if forloop.last %}false{% else %}true{% endif %}">
             {% for post in group.items %}
                 <fieldset>
                     <legend>{{ post.title }}</legend>

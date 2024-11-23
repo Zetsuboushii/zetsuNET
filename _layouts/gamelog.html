@@ -63,8 +63,8 @@ layout: default
                     </p>
                     {% assign filename = post.path | split: '/' | last %}
                     {% assign basename = filename | split: '.' | first %}
-                    <img src="{{ "/assets/imgs/games/" | relative_url }}{{ basename }}.png" alt=""
-                         style="max-width: 616px; max-height: 300px">
+                    <img src="{{ "/assets/imgs/games/" | relative_url }}{{ basename }}.jpg" alt=""
+                         style="max-width: 600px; max-height: 300px">
                     {{ post.content }}
                 </fieldset>
             {% endfor %}

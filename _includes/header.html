@@ -132,16 +132,13 @@
         </fieldset>
 
         <fieldset>
-            <legend>Poll</legend>
+            <legend>Poll - Welche Ramen-Sorte bevorzugst du?</legend>
             <table style="max-width: 276px; background: none">
                 <tr>
                     <td style="max-width: 138px">
-                        <div class="field-row">
-                            Welche Ramen-Sorte bevorzugst du?
-                        </div>
                         <form id="survey-form"
                               action="https://docs.google.com/forms/d/e/1FAIpQLSe4IBN1ioBi0iva8QszvU5leDUZEW2ylYNdCTuP76Im0ogeRg/formResponse"
-                              method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+                              method="POST" target="hidden_iframe" onsubmit="return handleSubmit(event);">
                             <div class="field-row">
                                 <input id="radio1" type="radio" name="entry.1130118951" value="Shoyu">
                                 <label for="radio1">Shoyu</label>
@@ -178,29 +175,18 @@
 
             <script>
                 document.addEventListener('DOMContentLoaded', () => {
-                    const form = document.getElementById('survey-form');
                     const showResultsButton = document.getElementById('show-results');
                     const resultsDiv = document.getElementById('results');
-                    const localStorageKey = 'hasVoted';
+                    const form = document.getElementById('survey-form');
+                    const localStorageKey = 'surveySubmitted';
 
-
-                    form.addEventListener('submit', function (e) {
-                        if (localStorage.getItem(localStorageKey)) {
-                            form.remove();
-                        }
-
-                        e.preventDefault();
-                        if (!localStorage.getItem(localStorageKey)) {
-                            localStorage.setItem(localStorageKey, 'true');
-                            alert('Danke für Ihre Teilnahme!');
-                            form.reset();
-                        } else {
-                            alert('Sie haben bereits abgestimmt.');
-                        }
-                    });
+                    if (localStorage.getItem(localStorageKey)) {
+                        form.style.display = 'none';
+                    }
 
                     showResultsButton.addEventListener('click', async () => {
                         resultsDiv.innerText = 'Lade Ergebnisse...';
+
                         const p_spreadsheetId = '1cbVq26jCHjEaOycsqRBwX91D6YN_3Tz7myE_eZijNTo';
                         const p_url = `https://docs.google.com/spreadsheets/d/${p_spreadsheetId}/gviz/tq?tqx=out:csv`;
 
@@ -238,6 +224,36 @@
                         }
                     });
                 });
+
+                function handleSubmit(event) {
+                    event.preventDefault();
+                    const localStorageKey = 'surveySubmitted';
+
+                    if (localStorage.getItem(localStorageKey)) {
+                        alert('Sie haben bereits an der Umfrage teilgenommen. Vielen Dank!');
+                        return false;
+                    }
+
+                    const form = event.target;
+                    const formData = new FormData(form);
+                    const actionUrl = form.action;
+                    const method = form.method;
+
+                    fetch(actionUrl, {
+                        method: method,
+                        body: formData,
+                        mode: 'no-cors'
+                    }).then(() => {
+                        alert('Danke für Ihre Teilnahme!');
+                        form.reset();
+                        localStorage.setItem(localStorageKey, 'true');
+                        form.style.display = 'none';
+                    }).catch((error) => {
+                        console.error('Fehler beim Senden des Formulars:', error);
+                    });
+
+                    return false;
+                }
             </script>
         </fieldset>
 

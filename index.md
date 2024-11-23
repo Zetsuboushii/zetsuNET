@@ -5,6 +5,8 @@ title: Index
 
 <div style="text-align: center">
     <img src="{{ "/assets/buttons/ban2.gif" | relative_url }}" alt="">
+    <img src="{{ "/assets/buttons/higubanner.jpg" | relative_url }}" alt="">
+    <img src="{{ "/assets/buttons/wired.gif" | relative_url }}" alt="">
 </div>
 
 <div class="sunken-panel" style="width: 200px; height: 200px; overflow: hidden">

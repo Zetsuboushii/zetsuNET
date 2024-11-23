@@ -13,43 +13,42 @@ layout: default
          style="height: 600px; overflow-y: scroll">
         {% assign touhou_entries = site.entries | where: "category", "touhou_chars" | sort: "title" %}
         {% for entry in touhou_entries %}
-            <fieldset class="shrine-field">
-                <legend>{{ entry.title }}</legend>
-                <div class="field-row">
-                    <div style="min-width: 220px; max-width: 220px; text-align: center">
-                        {% assign img_path = entry.url | split: "/" | last | split: "." %}
-                        <img src="{{ '/assets/imgs/touhou/' | append: img_path[0] | append: '.png' | relative_url }}"
-                             alt="">
-                    </div>
-                    <p>
-                        {{ entry.content }}
-                    </p>
+        <fieldset class="shrine-field">
+            <legend>{{ entry.title }}</legend>
+            <div class="field-row">
+                <div style="min-width: 220px; max-width: 220px; text-align: center">
+                    {% assign img_path = entry.url | split: "/" | last | split: "." %}
+                    <img src="{{ '/assets/imgs/touhou/' | append: img_path[0] | append: '.png' | relative_url }}"
+                         alt="">
                 </div>
-            </fieldset>
+                <p>
+                    {{ entry.content }}
+                </p>
+            </div>
+        </fieldset>
         {% endfor %}
-
     </div>
     <div id="fumo" class="window-body tabpanel" role="tabpanel" aria-hidden="true"
-         style="height: 600px; overflow-y: scroll">
-        <fieldset class="shrine-field" style="width: 196px">
-            <legend>Cirnu</legend>
+         style="height: 600px; overflow-y: scroll;">
+        <fieldset class="shrine-field">
+            <legend>Cirno</legend>
             <div class="field-row">
                 <img src="{{ "/assets/imgs/touhou/cirno_fumo.jpg" | relative_url }}" alt="">
             </div>
         </fieldset>
-        <fieldset class="shrine-field" style="width: 196px">
+        <fieldset class="shrine-field">
             <legend>Udonge</legend>
             <div class="field-row">
                 <img src="{{ "/assets/imgs/touhou/reisen_fumo.jpg" | relative_url }}" alt="">
             </div>
         </fieldset>
-        <fieldset class="shrine-field" style="width: 196px">
+        <fieldset class="shrine-field">
             <legend>Patche</legend>
             <div class="field-row">
                 <img src="{{ "/assets/imgs/touhou/patchouli_fumo.jpg" | relative_url }}" alt="">
             </div>
         </fieldset>
-        <fieldset class="shrine-field" style="width: 196px">
+        <fieldset class="shrine-field">
             <legend>Yukari</legend>
             <div class="field-row">
                 <img src="{{ "/assets/imgs/touhou/yukari_fumo.jpg" | relative_url }}" alt="">

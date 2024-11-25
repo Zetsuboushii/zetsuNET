@@ -3,56 +3,55 @@ layout: default
 ---
 
 <menu role="tablist" id="tablist" style="margin-top: 20px">
-    <li role="tab" aria-selected="true" data-tab="main">Collection</li>
-    {% assign entries = site.entries | where: "category", "anno" %}
+    {% assign entries = site.entries | where: "category", "anno" | sort: "release" %}
     {% for entry in entries %}
         {% assign filename = entry.path | split: '/' | last %}
         {% assign basename = filename | split: '.' | first %}
-        <li role="tab" aria-selected="false" data-tab="{{ basename }}">{{ entry.title }}</li>
+        <li role="tab" aria-selected="{{ forloop.first }}" data-tab="{{ basename }}">{{ entry.title }}</li>
     {% endfor %}
 </menu>
 <div class="window tabpanel-container">
-    <div id="main" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
-        {% assign parts = content | split: '<!--more-->' %}
-        {{ parts[0] }}
-        <hr>
-        <fieldset>
-            <legend>Wunschliste</legend>
-            {{ parts[1] }}
-        </fieldset>
-    </div>
-    {% assign collection_entries = site.entries | where: "category", "collection" | sort: "release" %}
-    {% for entry in collection_entries %}
+    {% assign entries = site.entries | where: "category", "anno" | sort: "release" %}
+    {% for entry in entries %}
         {% assign filename = entry.path | split: '/' | last %}
         {% assign basename = filename | split: '.' | first %}
-        {% assign parts = entry.content | split: '<!--more-->' %}
-        <div id="{{ basename }}" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
-            <img src="{{ '/assets/imgs/collection/' | append: basename | append: '.png' | relative_url }}" alt=""
-                 style="max-width: 300px; float: left; margin-right: 10px; margin-bottom: 10px;">
+        {% assign ay = basename | split: "-" | last %}
+        <div id="{{ basename }}" class="window-body tabpanel" role="tabpanel"
+             aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
             <h4>{{ entry.title }}</h4>
-            <p>{{ parts[0] }} - <i>Wikipedia</i></p>
+            <p>{{ entry.content }}</p>
             <hr>
-            <p>{{ parts[1] }}</p>
-            {% if entry.games_owned %}
-            <fieldset>
-                <legend>Spiele in meinem Besitz</legend>
-                <ul>
-                    {% for game in entry.games_owned %}
-                        <li>{{ game }}</li>
-                    {% endfor %}
-                </ul>
-            </fieldset>
-            {% endif %}
-            {% if entry.peripherals_owned %}
-            <fieldset>
-                <legend>Peripherie in meinem Besitz</legend>
-                <ul>
-                    {% for peripheral in entry.peripherals_owned %}
-                        <li>{{ peripheral }}</li>
-                    {% endfor %}
-                </ul>
-            </fieldset>
-            {% endif %}
+            <h4>Produktionsketten</h4>
+            {% assign prods = site.entries | where: "category", "anno_prod" %}
+            {% for prod in prods %}
+                {% if prod.path contains ay and prod.main_building %}
+                    {% assign dependencies_array = "" %}
+                    <fieldset>
+                        <legend>{{ prod.prod }}</legend>
+                    <ul class="tree-view">
+                        {% include resolve-anno-dependencies.html title=prod.title dependencies=dependencies_array ay=ay %}
+                    </ul>
+                    </fieldset>
+                {% endif %}
+            {% endfor %}
+
+            <!-- shidd
+            {% assign prods = site.entries | where: "category", "anno_p" | where: "ay", ay %}
+            {% for p in prods %}
+                {% assign content = p.content %}
+
+                {% capture bä %}{% include anno-product-build.html name="bäckerei" ay=ay %}{% endcapture %}
+                {% capture gt %}{% include anno-product-build.html name="getreidefarm" ay=ay %}{% endcapture %}
+                {% capture gf %}{% include anno-product-build.html name="getreidefeld" ay=ay %}{% endcapture %}
+                {% capture gm %}{% include anno-product-build.html name="getreidemühle" ay=ay %}{% endcapture %}
+
+                {% assign content = p | replace: "gf", gf %}
+                {% assign content = p | replace: "gt", gt %}
+                {% assign content = p | replace: "gm", gm %}
+
+                {{ p.content }}
+            {% endfor %}
+            -->
         </div>
     {% endfor %}
 </div>

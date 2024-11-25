@@ -34,3 +34,7 @@ zu spielen, macht mich stutzig, so schwer wie es auch heute noch ist.
 Leider bin ich heute nicht mehr im Besitz dieses SNES, und ich habe mir deshalb vor einigen Jahren während der
 Mittelstufe von meinem Taschengeld ein gebrauchtes SNES in einem Retrospieleladen in Frankfurt gekauft, welches ich nun
 mein Eigen nennen kann.
+
+Aus technischer Sicht finde ich das SNES ebenfalls super interessant. Gerade was mit dem Super FX Chip möglich war, ist
+so beeindrucken. Gerade Yoshi's Island ist ein Paradebeispiel, wie Entwickler früher die Limitationen eines Systems fast
+schon umgehen konnten und durch Tricks wunderschöne Effekte geschaffen haben. 

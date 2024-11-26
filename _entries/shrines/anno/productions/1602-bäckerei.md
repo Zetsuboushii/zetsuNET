@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Bäckerei
 category: anno_prod
 main_building: true

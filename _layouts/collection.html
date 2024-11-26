@@ -34,24 +34,24 @@ layout: default
             <hr>
             <p>{{ parts[1] }}</p>
             {% if entry.games_owned %}
-            <fieldset>
-                <legend>Spiele in meinem Besitz</legend>
-                <ul>
-                    {% for game in entry.games_owned %}
-                        <li>{{ game }}</li>
-                    {% endfor %}
-                </ul>
-            </fieldset>
+                <fieldset>
+                    <legend>Spiele in meinem Besitz</legend>
+                    <ul>
+                        {% for game in entry.games_owned %}
+                            <li>{{ game }}</li>
+                        {% endfor %}
+                    </ul>
+                </fieldset>
             {% endif %}
             {% if entry.peripherals_owned %}
-            <fieldset>
-                <legend>Peripherie in meinem Besitz</legend>
-                <ul>
-                    {% for peripheral in entry.peripherals_owned %}
-                        <li>{{ peripheral }}</li>
-                    {% endfor %}
-                </ul>
-            </fieldset>
+                <fieldset>
+                    <legend>Peripherie in meinem Besitz</legend>
+                    <ul>
+                        {% for peripheral in entry.peripherals_owned %}
+                            <li>{{ peripheral }}</li>
+                        {% endfor %}
+                    </ul>
+                </fieldset>
             {% endif %}
         </div>
     {% endfor %}

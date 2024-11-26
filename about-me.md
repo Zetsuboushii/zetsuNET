@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: About the Webmaster
 permalink: /about-me/
 header: true

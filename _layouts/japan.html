@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<menu role="tablist" id="tablist" style="margin-top: 20px">
+    <li role="tab" aria-selected="true" data-tab="log">Reiselog</li>
+    <li role="tab" aria-selected="false" data-tab="prefectures">Präfekturenliste</li>
+</menu>
+<div class="window tabpanel-container">
+    <div id="log" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
+        <div style="text-align: center; margin-bottom: 10px">
+            <img src="{{ "/assets/gifs/addesign.gif" | relative_url }}" alt="">
+        </div>
+        <div class="sunken-panel">
+            <table>
+                <thead>
+                <tr>
+                    <th>Ort</th>
+                    <th>Besucht</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% assign entries = site.entries | where: "category", page.category | where: "type", "place" | sort: "date" %}
+                {% for e in entries %}
+                    <tr>
+                        <td>{{ e.title }}</td>
+                        <td>y</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="prefectures" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
+        <div style="text-align: center; margin-bottom: 10px">
+            <img src="{{ "/assets/gifs/shizuokalife.gif" | relative_url }}" alt="">
+        </div>
+        <div class="sunken-panel">
+            <table>
+                <thead>
+                <tr>
+                    <th>Präfektur</th>
+                    <th>Besucht</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% assign json = site.data.prefectures.prefectures | sort: "visited" | reverse %}
+                {% for p in json %}
+                    <tr>
+                        <td>{{ p.name }}</td>
+                        <td>{{ p.visited | replace: "true", "y" | replace: "false", "n" }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="{{ '/assets/js/menu-tabs.js' | relative_url }}"></script>

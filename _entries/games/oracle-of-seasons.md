@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: "The Legend of Zelda: Oracle of Seasons"
 lastplayed: 2024-08-17
 platform: GBC

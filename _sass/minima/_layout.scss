@@ -93,4 +93,8 @@ li[aria-selected="true"] {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  button {
+    padding: 1px
+  }
 }

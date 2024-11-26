@@ -27,7 +27,9 @@
                                         </ul>
                                     </details>
                                 {% else %}
-                                    <a href="{{ my_page.url | relative_url }}"> {{ my_page.title | escape }}</a>
+                                    <a href="{{ my_page.url | relative_url }}">{% if my_page.icon %}<img
+                                            src="{{ "/assets/gifs/" | append: my_page.icon | append: ".gif" | relative_url }}"
+                                            alt="" style="height: 10px">{% endif %} {{ my_page.title | escape }}</a>
                                 {% endif %}
                             </li>
                         {% endif %}
@@ -38,14 +40,19 @@
                 <details open>
                     <summary>Socials</summary>
                     <ul>
-                        <li><a class="u-email" href="mailto:{{ site.email }}">E-Mail</a></li>
+                        <li><a class="u-email" href="mailto:{{ site.email }}"><img
+                                        src="{{ "/assets/gifs/e-mailjap4.gif" | relative_url }}" alt=""
+                                        style="height: 10px"> E-Mail</a></li>
                         <li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><span
-                                        class="username">GitHub</span></a></li>
+                                        class="username"><img
+                                            src="{{ "/assets/gifs/TuxProgramming.gif" | relative_url }}" alt=""
+                                            style="height: 10px"> GitHub</span></a></li>
                         <li><a href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}"><span
                                         class="username">Instagram</span></a></li>
                         <li>
                             <a href="https://open.spotify.com/user/{{ site.spotify_username | cgi_escape | escape }}"><span
-                                        class="username">Spotify</span></a></li>
+                                        class="username"><img src="{{ "/assets/gifs/KirbyBop.gif" | relative_url }}"
+                                                              alt="" style="height: 10px"> Spotify</span></a></li>
                     </ul>
                 </details>
             </li>
@@ -132,7 +139,8 @@
         </fieldset>
 
         <fieldset>
-            <legend>Poll - Welche Ramen-Sorte bevorzugst du?</legend>
+            <legend>Poll - Welche Ramen-Sorte bevorzugst du? <img src="{{ "/assets/gifs/ramen.gif" | relative_url }}"
+                                                                  alt="" style="height: 10px"></legend>
             <table style="max-width: 276px; background: none">
                 <tr>
                     <td style="max-width: 138px">

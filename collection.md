@@ -4,6 +4,7 @@ title: Collection
 permalink: /collection/
 header: true
 category: collection
+icon: N64
 ---
 
 Diese Seite widme ich meiner Videospiel und -konsolen Collection.

@@ -1,0 +1,192 @@
+{
+  "prefectures": [
+    {
+      "name": "Hokkaido",
+      "visited": true
+    },
+    {
+      "name": "Aomori",
+      "visited": false
+    },
+    {
+      "name": "Iwate",
+      "visited": false
+    },
+    {
+      "name": "Miyagi",
+      "visited": false
+    },
+    {
+      "name": "Akita",
+      "visited": false
+    },
+    {
+      "name": "Yamagata",
+      "visited": false
+    },
+    {
+      "name": "Fukushima",
+      "visited": false
+    },
+    {
+      "name": "Ibaraki",
+      "visited": false
+    },
+    {
+      "name": "Tochigi",
+      "visited": false
+    },
+    {
+      "name": "Gunma",
+      "visited": false
+    },
+    {
+      "name": "Saitama",
+      "visited": false
+    },
+    {
+      "name": "Chiba",
+      "visited": false
+    },
+    {
+      "name": "Tokyo",
+      "visited": true
+    },
+    {
+      "name": "Kanagawa",
+      "visited": false
+    },
+    {
+      "name": "Niigata",
+      "visited": false
+    },
+    {
+      "name": "Toyama",
+      "visited": false
+    },
+    {
+      "name": "Ishikawa",
+      "visited": false
+    },
+    {
+      "name": "Fukui",
+      "visited": false
+    },
+    {
+      "name": "Yamanashi",
+      "visited": false
+    },
+    {
+      "name": "Nagano",
+      "visited": true
+    },
+    {
+      "name": "Gifu",
+      "visited": false
+    },
+    {
+      "name": "Shizuoka",
+      "visited": false
+    },
+    {
+      "name": "Aichi",
+      "visited": false
+    },
+    {
+      "name": "Mie",
+      "visited": false
+    },
+    {
+      "name": "Shiga",
+      "visited": false
+    },
+    {
+      "name": "Kyoto",
+      "visited": true
+    },
+    {
+      "name": "Osaka",
+      "visited": false
+    },
+    {
+      "name": "Hyogo",
+      "visited": false
+    },
+    {
+      "name": "Nara",
+      "visited": false
+    },
+    {
+      "name": "Wakayama",
+      "visited": false
+    },
+    {
+      "name": "Tottori",
+      "visited": false
+    },
+    {
+      "name": "Shimane",
+      "visited": false
+    },
+    {
+      "name": "Okayama",
+      "visited": false
+    },
+    {
+      "name": "Hiroshima",
+      "visited": false
+    },
+    {
+      "name": "Yamaguchi",
+      "visited": false
+    },
+    {
+      "name": "Tokushima",
+      "visited": false
+    },
+    {
+      "name": "Kagawa",
+      "visited": false
+    },
+    {
+      "name": "Ehime",
+      "visited": false
+    },
+    {
+      "name": "Kochi",
+      "visited": false
+    },
+    {
+      "name": "Fukuoka",
+      "visited": false
+    },
+    {
+      "name": "Saga",
+      "visited": false
+    },
+    {
+      "name": "Nagasaki",
+      "visited": false
+    },
+    {
+      "name": "Kumamoto",
+      "visited": false
+    },
+    {
+      "name": "Oita",
+      "visited": false
+    },
+    {
+      "name": "Miyazaki",
+      "visited": false
+    },
+    {
+      "name": "Kagoshima",
+      "visited": false
+    },
+    {
+      "name": "Okinawa",
+      "visited": false
+    }
+  ]
+}

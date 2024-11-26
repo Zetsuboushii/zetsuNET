@@ -5,3 +5,12 @@ h4 {
 body {
   font-family: "MS Sans Serif 1", serif;
 }
+
+table *{
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

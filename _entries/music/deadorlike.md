@@ -4,6 +4,13 @@ title: "Dead or like"
 date: 2024-05-29
 category: music
 ytlink: "https://youtu.be/6sVzV2tTpcs?si=4JLMCaCB03cBdvAm"
+artists:
+  - Dyes Iwasaki
+  - Hatsune Miku
+genres:
+  - Vocaloid
+  - Japanese Electro Swing
+
 ---
 
 Durch diesen Song bin ich auf DYES IWASAKI als eigenständigen Artist aufmerksam geworden. Viele Songs aus seinem

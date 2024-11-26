@@ -59,6 +59,10 @@ footer {
   }
 }
 
+table {
+  word-break: break-word;
+}
+
 li[role="tab"] {
   cursor: pointer;
   padding: 5px 10px;

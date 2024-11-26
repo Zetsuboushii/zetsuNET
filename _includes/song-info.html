@@ -1,0 +1,33 @@
+<div class="field-row">
+    <table style="background: none">
+        <tr>
+            <td>
+                <a href="{{ include.post.ytlink }}">
+                    <img src="https://img.youtube.com/vi/{{ include.video_id }}/mqdefault.jpg" alt=""
+                         style="width: 240px">
+                </a>
+            </td>
+            <td>
+                <b>{{ include.post.title }}</b>
+                <div class="sunken-panel" style="width: 330px; max-width: 330px">
+                    <table style="width: 326px; max-width: 326px">
+                        <thead>
+                        <tr>
+                            <th>Interpret</th>
+                            <th>Genres</th>
+                            <th>Hinzugefügt</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>{{ include.post.artists | join: ", " }}</td>
+                            <td>{{ include.post.genres | join: ", " }}</td>
+                            <td>{{ include.post.date | date: "%d. %b, %Y" }}</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>

@@ -44,7 +44,7 @@ layout: default
                 </tr>
                 </thead>
                 <tbody>
-                {% assign json = site.data.prefectures.prefectures | sort: "visited" | reverse %}
+                {% assign json = site.data.prefectures.prefectures %}
                 {% for p in json %}
                     <tr>
                         <td>{{ p.name }}</td>

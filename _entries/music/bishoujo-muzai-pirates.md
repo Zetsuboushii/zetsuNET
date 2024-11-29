@@ -6,7 +6,7 @@ category: music
 ytlink: "https://youtu.be/KfZR9jVP6tw?si=8_Prl1bOBfnyzIJu"
 artists: Houshou Marine
 genres:
-  - J-Pop
+  - Idol-Pop
 
 ---
 

@@ -4,6 +4,11 @@ title: "Decisive Battle 2"
 date: 2024-09-18
 category: music
 ytlink: "https://youtu.be/4aKFdpJ4_bo?si=tboLbUM4mtKSI_cf"
+artists:
+  - Yasunori Nishiki
+genres:
+  - Game OST
+
 ---
 
 Als ich damals zum Release von Octopath Traveler von der grandiosen Musik gehört habe, war ich hin und weg. Gerade aber

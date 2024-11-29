@@ -4,71 +4,67 @@ layout: default
 
 {{ content }}
 
-<div class="sunken-panel" style="width: 634px">
-    <table style="width: 630px">
-        <thead>
-        <tr>
-            <th>Title</th>
-            <th>Platform</th>
-            <th>(Last) Played</th>
-            <th>Rating</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% assign games_posts = site.entries | sort: "lastplayed" | reverse %}
-        {% for post in games_posts %}
-            {% if post.category == "game" %}
-                <tr>
-                    <td>{{ post.title }}</td>
-                    <td>{{ post.platform }}</td>
-                    <td>{{ post.lastplayed | date: "%d.%m.%Y" }}</td>
-                    <td>
-                        {% for i in (1..5) %}
-                            {% if i <= post.rating %}
-                                ★
-                            {% else %}
-                                ☆
-                            {% endif %}
-                        {% endfor %}
-                    </td>
-                </tr>
-            {% endif %}
-        {% endfor %}
-        </tbody>
-    </table>
-</div>
+{% assign games_finished = site.data.games.games | sort: "title" | where: "finished", true %}
+{% assign games_planned = site.data.games.games | sort: "title" | where: "finished", false %}
+
 
 <menu role="tablist" id="tablist" style="margin-top: 20px">
-    {% assign game_posts = site.entries | where: "category", "game" %}
-    {% assign sorted_posts = game_posts | sort: "lastplayed" %}
-    {% assign grouped_posts = sorted_posts | group_by_exp: "post", "post.lastplayed | date: '%Y-%m'" %}
-
-    {% for group in grouped_posts %}
-        <li role="tab" aria-selected="{{ forloop.last }}" data-tab="{{ group.name }}">
-            {{ group.name | date: "%B %Y" }}
-        </li>
-    {% endfor %}
+    <li role="tab" aria-selected="true" data-tab="finished">Beendet</li>
+    <li role="tab" aria-selected="false" data-tab="planned">Geplant / Noch nicht beendet</li>
 </menu>
 <div class="window tabpanel-container">
-    {% for group in grouped_posts %}
-        <div id="{{ group.name }}" class="window-body tabpanel" role="tabpanel"
-             aria-hidden="{% if forloop.last %}false{% else %}true{% endif %}">
-            {% for post in group.items %}
-                <fieldset>
-                    <legend>{{ post.title }}</legend>
-                    <p>
-                        <b>Plattform:</b> {{ post.platform }} /
-                        <b>Bewertung:</b> {% for i in (1..5) %}{% if i <= post.rating %}★{% else %}☆{% endif %}{% endfor %}
-                    </p>
-                    {% assign filename = post.path | split: '/' | last %}
-                    {% assign basename = filename | split: '.' | first %}
-                    <img src="{{ "/assets/imgs/games/" | relative_url }}{{ basename }}.jpg" alt=""
-                         style="max-width: 600px; max-height: 300px">
-                    {{ post.content }}
-                </fieldset>
-            {% endfor %}
+    <div id="finished" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
+        <div class="sunken-panel" style="width: 614px">
+            <table style="width: 610px">
+                <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Platform</th>
+                    <th>(Last) Played</th>
+                    <th>Rating</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for post in games_finished %}
+                    <tr>
+                        <td>{{ post.title }}</td>
+                        <td>{{ post.platform }}</td>
+                        <td>{{ post.lastplayed | date: "%d.%m.%Y" }}</td>
+                        <td>
+                            {% for i in (1..5) %}
+                                {% if i <= post.rating %}
+                                    ★
+                                {% else %}
+                                    ☆
+                                {% endif %}
+                            {% endfor %}
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
         </div>
-    {% endfor %}
+    </div>
+    <div id="planned" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
+        <div class="sunken-panel" style="width: 614px">
+            <table style="width: 610px">
+                <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Platform</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for post in games_planned %}
+                    <tr>
+                        <td>{{ post.title }}</td>
+                        <td>{{ post.platform }}</td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
 </div>
 
 <script src="{{ '/assets/js/menu-tabs.js' | relative_url }}"></script>

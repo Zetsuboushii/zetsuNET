@@ -3,7 +3,12 @@ layout: post
 title: "Divine Beast Dancing Lion"
 date: 2024-07-12
 category: music
-ytlink: "https://youtu.be/nyQKmoX7MWc?si=sODEQU2gwfj3w7Eo"
+ytlink: "https://youtu.be/1Saywp-mXxo?si=I8_gvHA2aAZAUaIo"
+artists:
+  - Shoi Miyazawa
+genres:
+  - Game OST
+
 ---
 
 From Software Boss Themes schallern in der Regel immer hart rein. Besonders überrascht hat mich im Shadow of the Erdtree

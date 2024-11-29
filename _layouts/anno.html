@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div style="text-align: center; margin-bottom: 10px">
+    <img src="{{ "/assets/gifs/const001.gif" | relative_url }}" alt="">
+</div>
+
 <menu role="tablist" id="tablist" style="margin-top: 20px">
     {% assign entries = site.entries | where: "category", "anno" | sort: "release" %}
     {% for entry in entries %}

@@ -4,6 +4,11 @@ title: "Every Day Is Night"
 date: 2024-09-18
 category: music
 ytlink: "https://youtu.be/H-AfGh8gmiQ?si=mEL7zl0PJSmcLFxv"
+artists:
+  - Garoad
+genres:
+  - Game OST
+
 ---
 
 Als ich vor einiger Zeit mal etwas in va-11 hall-a reingeschaut und gehört habe, ist mir dieser Track SO FETT im Kopf

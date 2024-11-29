@@ -4,6 +4,11 @@ title: "Conan Main Theme (The Million-Dollar Pentagram Version)"
 date: 2024-08-29
 category: music
 ytlink: "https://youtu.be/nKig5lLunV8?si=YjH9pFak35i3xOPA"
+artists:
+  - Katsuo Ohno
+genres:
+  - Anime OST
+
 ---
 
 Dass das Main Theme (auch bekannt als Case Closed) von Conan ein certified classic ist, brauche ich niemandem zu

@@ -20,8 +20,17 @@ verleihen.
 <!--more-->
 Konsolen:
 
-* Knechtoman 2
+* Nintendo Entertainment System
+* DMG Game Boy
+* Game Boy Advance SP
+* GameCube Wall Adapter
+* Game Boy Link Cable
+* PlayStation 4
 
 Videospiele:
 
-* Bepen-Böpen
+* The Legend of Zelda: Majora's Mask
+* The Legend of Zelda: Ocarine of Time
+* Banjo-Kazooie
+* Pokémon Smaragd
+* Bloodborne

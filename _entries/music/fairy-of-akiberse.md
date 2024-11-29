@@ -4,6 +4,11 @@ title: "Fairy of AKIBerse!"
 date: 2024-09-05
 category: music
 ytlink: "https://youtu.be/BRSLNqF3Ang?si=-odjgP3pwnFbkkWp"
+artists:
+  - Pomu Rainpuff
+genres:
+  - Idol-Pop
+
 ---
 
 Der Abschiedssong von Pomu kam raus, nachdem ich selbst mal in Akihabara war. Der Graduation von Pomu war schon etwas

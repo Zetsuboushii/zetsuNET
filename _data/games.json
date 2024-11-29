@@ -1,0 +1,2762 @@
+{
+  "games": [
+    {
+      "title": "Anno 1404",
+      "finished": true,
+      "lastplayed": "2024-10-07",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Anno 1503",
+      "finished": true,
+      "lastplayed": "2024-10-27",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Anno 1602",
+      "finished": true,
+      "lastplayed": "2024-11-10",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Anno 1701",
+      "finished": true,
+      "lastplayed": "2024-10-28",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Anno 2070",
+      "finished": true,
+      "lastplayed": "2024-10-29",
+      "platform": "PC",
+      "rating": 2
+    },
+    {
+      "title": "The Legend of Zelda: Echoes of Wisdom",
+      "finished": false,
+      "lastplayed": "2024-10-03",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Sekiro: Shadows Die Twice",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Elden Ring",
+      "finished": true,
+      "lastplayed": "2024-11-22",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Elden Ring: Shadow of the Erdtree",
+      "finished": true,
+      "lastplayed": "2024-11-22",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "finished": true,
+      "lastplayed": "2024-07-17",
+      "platform": "N64",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Oracle of Seasons",
+      "finished": true,
+      "lastplayed": "2024-08-17",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Hatsune Miku: Project Diva Mega Mix+",
+      "finished": true,
+      "lastplayed": "2024-11-22",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "A Hat in Time",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Animal Crossing",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 4
+    },
+    {
+      "title": "Animal Crossing: Happy Home Designer",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 2
+    },
+    {
+      "title": "Animal Crossing: Let's Go to the City",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 3
+    },
+    {
+      "title": "Animal Crossing: New Horizons",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 2
+    },
+    {
+      "title": "Animal Crossing: New Leaf",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 4
+    },
+    {
+      "title": "Animal Crossing: Wild World",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Anno 1800",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Anno 2205",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 1
+    },
+    {
+      "title": "Aperture Tag: The Paint Gun Testing Initiative",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Apollo Justice: Ace Attorney",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "Banjo-Kazooie",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 5
+    },
+    {
+      "title": "BattleBlock Theater",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Bloodstained: Ritual of the Night",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Beat Saber",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "NEEDY GIRL OVERDOSE",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Captain Toad: Treasure Tracker",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 4
+    },
+    {
+      "title": "Captain Toad: Treasure Tracker",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "Castlevania: Circle of the Moon",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 3
+    },
+    {
+      "title": "Castlevania: Harmony of Dissonance",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 3
+    },
+    {
+      "title": "Castlevania: Symphony of the Night",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PSX",
+      "rating": 5
+    },
+    {
+      "title": "Cave Story+",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Celeste",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Chrono Trigger",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 5
+    },
+    {
+      "title": "Cities: Skylines",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 2
+    },
+    {
+      "title": "DeDeDe's Drum Dash Deluxe",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Die Sims 4",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Don't Starve (+ Don't Starve Together)",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 2
+    },
+    {
+      "title": "Donkey Kong Country Returns",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "Donkey Kong Country: Tropical Freeze",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 4
+    },
+    {
+      "title": "Doom",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Doom 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Dr. Kawashima's Gehirn-Jogging",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 3
+    },
+    {
+      "title": "Entropy:Zero 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Evoland",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Evoland 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "F-Zero X",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 4
+    },
+    {
+      "title": "Fantasy Life",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 4
+    },
+    {
+      "title": "Fire Emblem Awakening",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 5
+    },
+    {
+      "title": "Fire Emblem: The Blazing Blade",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 4
+    },
+    {
+      "title": "Fire Emblem: Three Houses",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "Game & Wario",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 2
+    },
+    {
+      "title": "Garry's Mod",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Genshin Impact",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 2
+    },
+    {
+      "title": "Go Vacation",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "Half-Life 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Half-Life 2: Episode One",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Half-Life 2: Episode Two",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Hearts of Iron IV",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Hyrule Warriors",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 3
+    },
+    {
+      "title": "Jump King",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Katamari Damacy REROLL",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Kingdoms and Castles",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Kirby und das Vergessene Land",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "Kirby: Planet Robobot",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 4
+    },
+    {
+      "title": "Kirby: Triple Deluxe",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 4
+    },
+    {
+      "title": "Kirby's Adventure Wii",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 3
+    },
+    {
+      "title": "Kirby's Dream Land",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 3
+    },
+    {
+      "title": "Kirby's Dream Land 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 3
+    },
+    {
+      "title": "Kirby's Pinball Land",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 2
+    },
+    {
+      "title": "Luigi's Mansion",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Luigi's Mansion",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 4
+    },
+    {
+      "title": "Luigi's Mansion 3",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "Mario & Luigi: Abenteuer Bowser",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "Mario & Luigi: Abenteuer Bowser + Bowser Jr.'s Reise",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Mario & Luigi: Dream Team Bros.",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Mario & Luigi: Superstar Saga + Bowsers Schergen",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Mario & Sonic bei den Olympischen Winterspielen",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 2
+    },
+    {
+      "title": "Mario and Donkey Kong: Minis on the Move",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 1
+    },
+    {
+      "title": "Mario Kart 64",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 2
+    },
+    {
+      "title": "Mario Kart 7",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Mario Kart 8",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 4
+    },
+    {
+      "title": "Mario Kart 8 Deluxe",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "Mario Kart DS",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "Mario Kart Wii",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "Mario Kart: Double Dash!!",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 4
+    },
+    {
+      "title": "Mario Party",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 3
+    },
+    {
+      "title": "Mario Party 10",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 3
+    },
+    {
+      "title": "Mario Party 9",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 3
+    },
+    {
+      "title": "Mario Party DS",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 3
+    },
+    {
+      "title": "Mario Tennis Aces",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "Mario vs. Donkey Kong: Die Rückkehr der Mini-Marios",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 3
+    },
+    {
+      "title": "Mario's Picross",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 4
+    },
+    {
+      "title": "Mega Man 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NES",
+      "rating": 3
+    },
+    {
+      "title": "Metroid Dread",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "Metroid Fusion",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 4
+    },
+    {
+      "title": "Metroid Prime",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 5
+    },
+    {
+      "title": "Metroid: Zero Mission",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 5
+    },
+    {
+      "title": "Minecraft",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Muse Dash",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "MySims",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "New Super Luigi U",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 2
+    },
+    {
+      "title": "New Super Mario Bros.",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "New Super Mario Bros. 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 1
+    },
+    {
+      "title": "New Super Mario Bros. U",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 2
+    },
+    {
+      "title": "New Super Mario Bros. Wii",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 3
+    },
+    {
+      "title": "Newer Super Mario Bros. DS",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Newer Super Mario Bros. Wii",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 5
+    },
+    {
+      "title": "NieR: Automata",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Nintendo Switch Sports",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 2
+    },
+    {
+      "title": "Overwatch",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Paper Mario Color Splash",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 3
+    },
+    {
+      "title": "Paper Mario Sticker Star",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Persona 4 Golden",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney – Justice for All",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney − Trials and Tribulations",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "Pikmin 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 5
+    },
+    {
+      "title": "Pikmin 3",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 5
+    },
+    {
+      "title": "Pikmin 3 Deluxe",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "Pikmin",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon Feuerrot",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon Gelb",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 2
+    },
+    {
+      "title": "Pokémon Gold",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBC",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon Karmesin",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 2
+    },
+    {
+      "title": "Pokémon Legenden: Arceus",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon Mond",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 1
+    },
+    {
+      "title": "Pokémon Omega Rubin",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon Platin",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Pokémon Schild",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 2
+    },
+    {
+      "title": "Pokémon Schwarz",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon Schwarz 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Pokémon Smaragd",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 5
+    },
+    {
+      "title": "Pokémon SoulSilver",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Pokémon Stadium 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 3
+    },
+    {
+      "title": "Pokémon X",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Pokémon: Let's Go, Evoli!",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon: Strahlender Diamant",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 2
+    },
+    {
+      "title": "Poly Bridge",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Portal",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Portal 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Professor Layton und das Geheimnisvolle Dorf",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "Professor Layton und der Ruf des Phantoms",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "Professor Layton und die Schatulle der Pandora",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Professor Layton und die verlorene Zunkunft",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Psychonauts",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Rayman 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Rayman 3",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Rayman Legends",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Rayman Origins",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 2
+    },
+    {
+      "title": "Rhythm Heaven",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "Rhythm Heaven Fever",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 5
+    },
+    {
+      "title": "Rhythm Heaven Megamix",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Rock of Ages",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Rock of Ages 2: Bigger and Boulder",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Rock of Ages 3: Make & Break",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Shantae and the Pirate's Curse",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Shantae and the Seven Sirens",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Shantae: Half Genie Hero",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "Shovel Knight: Plague of Shadows",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Shovel Knight: Shovel of Hope",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Shovel Knight: Specter of Torment",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Slime Rancher",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Splatoon",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 4
+    },
+    {
+      "title": "Splatoon 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "Splatoon 2: Octo Expansion",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "Splatoon 3",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "SpongeBob Schwammkopf und der magische Stift",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 1
+    },
+    {
+      "title": "SpongeBob Schwammkopf: Der Gelbe Rächer",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "SpongeBob Schwammkopf: Eiskalt Entwischt",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 2
+    },
+    {
+      "title": "SpongeBob Schwammkopf: Eiskalt Entwischt",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 2
+    },
+    {
+      "title": "Star Fox 64 3D",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 4
+    },
+    {
+      "title": "Stardew Valley",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Subnautica",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 2
+    },
+    {
+      "title": "SUPER HOT VR",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Super Mario 3D All-Stars",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "Super Mario 3D Land",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Super Mario 3D World",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 4
+    },
+    {
+      "title": "Super Mario 3D World + Bowser's Fury",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "Super Mario 64",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 4
+    },
+    {
+      "title": "Super Mario 64 DS",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "The Great Ace Attorney: Adventures",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NES",
+      "rating": 1
+    },
+    {
+      "title": "The Legend of Zelda II: The Adventure of Link",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NES",
+      "rating": 3
+    },
+    {
+      "title": "The Legend of Zelda: A Link Between Worlds",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: A Link to the Past",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: A Link to the Past",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Dusk and Dawn",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Four Swords Adventures",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 3
+    },
+    {
+      "title": "The Legend of Zelda: Link's Awakening",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: Link's Awakening",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Link's Awakening DX",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBC",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: Majora's Mask 3D",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: Master of Time",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 3
+    },
+    {
+      "title": "The Legend of Zelda: Ocarina of Time 3D",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: Oracle of Ages",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBC",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Phantom Hourglass",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: Skyward Sword",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Skyward Sword HD",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Spirit Tracks",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: The Minish Cap",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: The Missing Link",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 3
+    },
+    {
+      "title": "The Legend of Zelda: The Wind Waker HD",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 4
+    },
+    {
+      "title": "The Legend of Zelda: Third Quest",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 3
+    },
+    {
+      "title": "The Legend of Zelda: Twilight Princess",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 5
+    },
+    {
+      "title": "The Legend of Zelda: Twilight Princess HD",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 5
+    },
+    {
+      "title": "Tiny and Big: Grandpa's Leftovers",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Tomodachi Life",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 3
+    },
+    {
+      "title": "Touhou 6 - The Embodiment of Scarlet Devil",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Wario Land 1",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 3
+    },
+    {
+      "title": "Wario Land 4",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 5
+    },
+    {
+      "title": "Wario World",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 3
+    },
+    {
+      "title": "WarioWare Gold",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 5
+    },
+    {
+      "title": "WarioWare: D.I.Y.",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 4
+    },
+    {
+      "title": "WarioWare: D.I.Y. Showcase",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "WarioWare: Get It Together",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "WarioWare: Smooth Moves",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 5
+    },
+    {
+      "title": "WarioWare: Snapped!",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 1
+    },
+    {
+      "title": "WarioWare: Touched!",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 3
+    },
+    {
+      "title": "Wii Fit",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 3
+    },
+    {
+      "title": "Wii Party",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "Wii Play",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "Wii Play Motion",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 2
+    },
+    {
+      "title": "Wii Sports",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "Wii Sports Resort",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 4
+    },
+    {
+      "title": "Yoshi's Island DS",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 3
+    },
+    {
+      "title": "Yoshi's Story",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 2
+    },
+    {
+      "title": "Yoshi's Wooly World",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "Wii U",
+      "rating": 3
+    },
+    {
+      "title": "Phasmophobia",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Ace Attorney Investigations: Miles Edgeworth",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Advance Wars 1 + 2: Reboot Camp",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Animal Crossing: New Horizons - Happy Home Paradise",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Astral Chain",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Banjo-Tooie",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Bayonetta",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Bayonetta 2",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "BoxBoy! + BoxGirl!",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Bravely Default",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Cadence of Hyrule",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Castlevania: Aria of Sorrow",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 0
+    },
+    {
+      "title": "Castlevania: Vampire's Kiss",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "Catherine: Full Body",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Chameleon Twist",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Conker's Bad Fur Day",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Crash Bandicoot N. Sane Trilogy",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Danganronpa 2: Goodbye Despair",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Danganronpa V3: Killing Harmony",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Diddy Kong Racing",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Donkey Kong 64",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "EarthBound",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "Ever Oasis",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Fallout 4",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Fantasy Life Remake",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Fire Emblem Echoes: Shadows of Valentia",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Fire Emblem Engage",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Fire Emblem Fates",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Fire Emblem: The Sacred Stones",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 0
+    },
+    {
+      "title": "Ghost Trick",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Glover",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "God of War",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PS2",
+      "rating": 0
+    },
+    {
+      "title": "God of War",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "GoldenEye 007",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "The Stanley Parable",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Lies of P",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Lobotomy Corporation",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Arzette: The Jewel of Faramore",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Vampire Survivors",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "ULTRAKILL",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Cruelty Squad",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Anno 117",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Assassin's Creed II",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Diablo II",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "HoloCure",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Ghost Trick: Phantom Detective",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Half-Life: Blue Shift",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Half-Life: Opposing Force",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Hyrule Warriors: Zeit der Verheerung",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Kid Icarus: Uprising",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Kirby 64 - The Crystal Shards",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Kirby Mass Attack",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 0
+    },
+    {
+      "title": "Kirby Squak Squad",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 0
+    },
+    {
+      "title": "Kirby Star Allies",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Kirby und das Magische Garn",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 0
+    },
+    {
+      "title": "Kirby's Dream Buffet",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Kirby's Dream Land 3",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "Kirby's Return to Dream Land Deluxe",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Mario & Luigi: Zusammen durch die Zeit",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 0
+    },
+    {
+      "title": "Mario + Rabbids: Kingdom Battle",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Mario + Rabbids: Sparks of Hope",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Mario Party Superstars",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Mario Smash Football",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 0
+    },
+    {
+      "title": "Master Detective Archives: Rain Code",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Mega Man X",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "Metroid Prime 1 Remastered",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Metroid Prime 2",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 0
+    },
+    {
+      "title": "Metroid Prime 3",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "Wii",
+      "rating": 0
+    },
+    {
+      "title": "Metroid Prime 4",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Metroid: Samus Returns",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Minecraft Dungeons",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Mischief Makers",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Monster Hunter Rise",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Monster Hunter World",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Moonlighter",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Mother 3",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GBA",
+      "rating": 0
+    },
+    {
+      "title": "Mystical Ninja Starring Goemon",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "New Pokémon Snap",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Octopath Traveler",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Octopath Traveler II",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Okami HD",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Paper Mario",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Paper Mario and the Origami King",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Paper Mario: Die Legende vom Äonentor",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 0
+    },
+    {
+      "title": "VA-11 Hall-A",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Yume Nikki",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Part Time UFO",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Persona 2: Eternal Punishment",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PSP",
+      "rating": 0
+    },
+    {
+      "title": "Persona 2: Innocent Sin",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PSP",
+      "rating": 0
+    },
+    {
+      "title": "Persona 3 Portable",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Persona 4: Dancing All Night",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PS4",
+      "rating": 0
+    },
+    {
+      "title": "Persona 5 Royal",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Persona 5 Strikers",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Persona 5: Dancing in Starlight",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PS4",
+      "rating": 0
+    },
+    {
+      "title": "Persona Q: Shadow of the Labyrinth",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Persona Q2: New Cinema Labyrinth",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney – Dual Destinies",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney – Spirit of Justice",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Pikmin 4",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 4
+    },
+    {
+      "title": "Pokémon Kristall",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GBC",
+      "rating": 0
+    },
+    {
+      "title": "Pokémon Mystery Dungeon: Retterteam DX",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Pokémon XD - Der Dunkle Strum",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GC",
+      "rating": 0
+    },
+    {
+      "title": "Professor Layton and the New World of PC",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Professor Layton und das Vermächtnis von Aslant",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Professor Layton und die Maske der Wunder",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Professor Layton vs. Phoenix Wright: Ace Attorney",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Psychonauts 2",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Psychonauts in the Rhombus of Ruin",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Quake",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Ring Fit Adventure",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Rocket - Robot on Wheels",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "N64",
+      "rating": 0
+    },
+    {
+      "title": "Secret of Evermore",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "Secret of Mana",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "Shin Megami Tensei: Persona",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PSP",
+      "rating": 0
+    },
+    {
+      "title": "Shovel Knight: King of Cards",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Splatoon 3 DLC",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "SpongeBob Squarepants: Battle for Bikini Bottom Rehydrated",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Steins;Gate",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Steins;Gate 0",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Sushi Striker: The Way of Sushido",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Terranigma",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "The Elder Scrolls III: Morrowind",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "RollerCoaster Tycoon 2",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Deus Ex",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "The Elder Scrolls IV: Oblivion",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "The Great Ace Attorney: Resolve",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "The Legend of Zelda: The Ancient Stone Tablets",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "The Legendary Starfy",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NDS",
+      "rating": 0
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Tokyo Mirage Sessions ♯FE Encore",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Crypt of the NecroDancer",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Tomb Raider II",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Tomb Raider III",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Factorio",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "SpongeBob Squarepants: The Cosmic Shake",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Neon White",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Triangle Strategy",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Wario Land 3",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GBC",
+      "rating": 0
+    },
+    {
+      "title": "We Love Katamari REROLL + Royal Reverie",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Xenoblade Chronicles 2",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Yo-kai Watch",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "3DS",
+      "rating": 0
+    },
+    {
+      "title": "Yoshi's Crafted World",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Yoshi's Island",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 0
+    },
+    {
+      "title": "Mario Picross 2",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "GB",
+      "rating": 0
+    },
+    {
+      "title": "Ace Attorney Investigations: Miles Edgeworth 2",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 0
+    },
+    {
+      "title": "Papers, Please",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "Black Mesa",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Jump King: Ghost of the Babe",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Jump King: New Babe+",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Mario Kart 8 Deluxe - Booster Streckenpass",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating": 3
+    },
+    {
+      "title": "Tomb Raider I",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Wario Land 2",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "GBC",
+      "rating": 3
+    },
+    {
+      "title": "Super Mario's Picross",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "SNES",
+      "rating": 4
+    },
+    {
+      "title": "Dark Souls",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Dark Souls: Artorias of the Abyss",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 3
+    },
+    {
+      "title": "Dark Souls III",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Dark Souls III: Ashes of Ariandel",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Dark Souls III: The Ringed City",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    },
+    {
+      "title": "Dark Souls II: Scholar of the First Sin",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 0
+    },
+    {
+      "title": "NieR Replicant",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 4
+    },
+    {
+      "title": "Pizza Tower",
+      "finished": true,
+      "lastplayed": "",
+      "platform": "PC",
+      "rating": 5
+    }
+  ]
+}

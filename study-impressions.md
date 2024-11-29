@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Shrines
-permalink: /shrines/
+title: Study Impressions
+permalink: /study-impressions/
 header: true
-category: shrine
+category: study-impressions
 ---
 
 <div style="text-align: center; margin-bottom: 10px">

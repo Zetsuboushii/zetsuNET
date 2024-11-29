@@ -5,6 +5,10 @@ permalink: /about-me/
 header: true
 ---
 
+<div style="text-align: center; margin-bottom: 10px">
+    <img src="{{ "/assets/gifs/const001.gif" | relative_url }}" alt="">
+</div>
+
 <menu role="tablist" id="tablist" style="margin-top: 20px">
     <li role="tab" aria-selected="true" data-tab="dev">Development</li>
     <li role="tab" aria-selected="false" data-tab="consoles">Console restauration</li>

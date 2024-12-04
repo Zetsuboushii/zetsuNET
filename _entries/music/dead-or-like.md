@@ -5,7 +5,7 @@ date: 2024-05-29
 category: music
 ytlink: "https://youtu.be/6sVzV2tTpcs?si=4JLMCaCB03cBdvAm"
 artists:
-  - Dyes Iwasaki
+  - DYES IWASAKI
   - Hatsune Miku
 genres:
   - Vocaloid

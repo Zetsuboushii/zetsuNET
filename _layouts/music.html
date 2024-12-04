@@ -2,72 +2,89 @@
 layout: default
 ---
 
-{{ content }}
+<div>
+    <div style="overflow: hidden; float: left; margin-right: 10px; margin-bottom: 20px;">
+        <img src="{{ "/assets/gifs/HOT.gif" | relative_url }}" alt="">
+    </div>
 
-<menu role="tablist" id="tablist" style="margin-top: 20px" class="multirows">
-    <li role="tab" aria-selected="true" data-tab="alphabetic">Alphabetisch</li>
-    <li role="tab" aria-selected="false" data-tab="newest">Kürzlich hinzugefügt</li>
-    <li role="tab" aria-selected="false" data-tab="artist">Interpret</li>
-    <li role="tab" aria-selected="false" data-tab="genre">Genre</li>
-</menu>
-<div class="window tabpanel-container">
-    <div id="alphabetic" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
-        {% assign music_posts = site.entries | sort: "title" | where: "category", "music" %}
-        {% for post in music_posts %}
-            {% assign youtube_url = post.ytlink %}
-            {% assign video_id = youtube_url | split: "youtu.be/" | last %}
-            {% assign video_id = video_id | split: "?" | first %}
-            <fieldset>
-                <legend>{{ post.title }}</legend>
-                {% include song-info.html post=post video_id=video_id %}
-            </fieldset>
-        {% endfor %}
+    <div style="overflow: hidden; float: right; margin-left: 10px; margin-bottom: 20px;">
+        <img src="{{ "/assets/gifs/HOT.gif" | relative_url }}" alt="">
     </div>
-    <div id="newest" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
-        {% assign music_posts = site.entries | sort: "date" | reverse | where: "category", "music" %}
-        {% for post in music_posts %}
-            {% assign youtube_url = post.ytlink %}
-            {% assign video_id = youtube_url | split: "youtu.be/" | last %}
-            {% assign video_id = video_id | split: "?" | first %}
-            <fieldset>
-                <legend>{{ post.title }}</legend>
-                {% include song-info.html post=post video_id=video_id %}
-            </fieldset>
-        {% endfor %}
-    </div>
-    <div id="artist" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
-        {% assign all_artists = site.entries | where: "category", "music" | map: "artists" | join: "," | split: "," | uniq | sort %}
-        {% for a in all_artists %}
-            {% if a != "" %}
+
+    {{ content }}
+</div>
+
+<div>
+    <menu role="tablist" id="tablist" style="margin-top: 20px" class="multirows">
+        <li role="tab" aria-selected="true" data-tab="newest">Kürzlich hinzugefügt</li>
+        <li role="tab" aria-selected="false" data-tab="alphabetic">Alphabetisch</li>
+        <li role="tab" aria-selected="false" data-tab="artist">Interpret</li>
+        <li role="tab" aria-selected="false" data-tab="genre">Genre</li>
+    </menu>
+    <div class="window tabpanel-container">
+        <div id="newest" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
+            {% assign music_posts = site.entries | sort: "date" | reverse | where: "category", "music" %}
+            {% for post in music_posts %}
+                {% assign youtube_url = post.ytlink %}
+                {% assign video_id = youtube_url | split: "youtu.be/" | last %}
+                {% assign video_id = video_id | split: "?" | first %}
                 <fieldset>
-                    <legend>{{ a }}</legend>
-                    {% assign music_posts = site.entries | where: "category", "music" | where_exp: "item", "item.artists contains a" | sort: "date" | reverse %}
-                    {% for post in music_posts %}
-                        {% assign youtube_url = post.ytlink %}
-                        {% assign video_id = youtube_url | split: "youtu.be/" | last %}
-                        {% assign video_id = video_id | split: "?" | first %}
-                        {% include song-info.html post=post video_id=video_id %}
-                    {% endfor %}
+                    <legend>{{ post.title }}</legend>
+                    {% include song-info.html post=post video_id=video_id %}
                 </fieldset>
-            {% endif %}
-        {% endfor %}
-    </div>
-    <div id="genre" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
-        {% assign all_genres = site.entries | where: "category", "music" | map: "genres" | join: "," | split: "," | uniq | sort %}
-        {% for g in all_genres %}
-            {% if g != "" %}
+            {% endfor %}
+        </div>
+        <div id="alphabetic" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
+            {% assign music_posts = site.entries | sort: "title" | where: "category", "music" %}
+            {% for post in music_posts %}
+                {% assign youtube_url = post.ytlink %}
+                {% assign video_id = youtube_url | split: "youtu.be/" | last %}
+                {% assign video_id = video_id | split: "?" | first %}
                 <fieldset>
-                    <legend>{{ g }}</legend>
-                    {% assign music_posts = site.entries | where: "category", "music" | where_exp: "item", "item.genres contains g" | sort: "date" | reverse %}
-                    {% for post in music_posts %}
-                        {% assign youtube_url = post.ytlink %}
-                        {% assign video_id = youtube_url | split: "youtu.be/" | last %}
-                        {% assign video_id = video_id | split: "?" | first %}
-                        {% include song-info.html post=post video_id=video_id %}
-                    {% endfor %}
+                    <legend>{{ post.title }}</legend>
+                    {% include song-info.html post=post video_id=video_id %}
                 </fieldset>
-            {% endif %}
-        {% endfor %}
+            {% endfor %}
+        </div>
+        <div id="artist" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
+            {% assign all_artists = site.entries | where: "category", "music" | map: "artists" | join: "," | split: "," | uniq | sort %}
+            {% for a in all_artists %}
+                {% if a != "" %}
+                    <fieldset>
+                        <legend>{{ a }}</legend>
+                        {% assign music_posts = site.entries | where: "category", "music" | where_exp: "item", "item.artists contains a" | sort: "date" | reverse %}
+                        <p>{{ music_posts.size }} Song{% if music_posts.size > 1 %}s{% endif %} für Künstler
+                            <b>{{ a }}</b>
+                        </p>
+                        {% for post in music_posts %}
+                            {% assign youtube_url = post.ytlink %}
+                            {% assign video_id = youtube_url | split: "youtu.be/" | last %}
+                            {% assign video_id = video_id | split: "?" | first %}
+                            {% include song-info.html post=post video_id=video_id %}
+                        {% endfor %}
+                    </fieldset>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div id="genre" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
+            {% assign all_genres = site.entries | where: "category", "music" | map: "genres" | join: "," | split: "," | uniq | sort %}
+            {% for g in all_genres %}
+                {% if g != "" %}
+                    <fieldset>
+                        <legend>{{ g }}</legend>
+                        {% assign music_posts = site.entries | where: "category", "music" | where_exp: "item", "item.genres contains g" | sort: "date" | reverse %}
+                        <p>{{ music_posts.size }} Song{% if music_posts.size > 1 %}s{% endif %} von Genre <b>{{ g }}</b>
+                        </p>
+                        {% for post in music_posts %}
+                            {% assign youtube_url = post.ytlink %}
+                            {% assign video_id = youtube_url | split: "youtu.be/" | last %}
+                            {% assign video_id = video_id | split: "?" | first %}
+                            {% include song-info.html post=post video_id=video_id %}
+                        {% endfor %}
+                    </fieldset>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>
 

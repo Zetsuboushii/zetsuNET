@@ -23,7 +23,7 @@ layout: default
     </menu>
     <div class="window tabpanel-container">
         <div id="newest" class="window-body tabpanel" role="tabpanel" aria-hidden="false">
-            {% assign music_posts = site.entries | sort: "date" | reverse | where: "category", "music" %}
+            {% assign music_posts = site.data.songs | reverse %}
             {% for post in music_posts %}
                 {% assign youtube_url = post.ytlink %}
                 {% assign video_id = youtube_url | split: "youtu.be/" | last %}
@@ -35,7 +35,7 @@ layout: default
             {% endfor %}
         </div>
         <div id="alphabetic" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
-            {% assign music_posts = site.entries | sort: "title" | where: "category", "music" %}
+            {% assign music_posts = site.data.songs | sort: "title"%}
             {% for post in music_posts %}
                 {% assign youtube_url = post.ytlink %}
                 {% assign video_id = youtube_url | split: "youtu.be/" | last %}
@@ -47,12 +47,12 @@ layout: default
             {% endfor %}
         </div>
         <div id="artist" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
-            {% assign all_artists = site.entries | where: "category", "music" | map: "artists" | join: "," | split: "," | uniq | sort %}
+            {% assign all_artists = site.data.songs | map: "artists" | join: "," | split: "," | uniq | sort %}
             {% for a in all_artists %}
                 {% if a != "" %}
                     <fieldset>
                         <legend>{{ a }}</legend>
-                        {% assign music_posts = site.entries | where: "category", "music" | where_exp: "item", "item.artists contains a" | sort: "date" | reverse %}
+                        {% assign music_posts = site.data.songs | where_exp: "item", "item.artists contains a" | sort: "title" %}
                         <p>{{ music_posts.size }} Song{% if music_posts.size > 1 %}s{% endif %} für Künstler
                             <b>{{ a }}</b>
                         </p>
@@ -67,12 +67,12 @@ layout: default
             {% endfor %}
         </div>
         <div id="genre" class="window-body tabpanel" role="tabpanel" aria-hidden="true">
-            {% assign all_genres = site.entries | where: "category", "music" | map: "genres" | join: "," | split: "," | uniq | sort %}
+            {% assign all_genres = site.data.songs | map: "genres" | join: "," | split: "," | uniq | sort %}
             {% for g in all_genres %}
                 {% if g != "" %}
                     <fieldset>
                         <legend>{{ g }}</legend>
-                        {% assign music_posts = site.entries | where: "category", "music" | where_exp: "item", "item.genres contains g" | sort: "date" | reverse %}
+                        {% assign music_posts = site.data.songs | where_exp: "item", "item.genres contains g" | sort: "title" %}
                         <p>{{ music_posts.size }} Song{% if music_posts.size > 1 %}s{% endif %} von Genre <b>{{ g }}</b>
                         </p>
                         {% for post in music_posts %}

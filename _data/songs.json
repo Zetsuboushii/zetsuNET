@@ -8,7 +8,7 @@
     "genres": [
       "Deutschrap"
     ],
-    "date": "2022-10-19 00:00:00 +0200"
+    "date": "2022-10-19"
   },
   {
     "title": "Nachbeben",
@@ -19,7 +19,7 @@
     "genres": [
       "Deutschrap"
     ],
-    "date": "2022-10-19 00:00:00 +0200"
+    "date": "2022-10-19"
   },
   {
     "title": "DEAD END in My Brain",
@@ -66,7 +66,7 @@
     "genres": [
       "Japanese Electro Swing"
     ],
-    "date": "2023-04-13 00:00:00 +0200"
+    "date": "2023-04-13"
   },
   {
     "title": "Nightmare Parade 2020s",
@@ -78,7 +78,7 @@
       "Japanese Electro Swing",
       "J-Rap"
     ],
-    "date": "2023-04-13 00:00:00 +0200"
+    "date": "2023-04-13"
   },
   {
     "title": "Beauty Unique Boutique",
@@ -90,7 +90,7 @@
       "Japanese Electro Swing",
       "J-Rap"
     ],
-    "date": "2023-08-21 00:00:00 +0200"
+    "date": "2023-08-21"
   },
   {
     "title": "GO ON YA WAY",
@@ -103,7 +103,7 @@
       "Japanese Electro Swing",
       "J-Rap"
     ],
-    "date": "2023-08-21 00:00:00 +0200"
+    "date": "2023-08-21"
   },
   {
     "title": "Honky Tonky Night",
@@ -115,7 +115,7 @@
     "genres": [
       "Japanese Electro Swing"
     ],
-    "date": "2023-08-21 00:00:00 +0200"
+    "date": "2023-08-21"
   },
   {
     "title": "Knickknack Kingdom",
@@ -127,7 +127,7 @@
       "Japanese Electro Swing",
       "J-Rap"
     ],
-    "date": "2023-08-21 00:00:00 +0200"
+    "date": "2023-08-21"
   },
   {
     "title": "Sakaseyasakase",
@@ -136,7 +136,7 @@
     ],
     "genres": [
     ],
-    "date": "2023-08-30 00:00:00 +0200"
+    "date": "2023-08-30"
   },
   {
     "title": "Show",
@@ -145,7 +145,7 @@
     ],
     "genres": [
     ],
-    "date": "2023-09-20 00:00:00 +0200"
+    "date": "2023-09-20"
   },
   {
     "title": "Innocent Tyrant",
@@ -158,14 +158,16 @@
       "Japanese Electro Swing",
       "J-Rap"
     ],
-    "date": "2023-09-22 00:00:00 +0200"
+    "date": "2023-09-22"
   },
   {
     "title": "Re-awake",
     "ytlink": "https://youtu.be/5w8SBV_m7uU?si=aqHTSmjt1r6jBOSX",
     "artists": [
+      "Takeshi Abo"
     ],
     "genres": [
+      "Game OST"
     ],
     "date": "2024-03-02"
   },
@@ -176,7 +178,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-04-24 00:00:00 +0200"
+    "date": "2024-04-24"
   },
   {
     "title": "Dead or like",
@@ -189,16 +191,18 @@
       "Vocaloid",
       "Japanese Electro Swing"
     ],
-    "date": "2024-05-29 00:00:00 +0200"
+    "date": "2024-05-29"
   },
   {
     "title": "Ornstein & Smough",
     "ytlink": "https://youtu.be/x6OtFBIwO1g?si=iRRbgHQGobet4xQ6",
     "artists": [
+      "Motoi Sakuraba"
     ],
     "genres": [
+      "Game OST"
     ],
-    "date": "2024-05-29 00:00:00 +0200"
+    "date": "2024-05-29"
   },
   {
     "title": "Last Fancy",
@@ -207,7 +211,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-06-04 00:00:00 +0200"
+    "date": "2024-06-04"
   },
   {
     "title": "Konton Boogie",
@@ -216,7 +220,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-07-09 00:00:00 +0200"
+    "date": "2024-07-09"
   },
   {
     "title": "Divine Beast Dancing Lion",
@@ -227,7 +231,7 @@
     "genres": [
       "Game OST"
     ],
-    "date": "2024-07-12 00:00:00 +0200"
+    "date": "2024-07-12"
   },
   {
     "title": "Aishite Aishite Aishite",
@@ -239,7 +243,7 @@
     "genres": [
       "Vocaloid"
     ],
-    "date": "2024-07-17 00:00:00 +0200"
+    "date": "2024-07-17"
   },
   {
     "title": "Shikairo Days",
@@ -248,7 +252,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-07-18 00:00:00 +0200"
+    "date": "2024-07-18"
   },
   {
     "title": "Hidden By Night",
@@ -257,7 +261,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-07-28 00:00:00 +0200"
+    "date": "2024-07-28"
   },
   {
     "title": "Swear",
@@ -266,7 +270,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-08-05 00:00:00 +0200"
+    "date": "2024-08-05"
   },
   {
     "title": "Odd ♥ Lovey",
@@ -278,7 +282,7 @@
     "genres": [
       "J-Pop"
     ],
-    "date": "2024-08-13 00:00:00 +0200"
+    "date": "2024-08-13"
   },
   {
     "title": "Lunatic Crazy",
@@ -290,7 +294,7 @@
     "genres": [
       "J-Pop"
     ],
-    "date": "2024-08-16 00:00:00 +0200"
+    "date": "2024-08-16"
   },
   {
     "title": "Siren",
@@ -302,7 +306,7 @@
     "genres": [
       "J-Pop"
     ],
-    "date": "2024-08-16 00:00:00 +0200"
+    "date": "2024-08-16"
   },
   {
     "title": "Conan Main Theme (The Million-Dollar Pentagram Version)",
@@ -313,7 +317,7 @@
     "genres": [
       "Anime OST"
     ],
-    "date": "2024-08-29 00:00:00 +0200"
+    "date": "2024-08-29"
   },
   {
     "title": "you are the target",
@@ -322,7 +326,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-09-01 00:00:00 +0200"
+    "date": "2024-09-01"
   },
   {
     "title": "Bishoujo Muzai ♥ Pirates",
@@ -333,7 +337,7 @@
     "genres": [
       "Idol-Pop"
     ],
-    "date": "2024-09-05 00:00:00 +0200"
+    "date": "2024-09-05"
   },
   {
     "title": "Fairy of AKIBerse!",
@@ -344,7 +348,7 @@
     "genres": [
       "Idol-Pop"
     ],
-    "date": "2024-09-05 00:00:00 +0200"
+    "date": "2024-09-05"
   },
   {
     "title": "KAFU-chan no Karee Udon",
@@ -353,7 +357,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-09-05 00:00:00 +0200"
+    "date": "2024-09-05"
   },
   {
     "title": "The History Suite",
@@ -362,7 +366,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-09-05 00:00:00 +0200"
+    "date": "2024-09-05"
   },
   {
     "title": "Otomodachi",
@@ -373,7 +377,7 @@
     "genres": [
       "Idol-Pop"
     ],
-    "date": "2024-09-12 00:00:00 +0200"
+    "date": "2024-09-12"
   },
   {
     "title": "Just Wanna xxxx With You",
@@ -384,7 +388,7 @@
     "genres": [
       "Idol-Pop"
     ],
-    "date": "2024-09-13 00:00:00 +0200"
+    "date": "2024-09-13"
   },
   {
     "title": "Decisive Battle 2",
@@ -395,7 +399,7 @@
     "genres": [
       "Game OST"
     ],
-    "date": "2024-09-18 00:00:00 +0200"
+    "date": "2024-09-18"
   },
   {
     "title": "Every Day Is Night",
@@ -406,7 +410,7 @@
     "genres": [
       "Game OST"
     ],
-    "date": "2024-09-18 00:00:00 +0200"
+    "date": "2024-09-18"
   },
   {
     "title": "Mashoushoujo",
@@ -415,7 +419,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-09-18 00:00:00 +0200"
+    "date": "2024-09-18"
   },
   {
     "title": "Hyururirapappa",
@@ -424,7 +428,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-09-23 00:00:00 +0200"
+    "date": "2024-09-23"
   },
   {
     "title": "Give up! I want to be reincarnated",
@@ -437,7 +441,7 @@
       "Vocaloid",
       "Japanese Electro Swing"
     ],
-    "date": "2024-09-27 00:00:00 +0200"
+    "date": "2024-09-27"
   },
   {
     "title": "Hanabami",
@@ -448,7 +452,7 @@
     "genres": [
       "Idol-Pop"
     ],
-    "date": "2024-10-07 00:00:00 +0200"
+    "date": "2024-10-07"
   },
   {
     "title": "Bunny Girl",
@@ -459,7 +463,7 @@
     "genres": [
       "J-Pop"
     ],
-    "date": "2024-10-23 00:00:00 +0200"
+    "date": "2024-10-23"
   },
   {
     "title": "AIN'T NOTHIN' LIKE A FUNKY BEAT",
@@ -471,7 +475,7 @@
       "Funk",
       "Game OST"
     ],
-    "date": "2024-10-26 00:00:00 +0200"
+    "date": "2024-10-26"
   },
   {
     "title": "What U Need",
@@ -480,7 +484,7 @@
     ],
     "genres": [
     ],
-    "date": "2024-10-26 00:00:00 +0200"
+    "date": "2024-10-26"
   },
   {
     "title": "Otonoke",
@@ -825,5 +829,216 @@
       "Rock"
     ],
     "date": "2024-12-10"
+  },
+  {
+    "title": "Great Grey Wolf Sif",
+    "ytlink": "https://youtu.be/txKd_Ssa4fs?si=4L1JZ7EYD4yDqAbh",
+    "artists": [
+      "Motoi Sakuraba"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-05-31"
+  },
+  {
+    "title": "Gwyn, Lord of Cinder",
+    "ytlink": "https://youtu.be/77rv-ff75Hk?si=7NJ0gT2dSemd3Hbn",
+    "artists": [
+      "Motoi Sakuraba"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-05-10"
+  },
+  {
+    "title": "Dark Souls III",
+    "ytlink": "https://youtu.be/-armx8FIpYU?si=7JYMUi1DBI0hu_wa",
+    "artists": [
+      "Yuka Kitamura"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-04-26"
+  },
+  {
+    "title": "Darkeater Midir",
+    "ytlink": "https://youtu.be/1jS2VIY7VeQ?si=P4GaAmrWvhod4kvg",
+    "artists": [
+      "Yuka Kitamura"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-04-25"
+  },
+  {
+    "title": "Sister Friede",
+    "ytlink": "https://youtu.be/-armx8FIpYU?si=7JYMUi1DBI0hu_wa",
+    "artists": [
+      "Yuka Kitamura"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-04-19"
+  },
+  ,
+  {
+    "title": "Pontiff Sulyvahn",
+    "ytlink": "https://youtu.be/1OjFwIi7eRQ?si=3RFukrJMIifK_Sln",
+    "artists": [
+      "Yuka Kitamura"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-04-11"
+  },
+  {
+    "title": "Nameless King",
+    "ytlink": "https://youtu.be/V2TTJZ193FU?si=xnJMVOXf17X2KX9R",
+    "artists": [
+      "Yuka Kitamura"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-04-11"
+  },
+  {
+    "title": "Hills of Radiant Winds",
+    "ytlink": "https://youtu.be/9XV7TeThdVA?si=dCku5Xf2jrwgxw3Q",
+    "artists": [
+      "Keiichi Okabe"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-09-21"
+  },
+  {
+    "title": "Lauf durch die Zeit",
+    "ytlink": "https://youtu.be/2QNkoCaeciQ?si=W0q27yHLgqmpoNl1",
+    "artists": [
+      "Conny Kreitmeier"
+    ],
+    "genres": [
+      "J-Pop",
+    ],
+    "date": "2024-07-04"
+  },
+  {
+    "title": "Main Menu/Map Theme",
+    "ytlink": "https://youtu.be/O8GCtc5cplc?si=WL0f63bFg8VS16Ka",
+    "artists": [
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-12-10"
+  },
+  {
+    "title": "The universe",
+    "ytlink": "https://youtube.com/shorts/W7kll5y3gFY?si=Cg3Ap7WX5kZDB061",
+    "artists": [
+      "Takeshi Abo"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-04-21"
+  },
+  {
+    "title": "Internet Survivor",
+    "ytlink": "https://youtu.be/G6N943NlCbw?si=uW8HaGYws08vUuNb",
+    "artists": [
+      "Ayaponzu",
+      "BeatMario"
+    ],
+    "genres": [
+      "J-Pop",
+      "Touhou"
+    ],
+    "date": "2024-03-12"
+  },
+  {
+    "title": "Logic",
+    "ytlink": "https://youtu.be/VMv-VSgDs-k?si=f7dazyxPGIiM14SD",
+    "artists": [
+      "Takeshi Abo"
+    ],
+    "genres": [
+      "Anime OST",
+    ],
+    "date": "2024-03-05"
+  },
+  {
+    "title": "Believe me",
+    "ytlink": "https://youtu.be/k27gPXCI7AY?si=7ag3DP6uoNHKUDga",
+    "artists": [
+      "Takeshi Abo"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-01-24"
+  },
+  {
+    "title": "GATE OF STEINER",
+    "ytlink": "https://youtu.be/oJKXKL41EVI?si=VMPJA1ieG7PgeSGB",
+    "artists": [
+      "Takeshi Abo"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2024-01-24"
+  },
+  {
+    "title": "Prologue",
+    "ytlink": "https://youtu.be/VWQfOitLWz0?si=deG1ltxMHhsRmTv6",
+    "artists": [
+      "Castlevania Sound Team"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2022-10-20"
+  },
+  {
+    "title": "Crystal Teardrops",
+    "ytlink": "https://youtu.be/XxEdkh4lYUQ?si=UPvksRl2tZ_flO4z",
+    "artists": [
+      "Castlevania Sound Team"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2022-10-20"
+  },
+  {
+    "title": "Lost Paintings",
+    "ytlink": "https://youtu.be/mkwwAaQEZ38?si=-qdcM6MZylkAbVvO",
+    "artists": [
+      "Castlevania Sound Team"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2022-10-20"
+  },
+  {
+    "title": "Requiem for the Gods",
+    "ytlink": "https://youtu.be/wIlXbaYudXY?si=WbEacrQ8TF5o1HWv",
+    "artists": [
+      "Castlevania Sound Team"
+    ],
+    "genres": [
+      "Game OST",
+    ],
+    "date": "2022-10-20"
   }
 ]

@@ -15,6 +15,10 @@ Freiheit der Community und zeigt, wie virtuelle Künstler die Musiklandschaft re
 <div>
     <b>Lieblingssongs von Miku:</b>
     <ul>
+        <li><a href="https://youtu.be/sV2H712ldOI?si=zKaYuVH5vzCyCCU8">Confessions of a Rotten Girl</a></li>
+        <li><a href="https://youtu.be/5l8VZEyNRH8?si=ylJ_vRt8W1A1sAeX">LEMON MELON COOKIE</a></li>
+        <li><a href="https://youtu.be/kbNdx0yqbZE?si=04suiy3ImgRofWCx">Monitoring</a></li>
+        <li><a href="https://youtu.be/Ljr2wMSBHqU?si=H45mcIDxcU3wKakQ">Mimukauwa Nice Try</a></li>
         <li><a href="https://youtu.be/shs0rAiwsGQ?si=jZ7LCSb6iiRUoj_L">Senbonzakura</a></li>
         <li><a href="https://youtu.be/WdAy_55dxqA?si=bv1AG2EMsk9gTX2l">Netoge Haijin Sprechchor</a></li>
         <li><a href="https://youtu.be/mco3UX9SqDA?si=PQY1byZq8ctI2pPb">PoPiPo</a></li>

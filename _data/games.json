@@ -52,7 +52,7 @@
     {
       "title": "Elden Ring",
       "finished": true,
-      "lastplayed": "2024-11-22",
+      "lastplayed": "2025-01-08",
       "platform": "PC",
       "rating": 5
     },
@@ -547,6 +547,13 @@
       "rating": 3
     },
     {
+      "title": "Mario & Luigi: Brothership",
+      "finished": false,
+      "lastplayed": "",
+      "platform": "NSW",
+      "rating":0
+    },
+    {
       "title": "Mario & Luigi: Superstar Saga + Bowsers Schergen",
       "finished": true,
       "lastplayed": "",
@@ -836,7 +843,7 @@
     {
       "title": "Pikmin 2",
       "finished": true,
-      "lastplayed": "",
+      "lastplayed": "2025-01-16",
       "platform": "GC",
       "rating": 5
     },
@@ -850,14 +857,14 @@
     {
       "title": "Pikmin 3 Deluxe",
       "finished": true,
-      "lastplayed": "",
+      "lastplayed": "2025-01-18",
       "platform": "NSW",
       "rating": 5
     },
     {
       "title": "Pikmin",
       "finished": true,
-      "lastplayed": "",
+      "lastplayed": "2025-01-15",
       "platform": "GC",
       "rating": 4
     },
@@ -2564,8 +2571,8 @@
     },
     {
       "title": "Factorio",
-      "finished": false,
-      "lastplayed": "",
+      "finished": true,
+      "lastplayed": "2025-01-11",
       "platform": "PC",
       "rating": 0
     },

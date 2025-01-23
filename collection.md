@@ -10,7 +10,7 @@ icon: N64
 Diese Seite widme ich meiner Videospiel und -konsolen Collection.
 
 Klicke auf die verschiedenen Tabs, um Informationen über die Konsole und die Spiele, die ich dafür besitze, zu erhalten.
-Alle Spiele, die dort jeweils gelistet sind, sind Kopien, die ich (hauptsächlich physisch) besitze. Darunter zählt also
+Alle Spiele, die dort jeweils gelistet sind, sind Kopien, die ich physisch besitze. Darunter zählt also
 nichts aus meiner sehr privaten und geheimen ROM-Sammlung :eyes:
 
 Ich hänge sehr an meinen Konsolen und Spielen, daher sind sie mir sehr viel wert. Ich habe jemals nur zwei Spiele
@@ -20,6 +20,7 @@ verleihen.
 <!--more-->
 Konsolen:
 
+* Nintendo Switch 2
 * Nintendo Entertainment System
 * DMG Game Boy
 * Game Boy Advance SP
@@ -33,4 +34,5 @@ Videospiele:
 * The Legend of Zelda: Ocarine of Time
 * Banjo-Kazooie
 * Pokémon Smaragd
+* Pokémon Kristall
 * Bloodborne

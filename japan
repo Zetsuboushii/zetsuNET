@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZETSUNET</title>
-    <link rel="stylesheet" href="/static//css/XP.css"/>
-    <link rel="stylesheet" href="/static//css/base.css"/>
-    <link rel="stylesheet" href="/static//css/japan.css"/>
-    <script src="/static//js/windowListener.js"></script>
+    <link rel="stylesheet" href="static/css/base.css">
+<link rel="stylesheet" href="static/css/home.css">
+<link rel="stylesheet" href="static/css/about.css">
+<link rel="stylesheet" href="static/css/japan.css">
+<script src="static/js/windowListener.js"></script>
+    <link rel="stylesheet" href="static/css/XP.css">
 </head>
 <body style="background-image: url('/static//ui/autumn.jpg'); background-size: cover;">
 <div class="page-containter">
@@ -46,17 +48,17 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
             </div>
             <div class="window-body">
                 <ul class="tree-view home-left-element" style="text-align: left">
-    <li><a href="index.html">ZetsuNET</a>
+    <li><a href="/">ZetsuNET</a>
         <ul>
-            <li><a href="about">Webmaster</a></li>
+            <li><a href="/about">Webmaster</a></li>
             <li>Videogames
                 <ul>
-                    <li><a href="collection">Collection</a></li>
-                    <li><a href="gamelog">Gamelog</a></li>
+                    <li><a href="/collection">Collection</a></li>
+                    <li><a href="/gamelog">Gamelog</a></li>
                 </ul>
             </li>
-            <li><a href="japan">Japan Adventures</a></li>
-            <li><a href="music">Music</a></li>
+            <li><a href="/japan">Japan Adventures</a></li>
+            <li><a href="/music">Music</a></li>
             <li>Shrines</li>
         </ul>
     </li>
@@ -87,7 +89,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
             </div>
             <div class="window-body">
                 <div class="sunken-panel">
-                    <img src="/static//ui/banner-japan-books.gif" alt=""
+                    <img src="static/ui/banner-japan-books.gif" alt=""
                          style="width: 100%; display: block; object-fit: cover">
                 </div>
             </div>

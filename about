@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZETSUNET</title>
-    <link rel="stylesheet" href="/static//css/98.css"/>
-    <link rel="stylesheet" href="/static//css/base.css"/>
-    <link rel="stylesheet" href="/static//css/about.css"/>
-    <script src="/static//js/windowListener.js"></script>
+    <link rel="stylesheet" href="static/css/98.css">
+    <link rel="stylesheet" href="static/css/base.css">
+<link rel="stylesheet" href="static/css/home.css">
+<link rel="stylesheet" href="static/css/about.css">
+<link rel="stylesheet" href="static/css/japan.css">
+<script src="static/js/windowListener.js"></script>
 </head>
 <body>
 <div class="page-containter">
@@ -22,7 +24,7 @@
             <div class="window-body about-body">
                 <div class="about-body-left sunken-panel" style="padding: 10px">
                     <div style="text-align: center">
-                        <img src="/static//gifs/zetsu.gif" alt=""
+                        <img src="static/gifs/zetsu.gif" alt=""
                              style="height: 100px; animation: pend 5s infinite ease-in-out;">
                     </div>
                     <hr>
@@ -47,7 +49,7 @@
 
                 </div>
                 <div class="about-body-right" style="text-align: center;">
-                    <img src="/static//imgs/scarlet.png" alt=""
+                    <img src="static/imgs/scarlet.png" alt=""
                          style="max-width: 250px; animation: bounce 3s infinite ease-in-out;">
 
                     <div class="window">
@@ -59,17 +61,17 @@
                         </div>
                         <div class="window-body">
                             <ul class="tree-view home-left-element" style="text-align: left">
-    <li><a href="index.html">ZetsuNET</a>
+    <li><a href="/">ZetsuNET</a>
         <ul>
-            <li><a href="about">Webmaster</a></li>
+            <li><a href="/about">Webmaster</a></li>
             <li>Videogames
                 <ul>
-                    <li><a href="collection">Collection</a></li>
-                    <li><a href="gamelog">Gamelog</a></li>
+                    <li><a href="/collection">Collection</a></li>
+                    <li><a href="/gamelog">Gamelog</a></li>
                 </ul>
             </li>
-            <li><a href="japan">Japan Adventures</a></li>
-            <li><a href="music">Music</a></li>
+            <li><a href="/japan">Japan Adventures</a></li>
+            <li><a href="/music">Music</a></li>
             <li>Shrines</li>
         </ul>
     </li>
@@ -93,7 +95,7 @@
             </div>
             <div class="window-body" style="height: 91%">
                 <div class="sunken-panel">
-                    <img src="/static//ui/banner-windows.gif" alt="" style="width: 100%; display: block; object-fit: cover">
+                    <img src="static/ui/banner-windows.gif" alt="" style="width: 100%; display: block; object-fit: cover">
                 </div>
             </div>
         </div>
@@ -106,7 +108,7 @@
             </div>
             <div class="window-body" style="height: 98%">
                 <div class="sunken-panel" style="height: 98%">
-                    <img src="/static//imgs/akihabara.jpg" alt="" style="height: 100%; width: 100%; display: block; object-fit: cover">
+                    <img src="static/imgs/akihabara.jpg" alt="" style="height: 100%; width: 100%; display: block; object-fit: cover">
                 </div>
             </div>
         </div>

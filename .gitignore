@@ -1,5 +1,6 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+/build/
+/.idea/
+/static/css/.sass-cache/
+/old/
+__pycache__
+/venv/

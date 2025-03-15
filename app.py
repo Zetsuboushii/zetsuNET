@@ -1,15 +1,16 @@
 import json
-from flask import Flask, render_template, request, g, redirect, url_for
+from flask import Flask, render_template, g
 import markdown
 import os
 import glob
-
 from flask_frozen import Freezer
 
 app = Flask(__name__, static_folder="static")
 freezer = Freezer(app)
 
+app.config['FREEZER_DESTINATION_IGNORE'] = ['index']
 app.config['FREEZER_RELATIVE_URLS'] = True
+app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
 app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
 
 
@@ -37,7 +38,7 @@ def before_request():
     g.debug = app.debug
 
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/')
 def index():
     home_json = load_from_json("home.json")
     content_md = load_from_markdown("home.md")
@@ -45,24 +46,25 @@ def index():
     return render_template('index.html', home=home_json, content=content_md)
 
 
-@app.route('/about', methods=['POST', 'GET'])
+@app.route('/about.html')
 def about():
     intro_md = load_from_markdown("about/about.md")
     interests_md = load_from_markdown("about/interests.md")
+
     return render_template('about.html', intro=intro_md, interests=interests_md)
 
 
-@app.route('/collection', methods=['POST', 'GET'])
+@app.route('/collection.html')
 def collection():
     return render_template('collection.html')
 
 
-@app.route('/gamelog', methods=['POST', 'GET'])
+@app.route('/gamelog.html')
 def gamelog():
     return render_template('gamelog.html')
 
 
-@app.route('/japan', methods=['POST', 'GET'])
+@app.route('/japan.html')
 def japan():
     blog_entries = glob.glob(os.path.join("static/entries/blog/japan-3", "*.md"))
     entries = []
@@ -74,10 +76,11 @@ def japan():
     return render_template('japan.html', entries=entries)
 
 
-@app.route('/music', methods=['POST', 'GET'])
+@app.route('/music.html')
 def music():
     return render_template('music.html')
 
 
 if __name__ == '__main__':
     app.run(debug=True)
+    freezer.freeze()

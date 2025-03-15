@@ -1,6 +1,5 @@
-from flask import url_for
 from flask_frozen import Freezer
-from app import app, load_from_json
+from app import app
 
 freezer = Freezer(app)
 

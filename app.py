@@ -36,11 +36,6 @@ def before_request():
     g.static = "/static/"
     g.debug = app.debug
 
-    apex_domain = "zetsuboushii.site/"
-    image_subdomain = "https://images."
-    g.img_host = image_subdomain + apex_domain + "dnd/"
-    g.img_host_resized = image_subdomain + apex_domain + "resized/dnd/"
-
 
 @app.route('/')
 def index():

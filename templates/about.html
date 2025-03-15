@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ g.site_title | upper }}</title>
-    <link rel="stylesheet" href="{{ g.static }}/css/98.css"/>
-    <link rel="stylesheet" href="{{ g.static }}/css/base.css"/>
-    <link rel="stylesheet" href="{{ g.static }}/css/about.css"/>
-    <script src="{{ g.static }}/js/windowListener.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/98.css') }}">
+    {% include "includes.html" %}
 </head>
 <body>
 <div class="page-containter">
@@ -22,7 +20,7 @@
             <div class="window-body about-body">
                 <div class="about-body-left sunken-panel" style="padding: 10px">
                     <div style="text-align: center">
-                        <img src="{{ g.static }}/gifs/zetsu.gif" alt=""
+                        <img src="{{ url_for('static', filename='gifs/zetsu.gif')}}" alt=""
                              style="height: 100px; animation: pend 5s infinite ease-in-out;">
                     </div>
                     <hr>
@@ -33,7 +31,7 @@
 
                 </div>
                 <div class="about-body-right" style="text-align: center;">
-                    <img src="{{ g.static }}/imgs/scarlet.png" alt=""
+                    <img src="{{ url_for('static', filename='imgs/scarlet.png')}}" alt=""
                          style="max-width: 250px; animation: bounce 3s infinite ease-in-out;">
 
                     <div class="window">
@@ -64,7 +62,7 @@
             </div>
             <div class="window-body" style="height: 91%">
                 <div class="sunken-panel">
-                    <img src="{{ g.static }}/ui/banner-windows.gif" alt="" style="width: 100%; display: block; object-fit: cover">
+                    <img src="{{ url_for('static', filename='ui/banner-windows.gif')}}" alt="" style="width: 100%; display: block; object-fit: cover">
                 </div>
             </div>
         </div>
@@ -77,7 +75,7 @@
             </div>
             <div class="window-body" style="height: 98%">
                 <div class="sunken-panel" style="height: 98%">
-                    <img src="{{ g.static }}/imgs/akihabara.jpg" alt="" style="height: 100%; width: 100%; display: block; object-fit: cover">
+                    <img src="{{ url_for('static', filename='imgs/akihabara.jpg')}}" alt="" style="height: 100%; width: 100%; display: block; object-fit: cover">
                 </div>
             </div>
         </div>

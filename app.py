@@ -37,7 +37,7 @@ def before_request():
     g.debug = app.debug
 
 
-@app.route('/')
+@app.route('/', methods=['POST', 'GET'])
 def index():
     home_json = load_from_json("home.json")
     content_md = load_from_markdown("home.md")
@@ -45,24 +45,24 @@ def index():
     return render_template('index.html', home=home_json, content=content_md)
 
 
-@app.route('/about')
+@app.route('/about', methods=['POST', 'GET'])
 def about():
     intro_md = load_from_markdown("about/about.md")
     interests_md = load_from_markdown("about/interests.md")
     return render_template('about.html', intro=intro_md, interests=interests_md)
 
 
-@app.route('/collection')
+@app.route('/collection', methods=['POST', 'GET'])
 def collection():
     return render_template('collection.html')
 
 
-@app.route('/gamelog')
+@app.route('/gamelog', methods=['POST', 'GET'])
 def gamelog():
     return render_template('gamelog.html')
 
 
-@app.route('/japan')
+@app.route('/japan', methods=['POST', 'GET'])
 def japan():
     blog_entries = glob.glob(os.path.join("static/entries/blog/japan-3", "*.md"))
     entries = []
@@ -74,7 +74,7 @@ def japan():
     return render_template('japan.html', entries=entries)
 
 
-@app.route('/music')
+@app.route('/music', methods=['POST', 'GET'])
 def music():
     return render_template('music.html')
 

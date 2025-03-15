@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ g.site_title | upper }}</title>
-    <link rel="stylesheet" href="{{ g.static }}/css/XP.css"/>
-    <link rel="stylesheet" href="{{ g.static }}/css/base.css"/>
-    <link rel="stylesheet" href="{{ g.static }}/css/japan.css"/>
-    <script src="{{ g.static }}/js/windowListener.js"></script>
+    {% include "includes.html" %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/XP.css') }}">
 </head>
 <body style="background-image: url('{{ g.static }}/ui/autumn.jpg'); background-size: cover;">
 <div class="page-containter">
@@ -64,7 +62,7 @@
             </div>
             <div class="window-body">
                 <div class="sunken-panel">
-                    <img src="{{ g.static }}/ui/banner-japan-books.gif" alt=""
+                    <img src="{{ url_for('static', filename='ui/banner-japan-books.gif')}}" alt=""
                          style="width: 100%; display: block; object-fit: cover">
                 </div>
             </div>

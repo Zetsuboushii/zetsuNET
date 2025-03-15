@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ g.site_title | upper }}</title>
-    <link rel="stylesheet" href="{{ g.static }}/css/98.css"/>
-    <link rel="stylesheet" href="{{ g.static }}/css/base.css"/>
-    <link rel="stylesheet" href="{{ g.static }}/css/home.css"/>
-    <script src="{{ g.static }}/js/windowListener.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/98.css') }}">
+    {% include "includes.html" %}
 </head>
 <body>
 <div class="page-containter">
     <div class="page">
         <div class="hide-on-mobile" style="text-align: center; margin: 10px 0 10px 0">
-            <img src="{{ g.static }}/ui/banner-lain.gif" alt="" style="height: 70px">
-            <img src="{{ g.static }}/ui/banner-higu.jpg" alt="" style="height: 70px">
+            <img src="{{ url_for('static', filename='ui/banner-lain.gif')}}" alt="" style="height: 70px">
+            <img src="{{ url_for('static', filename='ui/banner-higu.jpg')}}" alt="" style="height: 70px">
         </div>
         <div class="window" style="max-width: 1000px; margin: 0 auto 0 auto">
             <div class="title-bar">
@@ -33,12 +31,12 @@
                 </div>
                 <div class="home-right">
                     <div class="hide-on-mobile" style="text-align: center">
-                        <img src="{{ g.static }}/ui/banner-construction.gif" alt="">
+                        <img src="{{ url_for('static', filename='ui/banner-construction.gif')}}" alt="">
                     </div>
                     <div class="home-main" style="margin-bottom: 10px">
                         <div class="home-main-left sunken-panel" style="padding: 10px">
                             <div style="text-align: center">
-                                <img src="{{ g.static }}/gifs/welcome.gif" alt="" style="height: 100px">
+                                <img src="{{ url_for('static', filename='gifs/welcome.gif')}}" alt="" style="height: 100px">
                             </div>
                             <hr>
                             {{ content | safe }}
@@ -66,29 +64,29 @@
                     </div>
 
                     <marquee behavior="scroll" direction="left" scrollamount="9">
-                        <img src="{{ g.static }}/ui/button-2hu.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-akane.png" alt="">
-                        <img src="{{ g.static }}/ui/button-armstrong.png" alt="">
-                        <img src="{{ g.static }}/ui/button-bestview.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-blasphemy.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-browser.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-chocomint.png" alt="">
-                        <img src="{{ g.static }}/ui/button-chrome.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-emulate.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-fukkireta.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-graphicdesign.png" alt="">
-                        <img src="{{ g.static }}/ui/button-html5.png" alt="">
-                        <img src="{{ g.static }}/ui/button-linux.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-miku-approved.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-plasticlove.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-resin.png" alt="">
-                        <img src="{{ g.static }}/ui/button-starjewel.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-steam.png" alt="">
-                        <img src="{{ g.static }}/ui/button-tf.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-ublock-now.png" alt="">
-                        <img src="{{ g.static }}/ui/button-vim.gif" alt="">
-                        <img src="{{ g.static }}/ui/button-vocaloid.png" alt="">
-                        <img src="{{ g.static }}/ui/button-yn4.gif" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-2hu.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-akane.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-armstrong.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-bestview.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-blasphemy.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-browser.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-chocomint.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-chrome.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-emulate.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-fukkireta.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-graphicdesign.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-html5.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-linux.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-miku-approved.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-plasticlove.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-resin.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-starjewel.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-steam.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-tf.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-ublock-now.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-vim.gif')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-vocaloid.png')}}" alt="">
+                        <img src="{{ url_for('static', filename='ui/button-yn4.gif')}}" alt="">
                     </marquee>
 
                     <div class="show-on-mobile" style="text-align: center">

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZETSUNET</title>
+    <link rel="stylesheet" href="/static//css/XP.css"/>
+    <link rel="stylesheet" href="/static//css/base.css"/>
+    <link rel="stylesheet" href="/static//css/japan.css"/>
+    <script src="/static//js/windowListener.js"></script>
+</head>
+<body style="background-image: url('/static//ui/autumn.jpg'); background-size: cover;">
+<div class="page-containter">
+    <div class="page japan-container">
+        <div class="window japan-main">
+            <div class="title-bar">
+                <div class="title-bar-text">Command Prompt</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+<pre style="white-space: pre-wrap; word-wrap: break-word; max-height: 600px; overflow-y: scroll">Zetsu&#10094;R&#10095; ZetsuNET DOS
+&#10094;C&#10095; Copyright Zetsu 2025.
+<br>C:\ZETSUOS\SYSTEM32> Hier trage ich meine Erlebnisse meiner dritten großen Reise nach Japan zusammen.
+
+2025-04-14> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.
+
+2025-04-13> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet.
+
+</pre>
+            </div>
+        </div>
+        <div class="window japan-links">
+            <div class="title-bar">
+                <div class="title-bar-text">Links</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <ul class="tree-view home-left-element" style="text-align: left">
+    <li><a href="index.html">ZetsuNET</a>
+        <ul>
+            <li><a href="about">Webmaster</a></li>
+            <li>Videogames
+                <ul>
+                    <li><a href="collection">Collection</a></li>
+                    <li><a href="gamelog">Gamelog</a></li>
+                </ul>
+            </li>
+            <li><a href="japan">Japan Adventures</a></li>
+            <li><a href="music">Music</a></li>
+            <li>Shrines</li>
+        </ul>
+    </li>
+</ul>
+            </div>
+        </div>
+        <div class="window japan-ad-left">
+            <div class="title-bar">
+                <div class="title-bar-text">Ad</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+
+            </div>
+        </div>
+        <div class="window japan-head">
+            <div class="title-bar">
+                <div class="title-bar-text">Head</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <div class="sunken-panel">
+                    <img src="/static//ui/banner-japan-books.gif" alt=""
+                         style="width: 100%; display: block; object-fit: cover">
+                </div>
+            </div>
+        </div>
+        <div class="window japan-ad-right">
+            <div class="title-bar">
+                <div class="title-bar-text">Ad</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

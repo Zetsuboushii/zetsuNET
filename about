@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZETSUNET</title>
+    <link rel="stylesheet" href="/static//css/98.css"/>
+    <link rel="stylesheet" href="/static//css/base.css"/>
+    <link rel="stylesheet" href="/static//css/about.css"/>
+    <script src="/static//js/windowListener.js"></script>
+</head>
+<body>
+<div class="page-containter">
+    <div class="page about-container">
+        <div class="window about-main">
+            <div class="title-bar">
+                <div class="title-bar-text">About Zetsu...</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body about-body">
+                <div class="about-body-left sunken-panel" style="padding: 10px">
+                    <div style="text-align: center">
+                        <img src="/static//gifs/zetsu.gif" alt=""
+                             style="height: 100px; animation: pend 5s infinite ease-in-out;">
+                    </div>
+                    <hr>
+                    <p>Ich bin Zetsu, 22 Jahre alt.</p>
+                    <hr>
+                    <h4>Dinge, die mich interessieren</h4>
+<h5>Softwareentwicklung</h5>
+<p>Besonders faszinierend finde ich, wie es Entwicklern in der NES-, SNES- und N64-Ära gelungen ist, komplexe Spiele auf extrem eingeschränkter Hardware zu erschaffen. Diese Herausforderung und die damit verbundene Notwendigkeit zur Optimierung haben mich stark beeinflusst. Ich versuche, diesen Ansatz in meiner eigenen Arbeit zu verfolgen: Code sollte effizient und einfach sein. Leider führt die nahezu unbegrenzte Rechenleistung moderner Geräte oft dazu, dass der Fokus auf Code-Optimierung verloren geht, und viele Entwickler greifen schnell zu Frameworks und trivialen Bibliotheken. Ein Zitat von Terry A. Davis, dem Entwickler von TempleOS, hat mich dabei besonders geprägt: “An idiot admires complexity, a genius admires simplicity.” (Ich distanziere mich jedoch ausdrücklich von den problematischen Aussagen, die Davis durch seine Schizophrenie getätigt hat.) Für mich gilt der Leitsatz: Einfachheit ist das ultimative Ziel.</p>
+<h5>Konsolenrestaurierung</h5>
+<p>Das Restaurieren alter Nintendo-Konsolen ist für mich nicht nur eine technische Herausforderung, sondern auch eine Herzensangelegenheit. Die Geräte meiner Kindheit, wie der Game Boy und das SNES, wieder funktionsfähig zu machen, ist für mich eine Kombination aus Nostalgie, technischer Fertigkeit und Kreativität. Jede Konsole hat ihre eigene Geschichte, und es ist ein erfüllendes Gefühl, diese Geschichte fortzuführen, indem ich den Geräten neues Leben einhauche. Besonders spannend finde ich dabei, wie die Technik hinter diesen Konsolen funktioniert, und ich liebe es, diese alten Technologien zu verstehen.</p>
+<h5>Musik</h5>
+<p>Musik spielt eine wichtige Rolle in meinem Leben. Seit meinem sechsten Lebensjahr spiele ich Klavier, und ich habe eine besondere Vorliebe für Videospiel- und Anime-Soundtracks. Diese Stücke sind oft emotional, komplex und erzählen eigene Geschichten, was mich immer wieder inspiriert. Besonders die Soundtracks von Nintendo haben mich stark geprägt, da frühe Komponisten wie Koji Kondo den unverwechselbaren Stil der Nintendo-Musik etabliert haben, der mich durch meine gesamte Kindheit begleitet hat. Darüber hinaus höre ich überwiegend japanische Pop- und Rockmusik. Der einzigartige Stil vieler japanischer Künstler und die Vielfalt der Genres faszinieren mich. Im Vergleich dazu finde ich, dass sich Pop- und Rockmusik in Deutschland oft wie Massenware anhört. Für einen genaueren Einblick: Mein Spotify-Profil ist im Footer dieser Seite verlinkt. </p>
+<h5>Japanische Popkultur</h5>
+<p>Ich interessiere mich sehr für die japanische Popkultur, insbesondere für Anime und Manga. Meine ersten Anime waren “ Steins;Gate” und “Detektiv Conan”, die beide bis heute zu meinen absoluten Favoriten zählen. Ich liebe es, in die unterschiedlichen Welten der Geschichten einzutauchen und finde es unglaublich faszinierend, wie vielfältig und kreativ die Inhalte der japanischen Popkultur sind. Auch die oben genannten Musikrichtungen begleiten mich jeden Tag, und ich genieße es, mich damit zu befassen. </p>
+<h5>Altes Internet</h5>
+<p>Ich finde das Internet der 90er und frühen 2000er unfassbar nostalgisch, auch wenn das noch vor meiner Geburt war. Besonders spannend finde ich die Internetkultur rund um Seiten wie 2chan und NicoNicoDouga, die außerhalb Japans fast schon unbekannt sind. Diese Subkulturen haben eine einzigartige Atmosphäre, die mich fasziniert und mich daran erinnert, wie anders und experimentell das Internet in seiner frühen Phase war. </p>
+<h5>Öffentlicher Personenverkehr</h5>
+<p>Meine Arbeit bei der Deutschen Bahn bietet mir die Möglichkeit, an einer nachhaltigen Mobilitätslösung für die Zukunft mitzuwirken. Ich glaube fest daran, dass der Ausbau öffentlicher Verkehrsmittel der richtige Weg zu einer umweltfreundlichen und effizienten Mobilität ist. Es motiviert mich, Teil dieser Vision zu sein und daran zu arbeiten, den öffentlichen Verkehr effizienter und nutzerfreundlicher zu gestalten. Mobilität sollte für jeden zugänglich, umweltfreundlich und gemeinschaftlich sein – und ich bin stolz darauf, durch meine Arbeit meinen Teil dazu beizutragen.</p>
+<h5>Dungeons &amp; Dragons</h5>
+<p>Ich spiele und leite hauptsächlich als Dungeon Master Dungeons &amp; Dragons. Mein Hauptfokus liegt zurzeit auf einer massiven Kampagne, zu der ich auch ein eigenes Wiki und eine interaktive Karte geschrieben habe. Ich liebe es, mir Welten, Charaktere und Konflikte auszudenken und anschließend meine Spieler mit allem interagieren und sich in der Welt immersieren zu sehen. </p>
+                    <hr>
+
+                </div>
+                <div class="about-body-right" style="text-align: center;">
+                    <img src="/static//imgs/scarlet.png" alt=""
+                         style="max-width: 250px; animation: bounce 3s infinite ease-in-out;">
+
+                    <div class="window">
+                        <div class="title-bar">
+                            <div class="title-bar-text">Links</div>
+                            <div class="title-bar-controls">
+                                <button aria-label="Close"></button>
+                            </div>
+                        </div>
+                        <div class="window-body">
+                            <ul class="tree-view home-left-element" style="text-align: left">
+    <li><a href="index.html">ZetsuNET</a>
+        <ul>
+            <li><a href="about">Webmaster</a></li>
+            <li>Videogames
+                <ul>
+                    <li><a href="collection">Collection</a></li>
+                    <li><a href="gamelog">Gamelog</a></li>
+                </ul>
+            </li>
+            <li><a href="japan">Japan Adventures</a></li>
+            <li><a href="music">Music</a></li>
+            <li>Shrines</li>
+        </ul>
+    </li>
+</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="status-bar">
+                <p class="status-bar-field">Press Alt+f4 for help</p>
+                <p class="status-bar-field">Homepage</p>
+                <p class="status-bar-field">CPU Usage: 42%</p>
+            </div>
+        </div>
+        <div class="window about-head">
+            <div class="title-bar">
+                <div class="title-bar-text">新しい Microsoft Windows 98 を入手する</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body" style="height: 91%">
+                <div class="sunken-panel">
+                    <img src="/static//ui/banner-windows.gif" alt="" style="width: 100%; display: block; object-fit: cover">
+                </div>
+            </div>
+        </div>
+        <div class="window about-ad">
+            <div class="title-bar">
+                <div class="title-bar-text">Image by Tokyo Gensou</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body" style="height: 98%">
+                <div class="sunken-panel" style="height: 98%">
+                    <img src="/static//imgs/akihabara.jpg" alt="" style="height: 100%; width: 100%; display: block; object-fit: cover">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.japan-container {
+  margin: 20px auto 0 auto;
+  display: grid;
+  grid-template-areas:
+    "ad-left head links"
+    "ad-left main ad-right";
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr 3.5fr;
+  gap: 10px;
+
+  .japan-head {
+    grid-area: head;
+  }
+
+  .japan-ad-left {
+    grid-area: ad-left;
+  }
+
+  .japan-links {
+    grid-area: links;
+  }
+
+  .japan-ad-right {
+    grid-area: ad-right;
+  }
+
+  .japan-main {
+    grid-area: main;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .japan-container {
+    display: initial;
+  }
+}

@@ -48,17 +48,17 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
             </div>
             <div class="window-body">
                 <ul class="tree-view home-left-element" style="text-align: left">
-    <li><a href="/">ZetsuNET</a>
+    <li><a href="index.html">ZetsuNET</a>
         <ul>
-            <li><a href="/about">Webmaster</a></li>
+            <li><a href="about">Webmaster</a></li>
             <li>Videogames
                 <ul>
-                    <li><a href="/collection">Collection</a></li>
-                    <li><a href="/gamelog">Gamelog</a></li>
+                    <li><a href="collection">Collection</a></li>
+                    <li><a href="gamelog">Gamelog</a></li>
                 </ul>
             </li>
-            <li><a href="/japan">Japan Adventures</a></li>
-            <li><a href="/music">Music</a></li>
+            <li><a href="japan">Japan Adventures</a></li>
+            <li><a href="music">Music</a></li>
             <li>Shrines</li>
         </ul>
     </li>

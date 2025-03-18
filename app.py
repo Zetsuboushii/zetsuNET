@@ -64,11 +64,14 @@ def gamelog():
     return render_template('gamelog.html')
 
 
-@app.route('/blog.html', methods=['GET', 'POST'])
+@app.route('/blog.html')
 def blog():
+    return render_template('blog.html')
+
+@app.route('/blog/<blog>.html')
+def blog_entry(blog):
     entries = []
     heading = ""
-    blog = request.args.get('blog')
 
     if blog == 'japan-3':
         heading = load_file(f'blog/{blog}/heading')

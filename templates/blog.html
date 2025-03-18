@@ -14,7 +14,7 @@
 C:\ZETSUOS\SYSTEM32> Zurück zur Hauptseite geht es <a href="{{ url_for('index') }}">hier</a>
 
 C:\ZETSUOS\SYSTEM32> Wähle einen Blog:
-    [1] Zetsu's 3rd Great Japan Adventure (<a href="{{ url_for('blog', blog='japan-3') }}">JAPAN-3</a>)
+    [1] Zetsu's 3rd Great Japan Adventure (<a href="{{ url_for('blog_entry', blog='japan-3') }}">JAPAN-3</a>)
 {% if entries %}
 C:\ZETSUOS\SYSTEM32> {{ blog | upper }}
 {% include "blog-entry.html" %}{% endif %}

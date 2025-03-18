@@ -81,7 +81,16 @@ def blog_entry(blog):
             with open(entry, encoding="utf8") as file:
                 entries.append((os.path.splitext(os.path.basename(entry))[0], file.read()))
 
-        entries.reverse()
+        def sort_key(entry):
+            name, _ = entry
+            if name == "intro":
+                return (1, "")
+            try:
+                return (0, name)
+            except ValueError:
+                return (2, name)
+
+        entries = sorted(entries, key=sort_key, reverse=True)
 
     return render_template('blog.html', entries=entries, blog=blog, heading=heading)
 

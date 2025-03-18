@@ -5,7 +5,6 @@
     "head ad"
     "main ad";
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: 1fr 4fr;
   gap: 10px;
 
   .about-head {
@@ -32,7 +31,7 @@
 
       .about-body-left {
         grid-area: left;
-        max-height: 620px;
+        max-height: 632px;
         overflow-y: scroll;
       }
 

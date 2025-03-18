@@ -1,9 +1,8 @@
 .japan-container {
   margin: 20px auto 0 auto;
   display: grid;
-  grid-template-areas: "ad-left head links" "ad-left main ad-right";
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 1fr 3.5fr;
+  grid-template-areas: "head links" "main main";
+  grid-template-columns: 6fr 1fr;
   gap: 10px; }
   .japan-container .japan-head {
     grid-area: head; }
@@ -20,4 +19,4 @@
   .japan-container {
     display: initial; } }
 
-/*# sourceMappingURL=japan.css.map */
+/*# sourceMappingURL=music.css.map */

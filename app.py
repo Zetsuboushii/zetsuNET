@@ -1,5 +1,5 @@
 import json
-from flask import Flask, render_template, g
+from flask import Flask, render_template, g, request
 import markdown
 import os
 import glob
@@ -64,21 +64,35 @@ def gamelog():
     return render_template('gamelog.html')
 
 
-@app.route('/japan.html')
-def japan():
-    blog_entries = glob.glob(os.path.join("static/entries/blog/japan-3", "*.md"))
+@app.route('/blog.html', methods=['GET', 'POST'])
+def blog():
     entries = []
+    heading = ""
+    blog = request.args.get('blog')
 
-    for entry in blog_entries:
-        with open(entry, encoding="utf8") as file:
-            entries.append((os.path.splitext(os.path.basename(entry))[0], file.read()))
+    if blog == 'japan-3':
+        heading = load_file(f'blog/{blog}/heading')
+        blog_entries = glob.glob(os.path.join(f'static/entries/blog/{blog}', "*.md"))
 
-    return render_template('japan.html', entries=entries)
+        for entry in blog_entries:
+            with open(entry, encoding="utf8") as file:
+                entries.append((os.path.splitext(os.path.basename(entry))[0], file.read()))
+
+        entries.reverse()
+
+    return render_template('blog.html', entries=entries, blog=blog, heading=heading)
 
 
 @app.route('/music.html')
 def music():
-    return render_template('music.html')
+    intro_md = load_from_markdown("music/intro.md")
+    playlists = {
+        "daily": load_from_markdown("music/daily.md"),
+        "vocaloid": load_from_markdown("music/vocaloid.md"),
+        "schizo": load_from_markdown("music/schizo.md"),
+    }
+
+    return render_template('music.html', intro=intro_md, playlists=playlists)
 
 
 if __name__ == '__main__':

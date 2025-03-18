@@ -1,0 +1,1 @@
+Hier liste ich ein paar meiner wertesten Playlists auf. Ich weiß, das sind Spotify Embeds, ja, aber es ist nun mal deutlich einfacher so einen allgemeinen Überblick über meinen Musikgeschmack zu geben, als würde ich jetzt hier tausende redundante, manuelle Aufzählungen von Songs machen. In einer vorherigen Version meiner Website habe ich dies bestimmt auch nicht getan :) 

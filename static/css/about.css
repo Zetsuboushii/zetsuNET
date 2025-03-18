@@ -3,7 +3,6 @@
   display: grid;
   grid-template-areas: "head ad" "main ad";
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: 1fr 4fr;
   gap: 10px; }
   .about-container .about-head {
     grid-area: head; }
@@ -21,7 +20,7 @@
         text-align: justify; }
       .about-container .about-main .about-body .about-body-left {
         grid-area: left;
-        max-height: 620px;
+        max-height: 632px;
         overflow-y: scroll; }
       .about-container .about-main .about-body .about-body-right {
         grid-area: right; }

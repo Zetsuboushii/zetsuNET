@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ g.site_title | upper }} | ABOUT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/XP.css') }}">
+    {% include "includes.html" %}
+</head>
+<body style="background-image: url('{{ g.static }}ui/autumn.jpg'); background-size: cover;">
+<div class="page-containter">
+    <div class="page about-container">
+        <div class="window about-main">
+            <div class="title-bar">
+                <div class="title-bar-text">Something for thine ears</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body about-body">
+                <div class="about-body-left" style="padding: 10px">
+                    <div style="display: grid; grid-template-columns: 1fr 4fr 1fr; text-align: center">
+                        <img src="{{ url_for('static', filename='gifs/HOT.gif') }}" alt=""
+                             style="margin: auto 0 auto 0">
+                        <h2 style="margin: 0">音楽</h2>
+                        <img src="{{ url_for('static', filename='gifs/HOT.gif') }}" alt=""
+                             style="margin: auto 0 auto 0">
+                    </div>
+                    {{ intro | safe }}
+                    <section class="tabs">
+                        <menu role="tablist" aria-label="Sample Tabs">
+                            <button role="tab" aria-selected="true" aria-controls="tab-A">Daily</button>
+                            <button role="tab" aria-controls="tab-B">Vocaloid</button>
+                            <button role="tab" aria-controls="tab-C">Schizo</button>
+                        </menu>
+                        <article role="tabpanel" id="tab-A">
+                            {{ playlists.daily | safe }}
+                            <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/79JltZwsvQdWLbNZ4bamlV?utm_source=generator"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                        </article>
+                        <article role="tabpanel" hidden id="tab-B">
+                            {{ playlists.vocaloid | safe }}
+                            <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/5gdhufVhYU9wFgnLR326Fi?utm_source=generator"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                        </article>
+                        <article role="tabpanel" hidden id="tab-C">
+                            {{ playlists.schizo | safe }}
+                            <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/6P40IXGHfiPSqirkaGweBS?utm_source=generator"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                        </article>
+                    </section>
+                </div>
+                <div class="about-body-right" style="text-align: center; padding-right: 10px">
+                    <img src="{{ url_for('static', filename='gifs/amechan-vibing.gif') }}" alt=""
+                         style="max-width: 250px;">
+                    <h5>Kirby bringt dich wieder nach Hause</h5>
+                    <a href="{{ url_for('index') }}">
+                    <img src="{{ url_for('static', filename='gifs/kirbybop.gif') }}" alt=""
+                         style="max-width: 250px;">
+                        </a>
+                </div>
+            </div>
+            <div class="status-bar">
+                <p class="status-bar-field">Press Alt+f4 for help</p>
+                <p class="status-bar-field">
+                    <progress style="width: 100%"></progress>
+                </p>
+                <p class="status-bar-field">CPU Usage: 42%</p>
+            </div>
+        </div>
+        <div class="window about-head">
+            <div class="title-bar">
+                <div class="title-bar-text">Window Top</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body" style="text-align: center">
+                    <img src="{{ url_for('static', filename='ui/banner-construction.gif') }}" alt="">
+            </div>
+        </div>
+        <div class="window about-ad">
+            <div class="title-bar">
+                <div class="title-bar-text">Window Right</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body" style="height: 98%">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script>
+
+</script>

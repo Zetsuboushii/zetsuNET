@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ g.site_title | upper }}</title>
+    <title>{{ g.site_title | upper }} | ABOUT</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/98.css') }}">
     {% include "includes.html" %}
 </head>
@@ -20,7 +20,7 @@
             <div class="window-body about-body">
                 <div class="about-body-left sunken-panel" style="padding: 10px">
                     <div style="text-align: center">
-                        <img src="{{ url_for('static', filename='gifs/zetsu.gif')}}" alt=""
+                        <img src="{{ url_for('static', filename='gifs/zetsu.gif') }}" alt=""
                              style="height: 100px; animation: pend 5s infinite ease-in-out;">
                     </div>
                     <hr>
@@ -31,7 +31,7 @@
 
                 </div>
                 <div class="about-body-right" style="text-align: center;">
-                    <img src="{{ url_for('static', filename='imgs/scarlet.png')}}" alt=""
+                    <img src="{{ url_for('static', filename='imgs/scarlet.png') }}" alt=""
                          style="max-width: 250px; animation: bounce 3s infinite ease-in-out;">
 
                     <div class="window">
@@ -42,7 +42,15 @@
                             </div>
                         </div>
                         <div class="window-body">
-                            {% include "nav.html" %}
+                            <ul class="tree-view home-left-element" style="text-align: left">
+                                <li><a href="{{ url_for('index') }}">Homepage</a></li>
+                                <li>---</li>
+                                <li><a href="https://open.spotify.com/user/fefuqa5sxojouw2paqibdy5wi">Spotify</a></li>
+                                <li><a href="https://www.instagram.com/zetsuboushii">Instagram</a></li>
+                                <li><a href="https://discordapp.com/users/406094506509991936">Discord</a></li>
+                                <li><a href="https://myanimelist.net/animelist/Zetsuboushi">MyAnimeList</a></li>
+                                <li><a href="https://steamcommunity.com/id/zetsuboushii/">Steam</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -62,7 +70,8 @@
             </div>
             <div class="window-body" style="height: 91%">
                 <div class="sunken-panel">
-                    <img src="{{ url_for('static', filename='ui/banner-windows.gif')}}" alt="" style="width: 100%; display: block; object-fit: cover">
+                    <img src="{{ url_for('static', filename='ui/banner-windows.gif') }}" alt=""
+                         style="width: 100%; display: block; object-fit: cover">
                 </div>
             </div>
         </div>
@@ -75,7 +84,8 @@
             </div>
             <div class="window-body" style="height: 98%">
                 <div class="sunken-panel" style="height: 98%">
-                    <img src="{{ url_for('static', filename='imgs/akihabara.jpg')}}" alt="" style="height: 100%; width: 100%; display: block; object-fit: cover">
+                    <img src="{{ url_for('static', filename='imgs/akihabara.jpg') }}" alt=""
+                         style="height: 100%; width: 100%; display: block; object-fit: cover">
                 </div>
             </div>
         </div>

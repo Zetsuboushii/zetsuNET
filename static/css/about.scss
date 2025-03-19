@@ -9,6 +9,9 @@
 
   .about-head {
     grid-area: head;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px;
   }
 
   .about-main {
@@ -20,19 +23,24 @@
       grid-template-columns: 3fr 1fr;
       gap: 10px;
 
-      h4 {
-        margin-bottom: 5px;
-      }
-
-      p {
-        font-size: 14px;
-        text-align: justify;
-      }
-
       .about-body-left {
         grid-area: left;
-        max-height: 632px;
+        max-height: 668px;
         overflow-y: scroll;
+
+        h4 {
+          margin-bottom: 5px;
+        }
+
+        h5 {
+          clear: both;
+          color: red;
+        }
+
+        p {
+          font-size: 14px;
+          text-align: justify;
+        }
       }
 
       .about-body-right {

@@ -5,7 +5,10 @@
   grid-template-columns: 4fr 1fr;
   gap: 10px; }
   .about-container .about-head {
-    grid-area: head; }
+    grid-area: head;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 10px; }
   .about-container .about-main {
     grid-area: main; }
     .about-container .about-main .about-body {
@@ -13,15 +16,18 @@
       grid-template-areas: "left right";
       grid-template-columns: 3fr 1fr;
       gap: 10px; }
-      .about-container .about-main .about-body h4 {
-        margin-bottom: 5px; }
-      .about-container .about-main .about-body p {
-        font-size: 14px;
-        text-align: justify; }
       .about-container .about-main .about-body .about-body-left {
         grid-area: left;
-        max-height: 632px;
+        max-height: 668px;
         overflow-y: scroll; }
+        .about-container .about-main .about-body .about-body-left h4 {
+          margin-bottom: 5px; }
+        .about-container .about-main .about-body .about-body-left h5 {
+          clear: both;
+          color: red; }
+        .about-container .about-main .about-body .about-body-left p {
+          font-size: 14px;
+          text-align: justify; }
       .about-container .about-main .about-body .about-body-right {
         grid-area: right; }
     @media only screen and (max-width: 1300px) {

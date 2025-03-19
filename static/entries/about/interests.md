@@ -20,6 +20,8 @@ Um dieser harten Realität zu entfliehen, liebe ich es, mir das Gefühl des nost
 
 Auch aber die Subkulturen, die sich in diesen Zeiten des Internets gebildet haben, auf Foren und in IRC-Chats, auf Image Boards und über Torrenting-Link-Seiten, finde ich super spannend. Über die Jahre holt man alles wichtige auf, daher sind mir solche illustren Erscheinungen wie die Anleitung für DIY-Kristalle auf 4chan oder diverse Creepypastas bekannt. Interessant wird es dort, wo die Sprachbarriere beginnt. Die endlos vielen Geschichten von 2chan zum Beispiel oder legendäre Videos von NicoNicoDouga, die es dann auch mit der Zeit auf YouTube geschafft haben. Gerade da ist es aber interessant, wie sich gewisse Dinge parallel über den Globus durch kulturelle und sprachliche Unterschiede entwickelt haben. Die legendäre YouTube-Kacke-Zeit hier im Westen und die MADs aus Japan in etwa.  
 
+/\* TODO \*/
+
 <!--
 ##### Konsolenrestaurierung
 

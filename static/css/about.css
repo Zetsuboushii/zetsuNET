@@ -20,19 +20,32 @@
         grid-area: left;
         max-height: 668px;
         overflow-y: scroll; }
-        .about-container .about-main .about-body .about-body-left img {
+        .about-container .about-main .about-body .about-body-left .about-body-left-text img {
           max-height: 150px;
           float: left;
-          margin-right: 20px;
-          border: 1px solid black; }
-        .about-container .about-main .about-body .about-body-left h4 {
+          border: 1px solid black;
+          margin-right: 15px; }
+        .about-container .about-main .about-body .about-body-left .about-body-left-text h4 {
           margin-bottom: 5px; }
-        .about-container .about-main .about-body .about-body-left h5 {
+        .about-container .about-main .about-body .about-body-left .about-body-left-text h5 {
           clear: both;
           color: red; }
-        .about-container .about-main .about-body .about-body-left p {
+        .about-container .about-main .about-body .about-body-left .about-body-left-text p {
           font-size: 14px;
           text-align: justify; }
+        .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars {
+          background-image: url("../ui/bkg-wall.png");
+          border: outset 3px #b8b8b8;
+          justify-items: center;
+          max-width: 600px;
+          padding: 10px 0;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 10px; }
+          .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars img {
+            max-height: 150px;
+            border: 5px outset #797979; }
       .about-container .about-main .about-body .about-body-right {
         grid-area: right; }
     @media only screen and (max-width: 1300px) {

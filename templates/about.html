@@ -19,17 +19,39 @@
             </div>
             <div class="window-body about-body">
                 <div class="about-body-left sunken-panel"
-                     style="padding: 10px; background-image: url('static/ui/paper.gif'); font-family: Serif;">
+                     style="padding: 10px; background-image: url('../static/ui/bkg-paper.gif'); font-family: Serif;">
                     <div style="text-align: center">
                         <img src="{{ url_for('static', filename='gifs/zetsu.gif') }}" alt=""
                              style="height: 100px; animation: pend 5s infinite ease-in-out; float: unset; border: none">
                     </div>
                     <hr>
-                    {{ intro | safe }}
+                    <div class="about-body-left-text">
+                        {{ intro | safe }}
+                    </div>
                     <hr>
-                    {{ interests | safe }}
+                    <div class="about-body-left-text">
+                        {{ interests | safe }}
+                    </div>
                     <hr>
+                    <div class="about-body-left-text">
+                        {{ favs.fav_characters.text | safe }}
+                    </div>
+                    <div class="about-body-left-fav-chars">
+                        {% for char in favs.fav_characters.characters %}
+                            <img src="{{ url_for('static', filename='imgs/fav-' + (char.name | replace(' ', '-') | lower) + '.png') }}"
+                                 alt="" title="{{ char.name }} ({{ char.source }})">
+                        {% endfor %}
+                    </div>
+                    <hr>
+                    <div class="about-body-left-text">
+                        {{ favourites | safe }}
 
+                        <script>
+                            document.querySelectorAll("code").forEach(codeElement => {
+                                codeElement.style.color = codeElement.textContent.trim();
+                            });
+                        </script>
+                    </div>
                 </div>
                 <div class="about-body-right" style="text-align: center;">
                     <img src="{{ url_for('static', filename='imgs/scarlet.png') }}" alt=""

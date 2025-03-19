@@ -15,7 +15,7 @@ app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
 
 
 def load_from_json(filename):
-    with open(f'static/json/{filename}', encoding="utf8") as file:
+    with open(f'static/entries/{filename}', encoding="utf8") as file:
         return json.load(file)
 
 
@@ -50,8 +50,16 @@ def index():
 def about():
     intro_md = load_from_markdown("about/about.md")
     interests_md = load_from_markdown("about/interests.md")
+    favourites_md = load_from_markdown("about/favourites.md")
+    favs = {
+        "fav_characters": {
+            "text": load_from_markdown("about/fav-characters.md"),
+            "characters": load_from_json("about/fav-characters.json")
+        }
+    }
 
-    return render_template('about.html', intro=intro_md, interests=interests_md)
+    return render_template('about.html', intro=intro_md, interests=interests_md,
+                           favourites=favourites_md, favs=favs)
 
 
 @app.route('/collection.html')
@@ -68,10 +76,10 @@ def gamelog():
 def blog():
     return render_template('blog.html')
 
+
 @app.route('/blog/<blog>.html')
 def blog_entry(blog):
     entries = []
-    heading = ""
 
     heading = load_file(f'blog/{blog}/heading')
     blog_entries = glob.glob(os.path.join(f'static/entries/blog/{blog}', "*.md"))

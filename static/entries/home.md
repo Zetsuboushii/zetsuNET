@@ -8,3 +8,5 @@ Neben dem Rückgriff auf diese Retro-Ästhetik ist die Seite aber auch eine pers
 als Raum, um mich selbst zu reflektieren, meine Gedanken zu sortieren und meine Erfahrungen aufzuarbeiten. Es ist eine
 Art digitales Tagebuch, in dem ich Aspekte meines Lebens festhalte, die mir wichtig sind, und in dem ich meinen
 persönlichen Weg dokumentiere.
+
+Die beste Erfahrung im ZetsuNET machst du mit Firefox auf einem 1080p-Monitor. (Ich mag Mobile nicht, die Seite ist dennoch halbwegs dafür optimiert)

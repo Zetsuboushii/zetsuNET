@@ -18,10 +18,19 @@
                 </div>
             </div>
             <div class="window-body about-body">
-                <div class="about-body-left sunken-panel" style="padding: 10px">
+                <div class="about-body-left sunken-panel"
+                     style="padding: 10px; background-image: url('static/ui/paper.gif'); font-family: Serif;">
+                    <style>
+                        img {
+                            max-height: 150px;
+                            float: left;
+                            margin-right: 20px;
+                            border: 1px solid black;
+                        }
+                    </style>
                     <div style="text-align: center">
                         <img src="{{ url_for('static', filename='gifs/zetsu.gif') }}" alt=""
-                             style="height: 100px; animation: pend 5s infinite ease-in-out;">
+                             style="height: 100px; animation: pend 5s infinite ease-in-out; float: unset; border: none">
                     </div>
                     <hr>
                     {{ intro | safe }}
@@ -34,25 +43,11 @@
                     <img src="{{ url_for('static', filename='imgs/scarlet.png') }}" alt=""
                          style="max-width: 250px; animation: bounce 3s infinite ease-in-out;">
 
-                    <div class="window">
-                        <div class="title-bar">
-                            <div class="title-bar-text">Links</div>
-                            <div class="title-bar-controls">
-                                <button aria-label="Close"></button>
-                            </div>
-                        </div>
-                        <div class="window-body">
-                            <ul class="tree-view home-left-element" style="text-align: left">
-                                <li><a href="{{ url_for('index') }}">Homepage</a></li>
-                                <li>---</li>
-                                <li><a href="https://open.spotify.com/user/fefuqa5sxojouw2paqibdy5wi">Spotify</a></li>
-                                <li><a href="https://www.instagram.com/zetsuboushii">Instagram</a></li>
-                                <li><a href="https://discordapp.com/users/406094506509991936">Discord</a></li>
-                                <li><a href="https://myanimelist.net/animelist/Zetsuboushi">MyAnimeList</a></li>
-                                <li><a href="https://steamcommunity.com/id/zetsuboushii/">Steam</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <iframe style="border-radius:12px; margin-top: 10px; transform: scale(0.8);"
+                            src="https://open.spotify.com/embed/track/7Ipd6rQTldb0Bl3xnghNnF?utm_source=generator"
+                            width="100%" height="352" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
                 </div>
             </div>
             <div class="status-bar">
@@ -61,17 +56,38 @@
                 <p class="status-bar-field">CPU Usage: 42%</p>
             </div>
         </div>
-        <div class="window about-head">
-            <div class="title-bar">
-                <div class="title-bar-text">新しい Microsoft Windows 98 を入手する</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Close"></button>
+        <div class="about-head">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">新しい Microsoft Windows 98 を入手する</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body" style="height: 91%">
+                    <div class="sunken-panel">
+                        <img src="{{ url_for('static', filename='ui/banner-windows.gif') }}" alt=""
+                             style="width: 100%; display: block; object-fit: cover">
+                    </div>
                 </div>
             </div>
-            <div class="window-body" style="height: 91%">
-                <div class="sunken-panel">
-                    <img src="{{ url_for('static', filename='ui/banner-windows.gif') }}" alt=""
-                         style="width: 100%; display: block; object-fit: cover">
+
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Links</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <ul class="tree-view home-left-element" style="text-align: left">
+                        <li><a href="{{ url_for('index') }}">Homepage</a></li>
+                        <li><a href="https://open.spotify.com/user/fefuqa5sxojouw2paqibdy5wi">Spotify</a></li>
+                        <li><a href="https://www.instagram.com/zetsuboushii">Instagram</a></li>
+                        <li><a href="https://discordapp.com/users/406094506509991936">Discord</a></li>
+                        <li><a href="https://myanimelist.net/animelist/Zetsuboushi">MyAnimeList</a></li>
+                        <li><a href="https://steamcommunity.com/id/zetsuboushii/">Steam</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

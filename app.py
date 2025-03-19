@@ -73,24 +73,23 @@ def blog_entry(blog):
     entries = []
     heading = ""
 
-    if blog == 'japan-3':
-        heading = load_file(f'blog/{blog}/heading')
-        blog_entries = glob.glob(os.path.join(f'static/entries/blog/{blog}', "*.md"))
+    heading = load_file(f'blog/{blog}/heading')
+    blog_entries = glob.glob(os.path.join(f'static/entries/blog/{blog}', "*.md"))
 
-        for entry in blog_entries:
-            with open(entry, encoding="utf8") as file:
-                entries.append((os.path.splitext(os.path.basename(entry))[0], file.read()))
+    for entry in blog_entries:
+        with open(entry, encoding="utf8") as file:
+            entries.append((os.path.splitext(os.path.basename(entry))[0], file.read()))
 
-        def sort_key(entry):
-            name, _ = entry
-            if name == "intro":
-                return (1, "")
-            try:
-                return (0, name)
-            except ValueError:
-                return (2, name)
+    def sort_key(entry):
+        name, _ = entry
+        if name == "intro":
+            return (1, "")
+        try:
+            return (0, name)
+        except ValueError:
+            return (2, name)
 
-        entries = sorted(entries, key=sort_key, reverse=True)
+    entries = sorted(entries, key=sort_key, reverse=True)
 
     return render_template('blog.html', entries=entries, blog=blog, heading=heading)
 

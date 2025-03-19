@@ -20,6 +20,11 @@
         grid-area: left;
         max-height: 668px;
         overflow-y: scroll; }
+        .about-container .about-main .about-body .about-body-left img {
+          max-height: 150px;
+          float: left;
+          margin-right: 20px;
+          border: 1px solid black; }
         .about-container .about-main .about-body .about-body-left h4 {
           margin-bottom: 5px; }
         .about-container .about-main .about-body .about-body-left h5 {

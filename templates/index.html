@@ -26,8 +26,28 @@
                     <div class="sunken-panel home-left-element" style="width: 200px; height: 200px; overflow: hidden">
                         <img src="https://avatars.githubusercontent.com/u/65507051?v=4" alt="" style="max-width: 200px">
                     </div>
-                    <h4>Navigation</h4>
-                    {% include "nav.html" %}
+                    <h4>Sitemap</h4>
+                    <ul class="tree-view home-left-element" style="text-align: left">
+                        <li><a href="{{ url_for('index') }}">ZetsuNET</a>
+                            <ul>
+                                <li><a href="{{ url_for('about') }}">About the Webmaster</a></li>
+                                <li><a href="{{ url_for('blog') }}">Blogs</a></li>
+                                <li><a href="{{ url_for('music') }}">Music</a></li>
+                                <li>Videogames
+                                    <ul>
+                                        <li><a href="{{ url_for('collection') }}">Collection</a></li>
+                                        <li><a href="{{ url_for('gamelog') }}">Gamelog</a></li>
+                                    </ul>
+                                </li>
+                                <li>Shrines</li>
+                            </ul>
+                        </li>
+                        <li><a href="https://tome.zetsuboushii.site">Tome of the Vastlands</a>
+                            <ul>
+                                <li><a href="https://map.zetsuboushii.site">Vastlands Map</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
                 <div class="home-right">
                     <div class="hide-on-mobile" style="text-align: center">
@@ -55,17 +75,22 @@
                                     <input id="feeling" type="text" value="{{ home.genki.feeling }}"/>
                                     <label for="doing"><b>currently doing</b></label><br>
                                     <input id="doing" type="text" value="{{ home.genki.currently_doing }}"/>
-                                    <label for="listening"><b>currently listening to</b></label><br>
-                                    <input id="listening" type="text" value="{{ home.genki.currently_listening_to }}"/>
                                     <label for="playing"><b>currently playing</b></label><br>
                                     <input id="playing" type="text" value="{{ home.genki.currently_playing }}"/>
+                                    <label for="listening"><b>currently listening to</b></label><br>
+                                    <iframe style="border-radius:12px; padding: 10px; transform: scale(0.8); height: 83px"
+                                            src="https://open.spotify.com/embed/track/1HqUeShjWvXnk2LqGsfDRU?utm_source=generator"
+                                            height="200" frameBorder="0" allowfullscreen=""
+                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                            loading="lazy"></iframe>
                                 </div>
                             </div>
-                            <iframe style="border-radius:12px; padding: 10px; transform: scale(0.8);"
-                                    src="https://open.spotify.com/embed/track/1HqUeShjWvXnk2LqGsfDRU?utm_source=generator"
-                                    height="200" frameBorder="0" allowfullscreen=""
-                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                                    loading="lazy"></iframe>
+                            <div style="text-align: center;">
+                                <h5>Gensoukyou Webring</h5>
+                                <a href="{{ url_for('index') }}">
+                                    <img src="{{ url_for('static', filename='ui/button-zetsunet.png') }}" alt="">
+                                </a>
+                            </div>
                         </div>
                     </div>
 

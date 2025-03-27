@@ -109,6 +109,8 @@ def music():
         "daily": load_from_markdown("music/daily.md"),
         "vocaloid": load_from_markdown("music/vocaloid.md"),
         "schizo": load_from_markdown("music/schizo.md"),
+        "citypopfusion": load_from_markdown("music/citypop-fusion.md"),
+        "conan": load_from_markdown("music/conan.md"),
     }
 
     return render_template('music.html', intro=intro_md, playlists=playlists)

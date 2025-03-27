@@ -32,6 +32,8 @@
                             <button role="tab" aria-selected="true" aria-controls="tab-A">Daily</button>
                             <button role="tab" aria-controls="tab-B">Vocal Synthesizer</button>
                             <button role="tab" aria-controls="tab-C">Schizo</button>
+                            <button role="tab" aria-controls="tab-D">80s JP</button>
+                            <button role="tab" aria-controls="tab-E">Conan</button>
                         </menu>
                         <article role="tabpanel" id="tab-A">
                             {{ playlists.daily | safe }}
@@ -53,6 +55,22 @@
                             {{ playlists.schizo | safe }}
                             <iframe style="border-radius:12px"
                                     src="https://open.spotify.com/embed/playlist/6P40IXGHfiPSqirkaGweBS?utm_source=generator"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                        </article>
+                        <article role="tabpanel" hidden id="tab-D">
+                            {{ playlists.citypopfusion | safe }}
+                            <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/0VnGeSuNN1exb798XVzwU3?utm_source=generator"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                        </article>
+                        <article role="tabpanel" hidden id="tab-E">
+                            {{ playlists.conan | safe }}
+                            <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/2OWX17Ll21McRi4SMlWQyy?utm_source=generator"
                                     width="100%" height="352" frameBorder="0" allowfullscreen=""
                                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                                     loading="lazy"></iframe>

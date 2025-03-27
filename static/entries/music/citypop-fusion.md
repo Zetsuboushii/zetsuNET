@@ -1,0 +1,3 @@
+### 80s City Pop & Fusion
+
+Japanische 80s City Pop und Fusion (Fusion ist im japanischen Raum ein eigenes Genre, nicht wie international gesehen ein Sammelbegriff für Genres) haben ihren ganz eigenen Charme. Die Leichtigkeit beim Hören lässt mich diese Playlist in vielerlei Situationen hören. Im übrigen ist die Geschichte von Fusion in Japan ziemlich interessant, wie diese Musikrichtung mit Formel 1 und Mario Kart zusammenhängt.

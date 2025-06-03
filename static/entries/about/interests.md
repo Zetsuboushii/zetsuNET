@@ -20,6 +20,34 @@ Um dieser harten Realität zu entfliehen, liebe ich es, mir das Gefühl des nost
 
 Auch aber die Subkulturen, die sich in diesen Zeiten des Internets gebildet haben, auf Foren und in IRC-Chats, auf Image Boards und über Torrenting-Link-Seiten, finde ich super spannend. Über die Jahre holt man alles wichtige auf, daher sind mir solche illustren Erscheinungen wie die Anleitung für DIY-Kristalle auf 4chan oder diverse Creepypastas bekannt. Interessant wird es dort, wo die Sprachbarriere beginnt. Die endlos vielen Geschichten von 2chan zum Beispiel oder legendäre Videos von NicoNicoDouga, die es dann auch mit der Zeit auf YouTube geschafft haben. Gerade da ist es aber interessant, wie sich gewisse Dinge parallel über den Globus durch kulturelle und sprachliche Unterschiede entwickelt haben. Die legendäre YouTube-Kacke-Zeit hier im Westen und die MADs aus Japan in etwa.  
 
+##### Touhou Project
+
+Es gibt viele schräge Ecken im Internet. Das haben wir ja im vorherigen Abschnitt etabliert. Und dann gibt es Touhou. Eine Danmaku-/Shmup-/Bullet-Hell-Spielereihe, deren Schwierigkeitsgrad zwischen "Easy Mode? Disgusting." und "Touhou is a fair game :)" liegt. Entwickelt wurden die Spiele seit den 90ern von einer einzigen Person namens ZUN, der gleichzeitig Programmierer, Komponist und Designer ist. Es wirkt fast schon ironisch, dass eines der größten Kultphänomene Japans im Indie-Game-Bereich von einem absolut based Mann stammt, der sich hauptsächlich mit überdimensionalen Biergläsern ablichten lässt.
+
+<img src="static/imgs/touhou.png" alt="" style="float: right; margin: 0 0 0 20px">
+
+Touhou ist dabei mehr als nur ein Spiel. Es ist eine eigene Welt. Wenn ich irgendwo das Gefühl von Fan-Zusammenhalt des "alten Internets" nochmal zu spüren bekomme, dass in der Touhou-Community. Fan-Games, Fan-Songs, Fan-Manga, Fan-Anime, alles. Zahlreiche Doujin-Circles haben sich durch Touhou jahrzehntelang bis heute einen Namen gemacht, darunter COOL&CREATE mit BEATMARIO oder IOSYS. Auch die unzähligen Charaktere sind so ikonisch. Mit minimalster Vorgabe von Eigenschaften verschiedener Charaktere durch ZUN, entwickeln die Fans ihren eigenen Canon, der oftmals von ZUN selbst wieder aufgegriffen wird. Die unzähligen Insider innerhalb der Community sind zu Legenden im Internet geworden, die auch außerhalb der Grenzen der Touhou-Community bekannt werden. Man kann nicht im Internet unterwegs sein ohne nicht einmal "Bad Apple!!" gehört zu haben.
+
+<img src="static/imgs/fumos.jpg" alt="" style="max-width: 200px">
+
+Was natürlich ebenfalls nicht fehlen darf, sind die Fumos. Für alle die nicht wissen was Fumos sind, hier eine Erklärung von ChatGPT: "Fumos" sind hochqualitative, plüschartige Stoffpuppen, die Charaktere aus Touhou Project darstellen. Sie stammen ursprünglich aus Japan und wurden von der Doujin-Gruppe Gift hergestellt. Die Puppen sind besonders bekannt für ihren chibihaften (niedlichen) Stil und ihren großen Kopf, die ikonische Augenform und die sitzende Pose. Ich bin bereits zu tief im Rabbit Hole drin, als das ich aufhören könnte immer mehr Fumos in meine Familie aufzunehmen.
+
+##### Dungeons & Dragons
+
+Irgendwann im Leben kommt jeder Mensch mal an den Punkt, an dem er sich denkt: „Was wäre, wenn ich mit einer Gruppe Freunden einmal die Woche in einen imaginären Keller voller Monster steigen würde, um dort mit einem halbblinden Kobold über Steuerrecht zu diskutieren?“ Willkommen bei Dungeons & Dragons. 
+
+<img src="static/imgs/brainlet.jpg" alt="" style="float: right; margin: 0 0 0 20px; max-width: 200px">
+
+Ich bin Spielleiter. Also: Der arme Mensch, der sich monatelang den Kopf zerbricht, um eine halbwegs schlüssige Fantasy-Welt zu bauen, die dann in der ersten Session von einem Chaoten mit Feuerball-Stufe-3 und einem leeren IQ-Wert komplett gesprengt wird. Klingt frustrierend? Ist es auch. Aber es ist die gute Sorte Frust. Zu jeder Gruppe gehört schließlich auch der optimistische Held, der kurz vorm Burnout steht, die zurückhaltende Waldläuferin, die sich nicht traut Personen anzusprechen, diese aber ohne zu zögern in ihre Bauklötze zerlegen würde, der edgy Zauberer, der alles kann (bis auf wie eine normale Person in sozialen Umfelden interagieren), der manisch-schizophrene Dieb, dessen Allzwecklösungen Verspeisen oder Abstechen sind und schließlich die stets betrunkene Mönch-Elfe, die auf Alkoholentzug betrunken wird. 
+
+Das Leiten einer D&D-Kampagne ist für mich eine seltsame Mischung aus Weltenbau, Improvisationstheater, Regeljonglage und Krisenintervention. Mal bist du Gott, mal bist du Google Translate für Witze auf Zwergisch. Du planst epische Schlachten und emotionale Story-Beats – und bekommst stattdessen einen spontanen Hühner-Entführungskrimi, weil die Party beschlossen hat, dass das Dorfmaskottchen „verdächtig guckt“.
+
+Trotzdem (oder gerade deshalb?) ist es unfassbar befriedigend. Du bastelst dir deine eigene Welt zusammen, bevölkerst sie mit Charakteren, gibst ihnen Konflikte, Motivationen, Geheimnisse – und dann lässt du deine Freunde mit diesem Chaos interagieren. Und egal, wie gut oder schlecht es läuft, es wird immer eine Geschichte, an die man sich erinnert. So ein bisschen wie ein Fiebertraum, nur mit mehr Würfeln und weniger Delirium (je nach Situation).
+
+Das Schönste daran ist aber, dass man als Spielleiter auch selbst lernt. Über Storytelling, über Gruppen-Dynamiken, über Erwartungsmanagement und, ganz wichtig: über die Tatsache, dass kein Plan je den Erstkontakt mit Spielern überlebt. Man lernt, loszulassen. Dinge geschehen zu lassen. Sich über unerwartete Wendungen zu freuen. Und wenn alles den Bach runtergeht – einfach improvisieren. Oder einen Drachen aus dem Hut zaubern.
+
+Ich liebe das Spielleiten, weil es mir die Möglichkeit gibt, kreativ zu sein, ohne dafür perfekt sein zu müssen. Weil es mir erlaubt, mit anderen zusammen eine Geschichte zu erzählen, die in keinem Buch und auf keinem Bildschirm existiert – nur in unseren Köpfen. Und weil ich dabei endlich legal sadistisch sein darf, ohne dass jemand das Jugendamt ruft.
+
 /\* TODO \*/
 
 <!--

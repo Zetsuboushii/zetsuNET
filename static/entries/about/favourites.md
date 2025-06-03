@@ -10,11 +10,11 @@ DSi XL, Game Boy Color, Super Nintendo Entertainment System, Wii
 
 ##### Serien
 
-Another, Baka to Test, Bocchi the Rock!, Code Geass, Death Note, Detektiv Conan, Food Wars, Horimiya, JoJo's Bizarre Adventure, Kaguya-sama, Konosuba, Miss Kobayashi's Dragon Maid, Mushoku Tensei, Neon Genesis Evangelion, Oshi no Ko, Psycho Pass, Sousou no Frieren, SpongeBob, Steins;Gate, The Devil is a Part-Timer
+Another, Baka to Test, Bocchi the Rock!, Code Geass, Death Note, Detektiv Conan, Food Wars, Horimiya, JoJo's Bizarre Adventure, Kaguya-sama, Konosuba, Miss Kobayashi's Dragon Maid, Mushoku Tensei, Neon Genesis Evangelion, Psycho Pass, Sousou no Frieren, SpongeBob, Steins;Gate, The Devil is a Part-Timer
 
-##### Filme
+<!--##### Filme
 
-Chihiros Reise ins Zauberland, Das Wandelnde Schloss, Demon Slayer: Mugen Train, Detektiv Conan Film 1: Der Tickende Wolkenkratzer, Detektiv Conan Film 27: Das 1-Million-Dollar-Pentagramm, Mein Nachbar Totoro, Prinzessin Mononoke, Professor Layton und die Ewige Diva, The End of Evangelion, Your Name.
+Chihiros Reise ins Zauberland, Das Wandelnde Schloss, Demon Slayer: Mugen Train, Detektiv Conan Film 1: Der Tickende Wolkenkratzer, Detektiv Conan Film 27: Das 1-Million-Dollar-Pentagramm, Mein Nachbar Totoro, Prinzessin Mononoke, Professor Layton und die Ewige Diva, The End of Evangelion, Your Name.-->
 
 ##### Interpreten/Bands
 

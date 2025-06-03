@@ -55,6 +55,10 @@ def about():
         "fav_characters": {
             "text": load_from_markdown("about/fav-characters.md"),
             "characters": load_from_json("about/fav-characters.json")
+        },
+        "fav_films": {
+            "text": load_from_markdown("about/fav-films.md"),
+            "films": load_from_json("about/fav-films.json")
         }
     }
 
@@ -111,6 +115,7 @@ def music():
         "schizo": load_from_markdown("music/schizo.md"),
         "citypopfusion": load_from_markdown("music/citypop-fusion.md"),
         "conan": load_from_markdown("music/conan.md"),
+        "silly": load_from_markdown("music/silly.md"),
     }
 
     return render_template('music.html', intro=intro_md, playlists=playlists)

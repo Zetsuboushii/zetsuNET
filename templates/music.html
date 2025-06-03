@@ -34,6 +34,7 @@
                             <button role="tab" aria-controls="tab-C">Schizo</button>
                             <button role="tab" aria-controls="tab-D">80s JP</button>
                             <button role="tab" aria-controls="tab-E">Conan</button>
+                            <button role="tab" aria-controls="tab-F">Silly</button>
                         </menu>
                         <article role="tabpanel" id="tab-A">
                             {{ playlists.daily | safe }}
@@ -71,6 +72,14 @@
                             {{ playlists.conan | safe }}
                             <iframe style="border-radius:12px"
                                     src="https://open.spotify.com/embed/playlist/2OWX17Ll21McRi4SMlWQyy?utm_source=generator"
+                                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                    loading="lazy"></iframe>
+                        </article>
+                        <article role="tabpanel" hidden id="tab-F">
+                            {{ playlists.silly | safe }}
+                            <iframe style="border-radius:12px"
+                                    src="https://open.spotify.com/embed/playlist/09G0YjlezdSW5Mf4oPS6L2?utm_source=generator"
                                     width="100%" height="352" frameBorder="0" allowfullscreen=""
                                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                                     loading="lazy"></iframe>

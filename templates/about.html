@@ -36,10 +36,21 @@
                     <div class="about-body-left-text">
                         {{ favs.fav_characters.text | safe }}
                     </div>
+                    <hr>
                     <div class="about-body-left-fav-chars">
                         {% for char in favs.fav_characters.characters %}
                             <img src="{{ url_for('static', filename='imgs/fav-' + (char.name | replace(' ', '-') | lower) + '.png') }}"
                                  alt="" title="{{ char.name }} ({{ char.source }})">
+                        {% endfor %}
+                    </div>
+                    <div class="about-body-left-text">
+                        {{ favs.fav_films.text | safe }}
+                    </div>
+                    <hr>
+                    <div class="about-body-left-fav-films">
+                        {% for film in favs.fav_films.films %}
+                            <img src="{{ url_for('static', filename='imgs/fav-' + (film.name_short | replace(' ', '-') | lower) + '.png') }}"
+                                 alt="" title="{{ film.name }}">
                         {% endfor %}
                     </div>
                     <hr>
@@ -112,7 +123,7 @@
                 </div>
             </div>
             <div class="window-body" style="height: 98%">
-                <div class="sunken-panel" style="height: 98%">
+                <div class="sunken-panel" style="height: 90%; overflow: hidden">
                     <img src="{{ url_for('static', filename='imgs/akihabara.jpg') }}" alt=""
                          style="height: 100%; width: 100%; display: block; object-fit: cover">
                 </div>

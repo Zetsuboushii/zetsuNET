@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ g.site_title | upper }} | BLOG</title>
-    {% include "includes.html" %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/XP.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/blog.css') }}">
+    {% include "includes.html" %}
 </head>
 <body style="background-color: black">
 <pre>Zetsu&#10094;R&#10095; ZetsuNET DOS
 &#10094;C&#10095; Copyright Zetsu 2025.
 
-C:\ZETSUOS\SYSTEM32> Zurück zur Hauptseite geht es <a href="{{ url_for('index') }}">hier</a>
+C:\ZETSUOS> Zurück zur Hauptseite geht es <a href="{{ url_for('index') }}">hier</a>
 
-C:\ZETSUOS\SYSTEM32> Wähle einen Blog:
+C:\ZETSUOS> Wähle einen Blog:
     [1] Zetsu's 3rd Great Japan Adventure (<a href="{{ url_for('blog_entry', blog='japan-3') }}">JAPAN-3</a>)
     [2] Study Impressions (<a href="{{ url_for('blog_entry', blog='studimpr') }}">STUDIMPR</a>)
-    [3] Zetsu's Respectful Rants (<a href="{{ url_for('blog_entry', blog='rants') }}">RANTS</a>)
+    [3] Zetsu's Kitchen (<a href="{{ url_for('blog_entry', blog='cooking') }}">COOKING</a>)
 {% if entries %}
-C:\ZETSUOS\SYSTEM32> cd {{ blog | upper }}
+C:\ZETSUOS> cd {{ blog | upper }}
 {% include "blog-entry.html" %}{% endif %}
 </pre>
 </body>

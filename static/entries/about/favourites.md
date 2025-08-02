@@ -34,7 +34,7 @@ Döner, Jägerschnitzel, Rosenkohl, Spätzle, Wildbraten, Bismarckhering, Katsu 
 
 ##### Getränke
 
-Asahi™ Super Dry, Dr Pepper™ (das Getränk der Intellektuellen), Eistee (Grüntee-Limette / Schwarztee-Pfirsich-Hibiskus), Karbonisiertes Wasser, Cappucino, Red Bull™ Purple Edition, Riegele™ Spezi
+Asahi™ Super Dry, Dr Pepper™ (das Getränk der Intellektuellen), Eistee (Grüntee-Limette / Schwarztee-Pfirsich-Hibiskus), <s>Karbonisiertes Wasser</s>, Cappucino, Red Bull™ Purple Edition, Riegele™ Spezi
 
 ##### Farben
 

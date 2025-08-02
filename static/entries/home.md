@@ -9,4 +9,4 @@ als Raum, um mich selbst zu reflektieren, meine Gedanken zu sortieren und meine 
 Art digitales Tagebuch, in dem ich Aspekte meines Lebens festhalte, die mir wichtig sind, und in dem ich meinen
 persönlichen Weg dokumentiere.
 
-Die beste Erfahrung im ZetsuNET machst du mit Firefox auf einem 1080p-Monitor. (Ich mag Mobile nicht, die Seite ist dennoch halbwegs dafür optimiert)
+<p style="color: red">Die beste Erfahrung im ZetsuNET machst du mit Firefox auf einem Monitor mit mindestens 1200px.</p>

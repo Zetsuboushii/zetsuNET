@@ -1,52 +1,30 @@
+// 1. Ganz oben in deiner SCSS (global)
+html, body {
+  min-width: 1200px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
 .home-container {
   display: grid;
+  width: 984px;
   grid-template-areas: "left right";
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 200px 784px;
   gap: 8px;
   align-items: start;
 }
 
-@media only screen and (max-width: 1300px) {
-  .home-container {
-    display: inherit;
-  }
-}
-
-h4 {
-  margin-bottom: 5px;
-}
-
-.home-left {
-  grid-area: left;
-  align-content: center;
-  text-align: center;
-
-  .home-left-element {
-    margin: auto;
-    text-align: left;
-  }
-}
-
-.show-on-mobile {
-  display: none;
-}
-
-@media only screen and (max-width: 1300px) {
-    .home-right {
-    max-width: 100%;
-  }
-}
-
 .home-right {
+  padding: 10px;
   grid-area: right;
 
   .home-main {
     display: grid;
+    width: 764px;
     grid-template-areas: "left right";
-    grid-template-columns: 7fr 4fr;
+    grid-template-columns: 492px 264px;
     gap: 8px;
     align-items: start;
-    padding: 10px;
 
     p {
       font-size: 14px;
@@ -67,10 +45,15 @@ h4 {
       align-content: center;
     }
   }
+}
 
-  @media only screen and (max-width: 1300px) {
-    .home-main {
-      display: block;
-    }
+.home-left {
+  grid-area: left;
+  align-content: center;
+  text-align: center;
+
+  .home-left-element {
+    margin: auto;
+    text-align: left;
   }
 }

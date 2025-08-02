@@ -1,31 +1,30 @@
+html, body {
+  min-width: 1000px;
+  overflow-x: auto;
+  overflow-y: auto; }
+
+@media (min-width: 1000px) {
+  html, body {
+    overflow-y: hidden; } }
 .about-container {
-  margin: 20px auto 0 auto;
+  width: 1000px;
+  margin: 20px auto 0;
   display: grid;
   grid-template-areas: "head ad" "main ad";
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 800px 200px;
   gap: 10px; }
   .about-container .about-head {
     grid-area: head;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 800px 200px;
     gap: 10px; }
   .about-container .about-main {
-    grid-area: main;
-    /*
-    @media only screen and (max-width: 1300px) {
-      .about-body {
-        display: initial;
-      }
-    }
-     */ }
+    grid-area: main; }
     .about-container .about-main .about-body {
       display: grid;
       grid-template-areas: "left right";
-      grid-template-columns: 3fr 1fr;
+      grid-template-columns: 600px 168px;
       gap: 10px; }
-      @media only screen and (max-width: 1300px) {
-        .about-container .about-main .about-body {
-          grid-template-columns: 1fr 0fr; } }
       .about-container .about-main .about-body .about-body-left {
         grid-area: left;
         max-height: 668px;
@@ -43,19 +42,7 @@
         .about-container .about-main .about-body .about-body-left .about-body-left-text p {
           font-size: 14px;
           text-align: justify; }
-        .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars {
-          background-image: url("../ui/bkg-wall.png");
-          border: outset 3px #b8b8b8;
-          justify-items: center;
-          max-width: 600px;
-          padding: 10px 0;
-          margin: 0 auto;
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          gap: 10px; }
-          .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars img {
-            max-height: 150px;
-            border: 5px outset #797979; }
+        .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars,
         .about-container .about-main .about-body .about-body-left .about-body-left-fav-films {
           background-image: url("../ui/bkg-wall.png");
           border: outset 3px #b8b8b8;
@@ -64,61 +51,22 @@
           padding: 10px 0;
           margin: 0 auto;
           display: grid;
-          grid-template-columns: 1fr 1fr;
           gap: 10px; }
+        .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars {
+          grid-template-columns: 1fr 1fr 1fr; }
+          .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars img {
+            max-height: 150px;
+            border: 5px outset #797979; }
+        .about-container .about-main .about-body .about-body-left .about-body-left-fav-films {
+          grid-template-columns: 1fr 1fr; }
           .about-container .about-main .about-body .about-body-left .about-body-left-fav-films img {
             max-height: 250px;
             border: 5px outset #797979; }
-        @media only screen and (max-width: 1300px) {
-          .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars {
-            background-image: url("../ui/bkg-wall.png");
-            border: outset 3px #b8b8b8;
-            justify-items: center;
-            max-width: 600px;
-            padding: 10px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            /* dynamisches Grid */
-            gap: 10px; }
-            .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars img {
-              width: 100%;
-              height: auto;
-              max-height: 150px;
-              border: 5px outset #797979;
-              object-fit: contain; }
-          .about-container .about-main .about-body .about-body-left .about-body-left-fav-films {
-            background-image: url("../ui/bkg-wall.png");
-            border: outset 3px #b8b8b8;
-            justify-items: center;
-            max-width: 600px;
-            padding: 10px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            /* responsive */
-            gap: 10px; }
-            .about-container .about-main .about-body .about-body-left .about-body-left-fav-films img {
-              width: 100%;
-              height: auto;
-              max-height: 250px;
-              border: 5px outset #797979;
-              object-fit: contain; } }
       .about-container .about-main .about-body .about-body-right {
         grid-area: right; }
-      @media only screen and (max-width: 1300px) {
-        .about-container .about-main .about-body .about-body-right {
-          display: none; } }
   .about-container .about-ad {
     grid-area: ad; }
 
-/*
-@media only screen and (max-width: 1300px) {
-  .about-container {
-    display: initial;
-  }
-}
-*/
 .title-bar-text {
   white-space: nowrap;
   overflow: hidden;

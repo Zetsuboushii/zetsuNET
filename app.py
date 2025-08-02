@@ -13,6 +13,13 @@ app.config['FREEZER_RELATIVE_URLS'] = True
 app.config['FREEZER_REMOVE_EXTRA_FILES'] = False
 app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
 
+def get_git_hash() -> str:
+    try:
+        import subprocess
+        raw = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+        return raw.decode('ascii').strip()
+    except Exception:
+        return 'unknown'
 
 def load_from_json(filename):
     with open(f'static/entries/{filename}', encoding="utf8") as file:
@@ -32,7 +39,8 @@ def load_file(filename):
 @app.before_request
 def before_request():
     g.site_title = "ZetsuNET"
-    g.version = "b2.⛩"
+    g.version = "b4.2"
+    g.git_hash = get_git_hash()
 
     g.static = "/static/"
     g.debug = app.debug
@@ -122,5 +130,5 @@ def music():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, ssl_context='adhoc')
     freezer.freeze()

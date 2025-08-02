@@ -1,3 +1,9 @@
+html, body {
+  min-width: 1000px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
 pre {
   height: 100%;
   white-space: pre-wrap;

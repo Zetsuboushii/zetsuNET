@@ -4,3 +4,7 @@
 /old/
 __pycache__
 /venv/
+/node_modules/
+/.ropeproject/
+package.json
+package-lock.json

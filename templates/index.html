@@ -113,17 +113,29 @@
                                     <input id="doing" type="text" value="{{ home.genki.currently_doing }}"/>
                                     <label for="playing"><b>currently playing</b></label><br>
                                     <input id="playing" type="text" value="{{ home.genki.currently_playing }}"/>
-                                    <label for="listening"><b>currently listening to</b></label><br>
-                                    <input id="playing" type="text" value="{{ home.genki.currently_listening }}"/>
+                                    <label for="playing"><b>currently listening to</b></label><br>
+
+                                    <div class="window">
+                                        <div class="title-bar">
+                                            <div class="title-bar-text">Silent Hill 2 - Prisonic Fairytale</div>
+                                            <div class="title-bar-controls">
+                                                <button aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                        <div class="window-body" style="margin: 0">
+                                            <audio controls style="width: 236px">
+                                                <source src="{{ url_for('static', filename='mp3s/Prisonic Fairytale.mp3') }}"
+                                                        type="audio/mpeg">
+                                                Dein Browser unterstützt kein Audio.
+                                            </audio>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div style="text-align: center;">
-                                <h5>Knorke Seiten</h5>
+                                <h5>ZetsuNET Buttons</h5>
                                 <a href="{{ url_for('index') }}">
                                     <img src="{{ url_for('static', filename='ui/button-zetsunet.png') }}" alt="">
-                                </a>
-                                <a href="https://yuentp.neocities.org/">
-                                    <img src="https://i.imgur.com/seKXrxd.gif" alt="">
                                 </a>
                             </div>
                         </div>

@@ -16,7 +16,9 @@ app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
 def get_git_hash() -> str:
     try:
         import subprocess
-        raw = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+        import os
+        file_path = os.path.abspath(os.path.dirname(__file__))
+        raw = subprocess.check_output(['git',"--git-dir",f"{file_path}/.git", 'rev-parse', 'HEAD'])
         return raw.decode('ascii').strip()
     except Exception:
         return 'unknown'

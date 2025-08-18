@@ -18,9 +18,12 @@ def get_git_hash() -> str:
         import subprocess
         import os
         file_path = os.path.abspath(os.path.dirname(__file__))
-        raw = subprocess.check_output(['git',"--git-dir",f"{file_path}/.git", 'rev-parse', 'HEAD'])
+        params = ['git',"--git-dir",f"{file_path}/.git", 'rev-parse', 'HEAD']
+        print("params for git hash check:",params)
+        raw = subprocess.check_output(params)
         return raw.decode('ascii').strip()
-    except Exception:
+    except Exception as e:
+        print("failed to get git hash:",e,flush=True)
         return 'unknown'
 
 def load_from_json(filename):

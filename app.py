@@ -18,8 +18,7 @@ def get_git_hash() -> str:
         import subprocess
         import os
         file_path = os.path.abspath(os.path.dirname(__file__))
-        params = ['git',"--git-dir",f"{file_path}/.git", 'rev-parse', 'HEAD']
-        print("params for git hash check:",params)
+        params = ['/usr/bin/git',"--git-dir",f"{file_path}/.git", 'rev-parse', 'HEAD']
         raw = subprocess.check_output(params)
         return raw.decode('ascii').strip()
     except Exception as e:

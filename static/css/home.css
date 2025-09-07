@@ -1,7 +1,9 @@
-html, body {
+html,
+body {
   min-width: 1200px;
   overflow-x: auto;
-  overflow-y: auto; }
+  overflow-y: auto;
+}
 
 .home-container {
   display: grid;
@@ -9,36 +11,49 @@ html, body {
   grid-template-areas: "left right";
   grid-template-columns: 200px 784px;
   gap: 8px;
-  align-items: start; }
+  align-items: start;
+}
 
 .home-right {
   padding: 10px;
-  grid-area: right; }
-  .home-right .home-main {
-    display: grid;
-    width: 764px;
-    grid-template-areas: "left right";
-    grid-template-columns: 492px 264px;
-    gap: 8px;
-    align-items: start; }
-    .home-right .home-main p {
-      font-size: 14px;
-      text-align: justify; }
-    .home-right .home-main input {
-      margin-bottom: 5px;
-      width: 100%; }
-    .home-right .home-main .home-main-left {
-      grid-area: left; }
-    .home-right .home-main .home-main-right {
-      grid-area: right;
-      align-content: center; }
+  grid-area: right;
+}
+
+.home-right .home-main {
+  display: grid;
+  width: 764px;
+  grid-template-areas: "left right";
+  grid-template-columns: 492px 264px;
+  gap: 8px;
+  align-items: start;
+}
+
+.home-right .home-main p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.home-right .home-main input {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.home-right .home-main .home-main-left {
+  grid-area: left;
+}
+
+.home-right .home-main .home-main-right {
+  grid-area: right;
+  align-content: center;
+}
 
 .home-left {
   grid-area: left;
   align-content: center;
-  text-align: center; }
-  .home-left .home-left-element {
-    margin: auto;
-    text-align: left; }
+  text-align: center;
+}
 
-/*# sourceMappingURL=home.css.map */
+.home-left .home-left-element {
+  margin: auto;
+  text-align: left;
+}

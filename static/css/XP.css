@@ -61,7 +61,8 @@ a:focus {
     outline: 1px dotted #00f
 }
 
-code, code * {
+code,
+code * {
     font-family: monospace
 }
 
@@ -74,7 +75,8 @@ pre {
     margin: 0
 }
 
-pre, pre * {
+pre,
+pre * {
     font-family: Perfect DOS VGA\ 437 Win
 }
 
@@ -99,7 +101,10 @@ summary:focus {
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf
 }
 
-::-webkit-scrollbar-button:horizontal:end:increment, ::-webkit-scrollbar-button:horizontal:start:decrement, ::-webkit-scrollbar-button:vertical:end:increment, ::-webkit-scrollbar-button:vertical:start:decrement {
+::-webkit-scrollbar-button:horizontal:end:increment,
+::-webkit-scrollbar-button:horizontal:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement {
     display: block
 }
 
@@ -131,11 +136,13 @@ button {
     padding: 0 12px
 }
 
-button:not(:disabled).active, button:not(:disabled):active {
+button:not(:disabled).active,
+button:not(:disabled):active {
     box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey
 }
 
-button.focused, button:focus {
+button.focused,
+button:focus {
     outline: 1px dotted #000;
     outline-offset: -4px
 }
@@ -145,7 +152,9 @@ label {
     align-items: center
 }
 
-input, label, textarea {
+input,
+label,
+textarea {
     font-family: "Pixelated MS Sans Serif", Arial;
     font-size: 11px
 }
@@ -210,18 +219,19 @@ option {
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf
 }
 
-&:disabled, &:disabled + label {
+&:disabled,
+&:disabled+label {
     color: grey;
     text-shadow: 1px 1px 0 #fff
 }
 
-input[type=radio] + label {
+input[type=radio]+label {
     line-height: 13px;
     position: relative;
     margin-left: 19px
 }
 
-input[type=radio] + label:before {
+input[type=radio]+label:before {
     content: "";
     position: absolute;
     top: 0;
@@ -233,11 +243,11 @@ input[type=radio] + label:before {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 0H4v1H2v1H1v2H0v4h1v2h1V8H1V4h1V2h2V1h4v1h2V1H8V0z' fill='gray'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1H4v1H2v2H1v4h1v1h1V8H2V4h1V3h1V2h4v1h2V2H8V1z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 3h1v1H9V3zm1 5V4h1v4h-1zm-2 2V9h1V8h1v2H8zm-4 0v1h4v-1H4zm0 0V9H2v1h2z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 2h-1v2h1v4h-1v2H8v1H4v-1H2v1h2v1h4v-1h2v-1h1V8h1V4h-1V2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 2h4v1h1v1h1v4H9v1H8v1H4V9H3V8H2V4h1V3h1V2z' fill='%23fff'/%3E%3C/svg%3E")
 }
 
-input[type=radio]:active + label:before {
+input[type=radio]:active+label:before {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 0H4v1H2v1H1v2H0v4h1v2h1V8H1V4h1V2h2V1h4v1h2V1H8V0z' fill='gray'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1H4v1H2v2H1v4h1v1h1V8H2V4h1V3h1V2h4v1h2V2H8V1z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 3h1v1H9V3zm1 5V4h1v4h-1zm-2 2V9h1V8h1v2H8zm-4 0v1h4v-1H4zm0 0V9H2v1h2z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 2h-1v2h1v4h-1v2H8v1H4v-1H2v1h2v1h4v-1h2v-1h1V8h1V4h-1V2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 2h4v1h1v1h1v4H9v1H8v1H4V9H3V8H2V4h1V3h1V2z' fill='silver'/%3E%3C/svg%3E")
 }
 
-input[type=radio]:checked + label:after {
+input[type=radio]:checked+label:after {
     content: "";
     display: block;
     width: 5px;
@@ -259,13 +269,13 @@ input[type=checkbox] {
     border: none
 }
 
-input[type=checkbox] + label {
+input[type=checkbox]+label {
     line-height: 13px;
     position: relative;
     margin-left: 19px
 }
 
-input[type=checkbox] + label:before {
+input[type=checkbox]+label:before {
     content: "";
     position: absolute;
     left: -19px;
@@ -277,15 +287,15 @@ input[type=checkbox] + label:before {
     margin-right: 6px
 }
 
-input[type=checkbox]:focus + label {
+input[type=checkbox]:focus+label {
     outline: 1px dotted #000
 }
 
-input[type=checkbox]:active + label:before {
+input[type=checkbox]:active+label:before {
     background: #ece9d8
 }
 
-input[type=checkbox]:checked + label:after {
+input[type=checkbox]:checked+label:after {
     content: "";
     display: block;
     width: 11px;
@@ -295,23 +305,25 @@ input[type=checkbox]:checked + label:after {
     top: 1px
 }
 
-input[type=radio][disabled] + label:before {
+input[type=radio][disabled]+label:before {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 0H4v1H2v1H1v2H0v4h1v2h1V8H1V4h1V2h2V1h4v1h2V1H8V0z' fill='gray'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1H4v1H2v2H1v4h1v1h1V8H2V4h1V3h1V2h4v1h2V2H8V1z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 3h1v1H9V3zm1 5V4h1v4h-1zm-2 2V9h1V8h1v2H8zm-4 0v1h4v-1H4zm0 0V9H2v1h2z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 2h-1v2h1v4h-1v2H8v1H4v-1H2v1h2v1h4v-1h2v-1h1V8h1V4h-1V2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 2h4v1h1v1h1v4H9v1H8v1H4V9H3V8H2V4h1V3h1V2z' fill='silver'/%3E%3C/svg%3E")
 }
 
-input[type=radio][disabled]:checked + label:after {
+input[type=radio][disabled]:checked+label:after {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='4' height='4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3 0H1v1H0v2h1v1h2V3h1V1H3V0z' fill='gray'/%3E%3C/svg%3E")
 }
 
-input[type=checkbox][disabled] + label:before {
+input[type=checkbox][disabled]+label:before {
     background: #ece9d8
 }
 
-input[type=checkbox][disabled]:checked + label:after {
+input[type=checkbox][disabled]:checked+label:after {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='7' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 0H6v1H5v1H4v1H3v1H2V3H1V2H0v3h1v1h1v1h1V6h1V5h1V4h1V3h1V0z' fill='gray'/%3E%3C/svg%3E")
 }
 
-input[type=email], input[type=password], input[type=text] {
+input[type=email],
+input[type=password],
+input[type=text] {
     padding: 3px 4px;
     border: 1px solid #7f9db9;
     background-color: #fff;
@@ -324,7 +336,9 @@ input[type=email], input[type=password], input[type=text] {
     line-height: 2
 }
 
-input[type=email]:focus, input[type=password]:focus, input[type=text]:focus {
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:focus {
     outline: none
 }
 
@@ -376,7 +390,7 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     transform: translateY(50%)
 }
 
-.is-vertical > input[type=range] {
+.is-vertical>input[type=range] {
     width: 150px;
     height: 4px;
     margin: 0 16px 0 10px;
@@ -384,31 +398,31 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     transform: rotate(270deg) translateX(calc(-50% + 8px))
 }
 
-.is-vertical > input[type=range]::-webkit-slider-runnable-track {
+.is-vertical>input[type=range]::-webkit-slider-runnable-track {
     border-left: 1px solid grey;
     border-bottom: 1px solid grey;
     box-shadow: -1px 0 0 #fff, -1px 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #a9a9a9, 1px -1px 0 #a9a9a9, 0 -1px 0 #a9a9a9, 1px 1px 0 #fff, -1px -1px #a9a9a9
 }
 
-.is-vertical > input[type=range]::-moz-range-track {
+.is-vertical>input[type=range]::-moz-range-track {
     border-left: 1px solid grey;
     border-bottom: 1px solid grey;
     box-shadow: -1px 0 0 #fff, -1px 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #a9a9a9, 1px -1px 0 #a9a9a9, 0 -1px 0 #a9a9a9, 1px 1px 0 #fff, -1px -1px #a9a9a9
 }
 
-.is-vertical > input[type=range]::-webkit-slider-thumb {
+.is-vertical>input[type=range]::-webkit-slider-thumb {
     transform: translateY(-8px) scaleX(-1)
 }
 
-.is-vertical > input[type=range]::-moz-range-thumb {
+.is-vertical>input[type=range]::-moz-range-thumb {
     transform: translateY(2px) scaleX(-1)
 }
 
-.is-vertical > input[type=range].has-box-indicator::-webkit-slider-thumb {
+.is-vertical>input[type=range].has-box-indicator::-webkit-slider-thumb {
     transform: translateY(-10px) scaleX(-1)
 }
 
-.is-vertical > input[type=range].has-box-indicator::-moz-range-thumb {
+.is-vertical>input[type=range].has-box-indicator::-moz-range-thumb {
     transform: translateY(0) scaleX(-1)
 }
 
@@ -502,11 +516,11 @@ ul.tree-view ul {
     border-left: 1px dotted grey
 }
 
-ul.tree-view ul > li {
+ul.tree-view ul>li {
     position: relative
 }
 
-ul.tree-view ul > li:before {
+ul.tree-view ul>li:before {
     content: "";
     display: block;
     position: absolute;
@@ -516,7 +530,7 @@ ul.tree-view ul > li:before {
     border-bottom: 1px dotted grey
 }
 
-ul.tree-view ul > li:last-child:after {
+ul.tree-view ul>li:last-child:after {
     content: "";
     display: block;
     position: absolute;
@@ -527,7 +541,7 @@ ul.tree-view ul > li:last-child:after {
     background: #fff
 }
 
-ul.tree-view ul details > summary:before {
+ul.tree-view ul details>summary:before {
     margin-left: -22px;
     position: relative;
     z-index: 1
@@ -537,7 +551,7 @@ ul.tree-view details {
     margin-top: 0
 }
 
-ul.tree-view details > summary:before {
+ul.tree-view details>summary:before {
     text-align: center;
     display: block;
     float: left;
@@ -555,7 +569,7 @@ ul.tree-view details[open] summary {
     margin-bottom: 0
 }
 
-ul.tree-view details[open] > summary:before {
+ul.tree-view details[open]>summary:before {
     content: "-"
 }
 
@@ -714,7 +728,9 @@ menu[role=tablist].justified button {
     border: none
 }
 
-.title-bar-controls button:active, .title-bar-controls button:focus, .title-bar-controls button:hover {
+.title-bar-controls button:active,
+.title-bar-controls button:focus,
+.title-bar-controls button:hover {
     box-shadow: none !important
 }
 
@@ -813,7 +829,8 @@ button {
     border-radius: 3px
 }
 
-button:not(:disabled).active, button:not(:disabled):active {
+button:not(:disabled).active,
+button:not(:disabled):active {
     box-shadow: none;
     background: linear-gradient(180deg, #cdcac3, #e3e3db 8%, #e5e5de 94%, #f2f2f1)
 }
@@ -822,7 +839,8 @@ button:not(:disabled):hover {
     box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px #fbc761, inset 2px -2px #e5a01a
 }
 
-button.focused, button:focus {
+button.focused,
+button:focus {
     box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea, inset -2px 2px #bcd4f6, inset 1px -1px #89ade4, inset 2px -2px #89ade4
 }
 
@@ -830,7 +848,11 @@ button::-moz-focus-inner {
     border: 0
 }
 
-input, label, option, select, textarea {
+input,
+label,
+option,
+select,
+textarea {
     -webkit-font-smoothing: antialiased
 }
 
@@ -863,70 +885,73 @@ input[type=radio] {
     border: none
 }
 
-input[type=radio] + label {
+input[type=radio]+label {
     line-height: 16px
 }
 
-input[type=radio] + label:before {
+input[type=radio]+label:before {
     background: linear-gradient(135deg, #dcdcd7, #fff);
     border-radius: 50%;
     border: 1px solid #1d5281
 }
 
-input[type=radio]:not([disabled]):not(:active) + label:hover:before {
+input[type=radio]:not([disabled]):not(:active)+label:hover:before {
     box-shadow: inset -2px -2px #f8b636, inset 2px 2px #fedf9c
 }
 
-input[type=radio]:active + label:before {
+input[type=radio]:active+label:before {
     background: linear-gradient(135deg, #b0b0a7, #e3e1d2)
 }
 
-input[type=radio]:checked + label:after {
+input[type=radio]:checked+label:after {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 5 5' shape-rendering='crispEdges'%3E%3Cpath stroke='%23a9dca6' d='M1 0h1M0 1h1'/%3E%3Cpath stroke='%234dbf4a' d='M2 0h1M0 2h1'/%3E%3Cpath stroke='%23a0d29e' d='M3 0h1M0 3h1'/%3E%3Cpath stroke='%2355d551' d='M1 1h1'/%3E%3Cpath stroke='%2343c33f' d='M2 1h1'/%3E%3Cpath stroke='%2329a826' d='M3 1h1'/%3E%3Cpath stroke='%239acc98' d='M4 1h1M1 4h1'/%3E%3Cpath stroke='%2342c33f' d='M1 2h1'/%3E%3Cpath stroke='%2338b935' d='M2 2h1'/%3E%3Cpath stroke='%2321a121' d='M3 2h1'/%3E%3Cpath stroke='%23269623' d='M4 2h1'/%3E%3Cpath stroke='%232aa827' d='M1 3h1'/%3E%3Cpath stroke='%2322a220' d='M2 3h1'/%3E%3Cpath stroke='%23139210' d='M3 3h1'/%3E%3Cpath stroke='%2398c897' d='M4 3h1'/%3E%3Cpath stroke='%23249624' d='M2 4h1'/%3E%3Cpath stroke='%2398c997' d='M3 4h1'/%3E%3C/svg%3E")
 }
 
-input[type=radio]:focus + label {
+input[type=radio]:focus+label {
     outline: 1px dotted #000
 }
 
-input[type=radio][disabled] + label:before {
+input[type=radio][disabled]+label:before {
     border: 1px solid #cac8bb;
     background: #fff
 }
 
-input[type=radio][disabled]:checked + label:after {
+input[type=radio][disabled]:checked+label:after {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 5 5' shape-rendering='crispEdges'%3E%3Cpath stroke='%23e8e6da' d='M1 0h1M0 1h1'/%3E%3Cpath stroke='%23d2ceb5' d='M2 0h1M0 2h1'/%3E%3Cpath stroke='%23e5e3d4' d='M3 0h1M0 3h1'/%3E%3Cpath stroke='%23d7d3bd' d='M1 1h1'/%3E%3Cpath stroke='%23d0ccb2' d='M2 1h1M1 2h1'/%3E%3Cpath stroke='%23c7c2a2' d='M3 1h1M1 3h1'/%3E%3Cpath stroke='%23e2dfd0' d='M4 1h1M1 4h1'/%3E%3Cpath stroke='%23cdc8ac' d='M2 2h1'/%3E%3Cpath stroke='%23c5bf9f' d='M3 2h1M2 3h1'/%3E%3Cpath stroke='%23c3bd9c' d='M4 2h1'/%3E%3Cpath stroke='%23bfb995' d='M3 3h1'/%3E%3Cpath stroke='%23e2dfcf' d='M4 3h1M3 4h1'/%3E%3Cpath stroke='%23c4be9d' d='M2 4h1'/%3E%3C/svg%3E")
 }
 
-input[type=checkbox] + label:before {
+input[type=checkbox]+label:before {
     box-shadow: none;
     border: 1px solid #1d5281;
     background: linear-gradient(135deg, #dcdcd7, #fff)
 }
 
-input[type=checkbox]:checked + label:after {
+input[type=checkbox]:checked+label:after {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 11 11' shape-rendering='crispEdges'%3E%3Cpath stroke='%2322a122' d='M8 2h1M7 3h2M2 4h1m3 0h3M2 5h2m1 0h3M2 6h5M3 7h3M4 8h1'/%3E%3C/svg%3E");
     left: -17px
 }
 
-input[type=checkbox]:not([disabled]):not(:active) + label:hover:before {
+input[type=checkbox]:not([disabled]):not(:active)+label:hover:before {
     box-shadow: inset -2px -2px #f8b636, inset 2px 2px #fedf9c
 }
 
-input[type=checkbox]:active + label:before {
+input[type=checkbox]:active+label:before {
     background: linear-gradient(135deg, #b0b0a7, #e3e1d2)
 }
 
-input[type=checkbox][disabled] + label:before {
+input[type=checkbox][disabled]+label:before {
     background: #fff;
     border: 1px solid #cac8bb
 }
 
-input[type=checkbox][disabled]:checked + label:after {
+input[type=checkbox][disabled]:checked+label:after {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 -0.5 11 11' shape-rendering='crispEdges'%3E%3Cpath stroke='%23cac8bb' d='M8 2h1M7 3h2M2 4h1m3 0h3M2 5h2m1 0h3M2 6h5M3 7h3M4 8h1'/%3E%3C/svg%3E")
 }
 
-input[type=email], input[type=password], input[type=text], select {
+input[type=email],
+input[type=password],
+input[type=text],
+select {
     height: 23px
 }
 
@@ -988,14 +1013,14 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     transform: translateY(0)
 }
 
-.is-vertical > input[type=range]::-webkit-slider-runnable-track {
+.is-vertical>input[type=range]::-webkit-slider-runnable-track {
     border-left: 1px solid #f3f2ea;
     border-right: 0;
     border-bottom: 1px solid #f3f2ea;
     box-shadow: -1px 0 0 #fff, -1px 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #9d9c99, 1px -1px 0 #9d9c99, 0 -1px 0 #9d9c99, 1px 1px 0 #fff, -1px -1px #9d9c99
 }
 
-.is-vertical > input[type=range]::-moz-range-track {
+.is-vertical>input[type=range]::-moz-range-track {
     border-left: 1px solid #f3f2ea;
     border-right: 0;
     border-bottom: 1px solid #f3f2ea;
@@ -1020,11 +1045,11 @@ legend {
     align-items: center
 }
 
-.field-row > * + * {
+.field-row>*+* {
     margin-left: 6px
 }
 
-[class^=field-row] + [class^=field-row] {
+[class^=field-row]+[class^=field-row] {
     margin-top: 6px
 }
 
@@ -1033,7 +1058,7 @@ legend {
     flex-direction: column
 }
 
-.field-row-stacked * + * {
+.field-row-stacked *+* {
     margin-top: 6px
 }
 
@@ -1089,6 +1114,7 @@ ul.tree-view {
     0% {
         transform: translateX(-30px)
     }
+
     to {
         transform: translateX(100%)
     }
@@ -1109,7 +1135,8 @@ progress {
     -moz-box-shadow: inset 0 0 1px 0 #686868
 }
 
-progress, progress:not([value]) {
+progress,
+progress:not([value]) {
     box-shadow: inset 0 0 1px 0 #686868
 }
 
@@ -1161,7 +1188,8 @@ progress:not([value]):before {
     -moz-box-shadow: inset 0 0 1px 0 #686868
 }
 
-progress:not([value]):before, progress:not([value]):before:not([value]) {
+progress:not([value]):before,
+progress:not([value]):before:not([value]) {
     box-shadow: inset 0 0 1px 0 #686868
 }
 
@@ -1183,7 +1211,8 @@ progress:not([value]):after {
     background: repeating-linear-gradient(90deg, transparent 0, transparent 8px, #fff 0, #fff 10px, transparent 0, transparent 18px, #fff 0, #fff 20px, transparent 0, transparent 28px, #fff 0, #fff), linear-gradient(180deg, #acedad 0, #7be47d 14%, #4cda50 28%, #2ed330 42%, #42d845 57%, #76e275 71%, #8fe791 85%, #fff)
 }
 
-progress:not([value]):after, progress:not([value]):after:not([value]) {
+progress:not([value]):after,
+progress:not([value]):after:not([value]) {
     animation: sliding 2s linear 0s infinite
 }
 

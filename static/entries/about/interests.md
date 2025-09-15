@@ -42,18 +42,27 @@ Ich bin Spielleiter. Also: Der arme Mensch, der sich monatelang den Kopf zerbric
 
 Das Leiten einer D&D-Kampagne ist für mich eine seltsame Mischung aus Weltenbau, Improvisationstheater, Regeljonglage und Krisenintervention. Mal bist du Gott, mal bist du Google Translate für Witze auf Zwergisch. Du planst epische Schlachten und emotionale Story-Beats – und bekommst stattdessen einen spontanen Hühner-Entführungskrimi, weil die Party beschlossen hat, dass das Dorfmaskottchen „verdächtig guckt“.
 
+<img src="static/imgs/malusdur artwork.png" alt="" style="max-width: 500px; max-height: 300px; background: white">
+
 Trotzdem (oder gerade deshalb?) ist es unfassbar befriedigend. Du bastelst dir deine eigene Welt zusammen, bevölkerst sie mit Charakteren, gibst ihnen Konflikte, Motivationen, Geheimnisse – und dann lässt du deine Freunde mit diesem Chaos interagieren. Und egal, wie gut oder schlecht es läuft, es wird immer eine Geschichte, an die man sich erinnert. So ein bisschen wie ein Fiebertraum, nur mit mehr Würfeln und weniger Delirium (je nach Situation).
 
 Das Schönste daran ist aber, dass man als Spielleiter auch selbst lernt. Über Storytelling, über Gruppen-Dynamiken, über Erwartungsmanagement und, ganz wichtig: über die Tatsache, dass kein Plan je den Erstkontakt mit Spielern überlebt. Man lernt, loszulassen. Dinge geschehen zu lassen. Sich über unerwartete Wendungen zu freuen. Und wenn alles den Bach runtergeht – einfach improvisieren. Oder einen Drachen aus dem Hut zaubern.
 
-Ich liebe das Spielleiten, weil es mir die Möglichkeit gibt, kreativ zu sein, ohne dafür perfekt sein zu müssen. Weil es mir erlaubt, mit anderen zusammen eine Geschichte zu erzählen, die in keinem Buch und auf keinem Bildschirm existiert – nur in unseren Köpfen. Und weil ich dabei endlich legal sadistisch sein darf, ohne dass jemand das Jugendamt ruft.
+Ich liebe das Spielleiten, weil es mir die Möglichkeit gibt, kreativ zu sein, ohne dafür perfekt sein zu müssen. Weil es mir erlaubt, mit anderen zusammen eine Geschichte zu erzählen, die in keinem Buch und auf keinem Bildschirm existiert – nur in unseren Köpfen.
+
+##### Konsolenrestaurierung
+
+Das Restaurieren alter Nintendo-Konsolen ist für mich nicht nur eine technische Herausforderung, sondern auch eine Herzensangelegenheit. Die Geräte meiner Kindheit, wie der Game Boy und das SNES, wieder funktionsfähig zu machen und in altem Glanze erstrahlen zu lassen, ist für mich eine Kombination aus Nostalgie, technischer Fertigkeit und Kreativität. Jede Konsole hat ihre eigene Geschichte, und es ist ein erfüllendes Gefühl, diese Geschichte fortzuführen, indem ich den Geräten neues Leben einhauche. Besonders spannend finde ich dabei, wie die Technik hinter diesen Konsolen funktioniert, und ich liebe es, diese alten Technologien zu verstehen.
+
+##### Öffentlicher Personenverkehr
+
+<img src="static/imgs/zug-müde.png" alt="" style="float: right; margin: 0 0 0 20px; max-height: 250px; max-width: 500px">
+
+Meine Arbeit bei der Deutschen Bahn bietet mir die Möglichkeit, an einer nachhaltigen Mobilitätslösung für die Zukunft mitzuwirken. Ich glaube fest daran, dass der Ausbau öffentlicher Verkehrsmittel der richtige Weg zu einer umweltfreundlichen und effizienten Mobilität ist. Es motiviert mich, Teil dieser Vision zu sein und daran zu arbeiten, den öffentlichen Verkehr effizienter und nutzerfreundlicher zu gestalten. Mobilität sollte für jeden zugänglich, umweltfreundlich und gemeinschaftlich sein – und ich bin stolz darauf, durch meine Arbeit meinen Teil dazu beizutragen.
 
 /\* TODO \*/
 
 <!--
-##### Konsolenrestaurierung
-
-Das Restaurieren alter Nintendo-Konsolen ist für mich nicht nur eine technische Herausforderung, sondern auch eine Herzensangelegenheit. Die Geräte meiner Kindheit, wie der Game Boy und das SNES, wieder funktionsfähig zu machen, ist für mich eine Kombination aus Nostalgie, technischer Fertigkeit und Kreativität. Jede Konsole hat ihre eigene Geschichte, und es ist ein erfüllendes Gefühl, diese Geschichte fortzuführen, indem ich den Geräten neues Leben einhauche. Besonders spannend finde ich dabei, wie die Technik hinter diesen Konsolen funktioniert, und ich liebe es, diese alten Technologien zu verstehen.
 
 ##### Musik
 
@@ -62,14 +71,6 @@ Musik spielt eine wichtige Rolle in meinem Leben. Seit meinem sechsten Lebensjah
 ##### Japanische Popkultur
 
 Ich interessiere mich sehr für die japanische Popkultur, insbesondere für Anime und Manga. Meine ersten Anime waren “ Steins;Gate” und “Detektiv Conan”, die beide bis heute zu meinen absoluten Favoriten zählen. Ich liebe es, in die unterschiedlichen Welten der Geschichten einzutauchen und finde es unglaublich faszinierend, wie vielfältig und kreativ die Inhalte der japanischen Popkultur sind. Auch die oben genannten Musikrichtungen begleiten mich jeden Tag, und ich genieße es, mich damit zu befassen.
-
-##### Öffentlicher Personenverkehr
-
-Meine Arbeit bei der Deutschen Bahn bietet mir die Möglichkeit, an einer nachhaltigen Mobilitätslösung für die Zukunft mitzuwirken. Ich glaube fest daran, dass der Ausbau öffentlicher Verkehrsmittel der richtige Weg zu einer umweltfreundlichen und effizienten Mobilität ist. Es motiviert mich, Teil dieser Vision zu sein und daran zu arbeiten, den öffentlichen Verkehr effizienter und nutzerfreundlicher zu gestalten. Mobilität sollte für jeden zugänglich, umweltfreundlich und gemeinschaftlich sein – und ich bin stolz darauf, durch meine Arbeit meinen Teil dazu beizutragen.
-
-##### Dungeons & Dragons
-
-Ich spiele und leite hauptsächlich als Dungeon Master Dungeons & Dragons. Mein Hauptfokus liegt zurzeit auf einer massiven Kampagne, zu der ich auch ein eigenes Wiki und eine interaktive Karte geschrieben habe. Ich liebe es, mir Welten, Charaktere und Konflikte auszudenken und anschließend meine Spieler mit allem interagieren und sich in der Welt immersieren zu sehen.
 
 ##### Videospielkonservierung
 

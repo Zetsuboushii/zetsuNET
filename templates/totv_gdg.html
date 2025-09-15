@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ g.site_title | upper }} | TOME OF THE VASTLANDS: GEIßEL DER GIER</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/98.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+    {% include "includes.html" %}
+</head>
+
+<body>
+    <div class="page-containter">
+        <div class="page about-container">
+            <div class="window about-main">
+                <div class="title-bar">
+                    <div class="title-bar-text">Tome of the Vastlands: Geißel der Gier</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body about-body">
+                    <div class="about-body-left sunken-panel"
+                        style="background-image: url('../static/ui/bkg-paper.gif'); font-family: Serif;">
+                        <iframe class="pdf"
+                            src="{{ url_for('static', filename='pdfs/totv-gdg.pdf') }}" ,
+                            width="592" , height="657">
+                        </iframe>
+                    </div>
+                    <div class="about-body-right" style="text-align: center;">
+                        <div class="window">
+                            <div class="title-bar">
+                                <div class="title-bar-text">Links</div>
+                                <div class="title-bar-controls">
+                                    <button aria-label="Close"></button>
+                                </div>
+                            </div>
+                            <div class="window-body">
+                                <ul class="tree-view home-left-element" style="text-align: left">
+                                    <li><a href="{{ url_for('index') }}">Homepage</a></li>
+                                    <li><a href="https://github.com/Zetsuboushii">GitHub</a></li>
+                                    <li><a href="https://open.spotify.com/user/fefuqa5sxojouw2paqibdy5wi">Spotify</a>
+                                    </li>
+                                    <li><a href="https://www.instagram.com/zetsuboushii">Instagram</a></li>
+                                    <li><a href="https://discordapp.com/users/406094506509991936">Discord</a></li>
+                                    <li><a href="https://myanimelist.net/animelist/Zetsuboushi">MyAnimeList</a></li>
+                                    <li><a href="https://steamcommunity.com/id/zetsuboushii/">Steam</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <img src="{{ url_for('static', filename='imgs/scarlet.png') }}" alt=""
+                            style="position: relative; bottom: -70px; left: -25px;">
+                    </div>
+                </div>
+                <div class="status-bar">
+                    <p class="status-bar-field">Press Alt+f4 for help</p>
+                    <p class="status-bar-field">Commit Hash: {{ g.git_hash }}</p>
+                    <p class="status-bar-field">Site Version: {{ g.version }}</p>
+                </div>
+            </div>
+            <div class="about-head">
+                <div class="window">
+                    <div class="title-bar">
+                        <div class="title-bar-text">新しい Microsoft Windows 98 を入手する</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body" style="height: 91%">
+                        <div class="sunken-panel">
+                            <img src="{{ url_for('static', filename='ui/banner-windows.gif') }}" alt=""
+                                style="width: 100%; display: block; object-fit: cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="window about-ad" style="height: 547px;">
+                <div class="title-bar">
+                    <div class="title-bar-text">Image by Tokyo Gensou</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <div class="sunken-panel" style="height: 90%; overflow: hidden">
+                        <img src="{{ url_for('static', filename='imgs/akihabara.jpg') }}" alt=""
+                            style="height: 100%; width: 100%; display: block; object-fit: cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

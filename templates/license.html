@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ g.site_title | upper }} | LICENSE</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/XP.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/blog.css') }}">
+    {% include "includes.html" %}
+</head>
+<body style="background-color: black">
+<pre>{{ license | upper }}
+</pre>
+</body>
+</html>

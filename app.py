@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 from email.utils import format_datetime
 from pathlib import Path
 import requests
+from datetime import datetime
 
 app = Flask(__name__, static_folder="static")
 
@@ -141,8 +142,13 @@ def index():
         readme_text, extensions=["fenced_code", "tables", "toc", "codehilite"]
     )
 
+    plants = []
+    plants_json = load_from_json("herbarium/herbarium.json")
+    for p in plants_json:
+        plants.append({"name": p["nickname"], "id": p["id"]})
+
     return render_template(
-        "index.html", home=home_json, content=content_md, readme=readme_html
+        "index.html", home=home_json, content=content_md, readme=readme_html, plants=plants
     )
 
 
@@ -290,6 +296,14 @@ def feed_xml():
     lines.append("</channel></rss>")
     xml = "\n".join(lines)
     return Response(xml, mimetype="application/rss+xml; charset=utf-8")
+
+
+@app.route("/herbarium/<id>.html")
+def herbarium(id):
+    plants_json = load_from_json("herbarium/herbarium.json")
+    plant = next((p for p in plants_json if p["id"] == id), None)
+
+    return render_template("herbarium.html", plant=plant, now=datetime.now(timezone.utc))
 
 
 if __name__ == "__main__":

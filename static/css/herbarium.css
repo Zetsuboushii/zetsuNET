@@ -1,0 +1,52 @@
+html,
+body {
+  min-width: 1200px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.home-container {
+  display: grid;
+  width: 984px;
+  grid-template-areas: "left right";
+  grid-template-columns: 400px 584px;
+  gap: 8px;
+  align-items: start;
+}
+
+.home-right {
+  padding: 0 10px 10px 10px;
+  grid-area: right;
+}
+
+.home-right .home-main {
+  display: grid;
+  width: 564px;
+  height: 400px;
+  align-items: start;
+}
+
+.home-right .home-main p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.home-right .home-main input {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.home-right .home-main .home-main-left {
+  overflow-y: scroll;
+}
+
+.home-left {
+  grid-area: left;
+  align-content: center;
+  text-align: center;
+}
+
+.home-left .home-left-element {
+  margin: auto;
+  text-align: left;
+}

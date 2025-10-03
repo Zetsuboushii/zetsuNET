@@ -84,6 +84,16 @@
                                         <li><a href="{{ url_for('gamelog') }}">Gamelog</a></li>
                                     </ul>
                                 </li>
+                                <li>
+                                    <details open>
+                                        <summary>Herbarium</summary>
+                                        <ul>
+                                            {% for p in plants %}
+                                                <li><a href="{{ url_for('herbarium', id=p.id) }}">{{ p.name }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </details>
+                                </li>
                                 <li>Shrines</li>
                                 <li><a href="{{ url_for('license') }}">Licence</a></li>
                                 <li><a href="/feed.xml">RSS Feed</a></li>

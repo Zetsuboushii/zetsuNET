@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1006, initial-scale=1, user-scalable=yes">
+    <title>{{ g.site_title | upper }} | {{ plant.nickname | upper }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/98.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/herbarium.css') }}">
+    {% include "includes.html" %}
+</head>
+
+<body>
+<div class="page-containter">
+    <div class="page">
+        <div class="window" style="max-width: 1006px; margin: 0 auto 0 auto">
+            <div class="title-bar">
+                <div class="title-bar-text">Herbarium | {{ plant.nickname }}</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body home-container">
+                <div class="home-left">
+                    <div class="sunken-panel home-left-element"
+                         style="width: 400px; height: 400px; overflow: hidden">
+                        <img src="{{ url_for('static', filename='imgs/' + plant.id + '.jpg') }}" alt=""
+                             style="max-width: 400px">
+                    </div>
+                </div>
+                <div class="home-right">
+                    <div class="home-main" style="height: 400px">
+                        <div class="home-main-left sunken-panel"
+                             style="padding: 10px; background-image: url('../static/ui/bkg-paper.gif'); font-family: Serif;">
+                            <h3>{{ plant.nickname }}</h3>
+                            <hr>
+                            <table style="width: 100%">
+                                <thead>
+                                <tr>
+                                    <th>Allgemeine Daten</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><b>Wissenschaftlicher Name</b></td>
+                                    <td>{{ plant.name }}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Spezies</b></td>
+                                    <td>{{ plant.species }}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Ort</b></td>
+                                    <td>{{ plant.location }}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Tags</b></td>
+                                    <td>{% for t in plant.tags %}{{ t }} {% endfor %}</td>
+                                </tr>
+                                </tbody>
+                                <thead>
+                                <tr>
+                                    <th>Pflege</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><b>Wasser</b></td>
+                                    <td>{{ plant.care.watering.amount_ml_per_week }}ml/{{ plant.care.watering.frequency_days }}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Licht</b></td>
+                                    <td>{{ plant.care.light.requirement }}, {{ plant.care.light.hours_per_day }}h/Tag</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Dünger</b></td>
+                                    <td>{{ plant.care.fertilizer.type }}, alle {{ plant.care.fertilizer.frequency_days }} Tage</td>
+                                </tr>
+                                </tbody>
+                                <thead>
+                                <tr>
+                                    <th>Gesundheit</th>
+                                    <th></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><b>Status</b></td>
+                                    <td>{{ plant.health.status }}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Hinweise</b></td>
+                                    <td>{{ plant.health.notes }}</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="status-bar">
+                <p class="status-bar-field">Press Alt+f4 for help</p>
+                <p class="status-bar-field">Commit Hash: {{ g.git_hash }}</p>
+                <p class="status-bar-field">Site Version: {{ g.version }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

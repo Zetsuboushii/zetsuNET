@@ -40,6 +40,8 @@ body {
 
 .home-right .home-main .home-main-left {
   grid-area: left;
+  max-height: 668px;
+  overflow-y: scroll;
 }
 
 .home-right .home-main .home-main-right {

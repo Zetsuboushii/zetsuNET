@@ -73,7 +73,8 @@
                                     <li><a href="{{ url_for('blog') }}">Blogs</a></li>
                                     <li>Writing
                                         <ul>
-                                            <li><a href="{{ url_for('totv_gdg') }}">Tome of the Vastlands: Geißel der Gier</a></li>
+                                            <li><a href="{{ url_for('totv_gdg') }}">Tome of the Vastlands: Geißel der
+                                                    Gier</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{ url_for('music') }}">Music</a></li>
@@ -96,7 +97,7 @@
                         </ul>
                     </div>
                     <div class="home-right">
-                        <div class="home-main" style="margin-bottom: 10px">
+                        <div class="home-main" style="height: 100%;">
                             <div class="home-main-left sunken-panel"
                                 style="padding: 10px; background-image: url('../static/ui/bkg-paper.gif'); font-family: Serif;">
                                 <div style="text-align: center">
@@ -105,6 +106,8 @@
                                 </div>
                                 <hr>
                                 {{ content | safe }}
+
+                                {{ readme | safe }}
                             </div>
                             <div class="home-main-right">
                                 <div class="window">
@@ -143,7 +146,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <img src="{{ url_for('static', filename='gifs/teto-tetoris.gif') }}" alt=""
-                                    style="width: 200px; text-align: center; position: relative; top: 20px;">
+                                        style="width: 200px; text-align: center; position: relative; top: 20px;">
                                 </div>
                             </div>
                         </div>

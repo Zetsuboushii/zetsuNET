@@ -3,7 +3,6 @@ from flask import Flask, render_template, g, Response
 import markdown
 import os
 import glob
-from flask_frozen import Freezer
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from email.utils import format_datetime
@@ -11,7 +10,6 @@ from pathlib import Path
 import requests
 
 app = Flask(__name__, static_folder="static")
-freezer = Freezer(app)
 
 app.config["FREEZER_DESTINATION_IGNORE"] = ["index"]
 app.config["FREEZER_RELATIVE_URLS"] = True

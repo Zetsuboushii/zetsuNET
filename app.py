@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from email.utils import format_datetime
 from pathlib import Path
+import requests
 
 app = Flask(__name__, static_folder="static")
 freezer = Freezer(app)
@@ -49,8 +50,8 @@ def latest_mtime(paths: list[str]) -> datetime:
 
 
 SITE_TITLE = "ZetsuNET"
-SITE_URL   = "https://zetsuboushii.site"
-SITE_DESC  = "Updates ausgewählter Seiten"
+SITE_URL = "https://zetsuboushii.site"
+SITE_DESC = "Updates ausgewählter Seiten"
 
 MONITORED_PAGES = [
     {
@@ -86,7 +87,7 @@ MONITORED_PAGES = [
         "url_path": "/blog.html",
         "sources": [
             "templates/blog.html",
-            "static/entries/blog/**/*",      
+            "static/entries/blog/**/*",
         ],
         "summary": "Neue/aktualisierte Blog-Einträge.",
     },
@@ -135,7 +136,16 @@ def index():
     home_json = load_from_json("home.json")
     content_md = load_from_markdown("home.md")
 
-    return render_template("index.html", home=home_json, content=content_md)
+    response = requests.get("https://zetsuboushii.github.io/Zetsuboushii/README.md")
+    response.raise_for_status()
+    readme_text = response.text
+    readme_html = markdown.markdown(
+        readme_text, extensions=["fenced_code", "tables", "toc", "codehilite"]
+    )
+
+    return render_template(
+        "index.html", home=home_json, content=content_md, readme=readme_html
+    )
 
 
 @app.route("/about.html")
@@ -220,7 +230,14 @@ def music():
         "silly": load_from_markdown("music/silly.md"),
     }
 
-    return render_template("music.html", intro=intro_md, playlists=playlists)
+    lyrics = []
+    lyrics_entries = glob.glob(os.path.join(f"static/entries/music/lyrics", "*.json"))
+    for entry in lyrics_entries:
+        lyrics.append(load_from_json(entry.replace("static/entries", "")))
+
+    return render_template(
+        "music.html", intro=intro_md, playlists=playlists, lyrics=lyrics
+    )
 
 
 @app.route("/license.html")

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,34 +10,39 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/music.css') }}">
     {% include "includes.html" %}
 </head>
+
 <body style="background-image: url('{{ g.static }}ui/bkg-autumn.jpg'); background-size: cover;">
-<div class="page-containter">
-    <div class="page music-container">
-        <div class="window music-main">
-            <div class="title-bar">
-                <div class="title-bar-text">Something for thine ears</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Close"></button>
+    <div class="page-containter">
+        <div class="page music-container">
+            <div class="window music-main">
+                <div class="title-bar">
+                    <div class="title-bar-text">Something for thine ears</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close"></button>
+                    </div>
                 </div>
-            </div>
-            <div class="window-body music-body">
+                <div class="window-body music-body">
                     <div style="display: grid; grid-template-columns: 1fr 4fr 1fr; text-align: center">
                         <img src="{{ url_for('static', filename='gifs/HOT.gif') }}" alt=""
-                             style="margin: auto 0 auto 0; float: unset; border: none">
+                            style="margin: auto 0 auto 0; float: unset; border: none">
                         <h2 style="margin: 0">音楽</h2>
                         <img src="{{ url_for('static', filename='gifs/HOT.gif') }}" alt=""
-                             style="margin: auto 0 auto 0; float: unset; border: none">
+                            style="margin: auto 0 auto 0; float: unset; border: none">
                     </div>
                     {{ intro | safe }}
                     <section class="tabs">
                         <menu role="tablist" aria-label="Sample Tabs">
+                            <!--
                             <button role="tab" aria-selected="true" aria-controls="tab-A">Daily</button>
                             <button role="tab" aria-controls="tab-B">Vocal Synthesizer</button>
                             <button role="tab" aria-controls="tab-C">Schizo</button>
                             <button role="tab" aria-controls="tab-D">80s JP</button>
                             <button role="tab" aria-controls="tab-E">Conan</button>
                             <button role="tab" aria-controls="tab-F">Silly</button>
+                            -->
+                            <button role="tab" aria-selected="true" aria-controls="tab-G">Lyrics</button>
                         </menu>
+                        <!--
                         <article role="tabpanel" id="tab-A">
                             {{ playlists.daily | safe }}
 
@@ -58,65 +64,87 @@
 
                         </article>
                         <article role="tabpanel" hidden id="tab-F">
-                            {{ playlists.silly | safe }}
+                            {{ playlists.silly }}
+
+                        </article>
+                        -->
+                        <article role="tabpanel" id="tab-G">
+                            <h4>{{ lyrics[0].title }}</h2>
+                            {{ lyrics[0].artist }}
+                            <table>
+                                <tr>
+                                    {% for lang in lyrics[0].languages %}
+                                    <th>{{ lang }}</th>
+                                    {% endfor %}
+                                </tr>
+                                {% for line in lyrics[0].lyrics %}
+                                <tr>
+                                    {% for i in range(lyrics[0].languages | length) %}
+                                    <td>{{ line[i] }}</td>
+                                    {% endfor %}
+                                </tr>
+                                {% endfor %}
+                            </table>
 
                         </article>
                     </section>
 
                     <img src="{{ url_for('static', filename='gifs/amechan-vibing.gif') }}" alt=""
-                         style="max-width: 250px;">
+                        style="max-width: 250px;">
 
                     /* TODO */
+                </div>
+                <div class="status-bar">
+                    <p class="status-bar-field">Press Alt+f4 for help</p>
+                    <p class="status-bar-field">Commit Hash: {{ g.git_hash }}</p>
+                    <p class="status-bar-field">Site Version: {{ g.version }}</p>
+                </div>
             </div>
-            <div class="status-bar">
-                <p class="status-bar-field">Press Alt+f4 for help</p>
-                <p class="status-bar-field">Commit Hash: {{ g.git_hash }}</p>
-                <p class="status-bar-field">Site Version: {{ g.version }}</p>
+            <div class="music-head">
+                <div class="window">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Window Top</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body" style="text-align: center">
+                        <img src="{{ url_for('static', filename='ui/banner-construction.gif') }}" alt="">
+                    </div>
+                </div>
+                <div class="window">
+                    <div class="title-bar">
+                        <div class="title-bar-text">Back Home?</div>
+                        <div class="title-bar-controls">
+                            <button aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="window-body" style="text-align: center">
+                        <a href="{{ url_for('index') }}">
+                            <img src="{{ url_for('static', filename='gifs/kirbybop.gif') }}" alt=""
+                                style="max-width: 250px;">
+                        </a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="music-head">
-            <div class="window">
+            <div class="window music-ad" style="height: 547px;">
                 <div class="title-bar">
-                    <div class="title-bar-text">Window Top</div>
+                    <div class="title-bar-text">Image by Tokyo Gensou</div>
                     <div class="title-bar-controls">
                         <button aria-label="Close"></button>
                     </div>
                 </div>
-                <div class="window-body" style="text-align: center">
-                    <img src="{{ url_for('static', filename='ui/banner-construction.gif') }}" alt="">
-                </div>
-            </div>
-            <div class="window">
-                <div class="title-bar">
-                    <div class="title-bar-text">Back Home?</div>
-                    <div class="title-bar-controls">
-                        <button aria-label="Close"></button>
+                <div class="window-body">
+                    <div class="sunken-panel" style="height: 90%; overflow: hidden">
+                        <img src="{{ url_for('static', filename='imgs/akihabara.jpg') }}" alt=""
+                            style="height: 100%; width: 100%; display: block; object-fit: cover">
                     </div>
-                </div>
-                <div class="window-body" style="text-align: center">
-                    <a href="{{ url_for('index') }}">
-                        <img src="{{ url_for('static', filename='gifs/kirbybop.gif') }}" alt=""
-                             style="max-width: 250px;">
-                    </a></div>
-            </div>
-        </div>
-        <div class="window music-ad" style="height: 547px;">
-            <div class="title-bar">
-                <div class="title-bar-text">Image by Tokyo Gensou</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Close"></button>
-                </div>
-            </div>
-            <div class="window-body">
-                <div class="sunken-panel" style="height: 90%; overflow: hidden">
-                    <img src="{{ url_for('static', filename='imgs/akihabara.jpg') }}" alt=""
-                         style="height: 100%; width: 100%; display: block; object-fit: cover">
                 </div>
             </div>
         </div>
     </div>
-</div>
 </body>
+
 </html>
 
 <script>

@@ -69,15 +69,27 @@
                                 <tbody>
                                 <tr>
                                     <td><b>Wasser</b></td>
-                                    <td>{{ plant.care.watering.amount_ml_per_week }}ml/{{ plant.care.watering.frequency_days }}</td>
+                                    <td>
+                                        <b>Sommer:</b>
+                                        {{ plant.care.watering.summer.amount_ml_per_week }}ml/{{ plant.care.watering.summer.frequency_days }} Tage
+                                        <br>
+                                        <b>Winter:</b>
+                                        {{ plant.care.watering.winter.amount_ml_per_week }}ml/{{ plant.care.watering.winter.frequency_days }} Tage
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td><b>Licht</b></td>
-                                    <td>{{ plant.care.light.requirement }}, {{ plant.care.light.hours_per_day }}h/Tag</td>
+                                    <td>{{ plant.care.light.requirement }}</td>
                                 </tr>
                                 <tr>
                                     <td><b>Dünger</b></td>
-                                    <td>{{ plant.care.fertilizer.type }}, alle {{ plant.care.fertilizer.frequency_days }} Tage</td>
+                                    <td>
+                                        {{ plant.care.fertilizer.type }}
+                                        <br>
+                                        <b>Sommer:</b> alle {{ plant.care.fertilizer.frequency.summer }} Wochen
+                                        <br>
+                                        <b>Winter:</b> alle {{ plant.care.fertilizer.frequency.winter }} Wochen
+                                    </td>
                                 </tr>
                                 </tbody>
                                 <thead>
@@ -93,7 +105,7 @@
                                 </tr>
                                 <tr>
                                     <td><b>Hinweise</b></td>
-                                    <td>{{ plant.health.notes }}</td>
+                                    <td>{{ plant.health.notes | safe }}</td>
                                 </tr>
                                 </tbody>
                             </table>

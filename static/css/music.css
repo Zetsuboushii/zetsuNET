@@ -1,99 +1,107 @@
-html,
-body {
-  min-width: 1000px;
-  overflow-x: auto;
-  overflow-y: auto;
+html, body {
+    min-width: 1000px;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 @media (min-width: 1000px) {
-
-  html,
-  body {
-    overflow-y: hidden;
-  }
+    html, body {
+        overflow-y: hidden
+    }
 }
 
 .music-container {
-  width: 1000px;
-  margin: 20px auto 0;
-  display: grid;
-  grid-template-areas: "head ad" "main ad";
-  grid-template-columns: 800px 200px;
-  gap: 10px;
+    width: 1000px;
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-areas: "head ad" "main ad";
+    grid-template-columns: 1fr 200px;
+    gap: 10px;
 }
 
-.music-container .music-head {
-  grid-area: head;
-  display: grid;
-  grid-template-columns: 600px 200px;
-  gap: 10px;
+.music-head {
+    grid-area: head;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 10px;
 }
 
-.music-container .music-main {
-  grid-area: main;
+.music-main {
+    grid-area: main
 }
 
-.music-container .music-main .music-body {
-  gap: 10px;
+.music-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    align-items: start;
 }
 
-.music-container .music-main .music-body .music-body-left-text img {
-  max-height: 150px;
-  float: left;
-  border: 1px solid black;
-  margin-right: 15px;
+.music-left {
+    grid-column: 1
 }
 
-.music-container .music-main .music-body .music-body-left-text h4 {
-  margin-bottom: 5px;
+.music-right {
+    grid-column: 2
 }
 
-.music-container .music-main .music-body .music-body-left-text h5 {
-  clear: both;
-  color: red;
+.music-body-left-text img {
+    max-height: 150px;
+    float: left;
+    border: 1px solid #000;
+    margin-right: 15px;
 }
 
-.music-container .music-main .music-body .music-body-left-text p {
-  font-size: 14px;
-  text-align: justify;
+.music-body-left-text h4 {
+    margin-bottom: 5px
 }
 
-.music-container .music-main .music-body .music-body-left-fav-chars,
-.music-container .music-main .music-body .music-body-left-fav-films {
-  background-image: url("../ui/bkg-wall.png");
-  border: outset 3px #b8b8b8;
-  justify-items: center;
-  max-width: 600px;
-  padding: 10px 0;
-  margin: 0 auto;
-  display: grid;
-  gap: 10px;
+.music-body-left-text h5 {
+    clear: both;
+    color: red
 }
 
-.music-container .music-main .music-body .music-body-left-fav-chars {
-  grid-template-columns: 1fr 1fr 1fr;
+.music-body-left-text p {
+    font-size: 14px;
+    text-align: justify
 }
 
-.music-container .music-main .music-body .music-body-left-fav-chars img {
-  max-height: 150px;
-  border: 5px outset #797979;
+.music-body-left-fav-chars,
+.music-body-left-fav-films {
+    background-image: url("../ui/bkg-wall.png");
+    border: 3px outset #b8b8b8;
+    justify-items: center;
+    max-width: 600px;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
 }
 
-.music-container .music-main .music-body .music-body-left-fav-films {
-  grid-template-columns: 1fr 1fr;
+.music-body-left-fav-chars {
+    grid-template-columns: repeat(3, 1fr)
 }
 
-.music-container .music-main .music-body .music-body-left-fav-films img {
-  max-height: 250px;
-  border: 5px outset #797979;
+.music-body-left-fav-chars img {
+    max-height: 150px;
+    border: 5px outset #797979
 }
 
-.music-container .music-ad {
-  grid-area: ad;
+.music-body-left-fav-films {
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.music-body-left-fav-films img {
+    max-height: 250px;
+    border: 5px outset #797979
+}
+
+.music-ad {
+    grid-area: ad
 }
 
 .title-bar-text {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

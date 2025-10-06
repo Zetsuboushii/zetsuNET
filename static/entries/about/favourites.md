@@ -10,7 +10,7 @@ DSi XL, Game Boy Color, Super Nintendo Entertainment System, Wii
 
 ##### Serien
 
-Another, Baka to Test, Bocchi the Rock!, Code Geass, Death Note, Detektiv Conan, Food Wars, Horimiya, JoJo's Bizarre Adventure, Kaguya-sama, Konosuba, Lupin III, Miss Kobayashi's Dragon Maid, Mushoku Tensei, Neon Genesis Evangelion, Psycho Pass, Sousou no Frieren, SpongeBob, Steins;Gate, The Devil is a Part-Timer
+Lupin III., Monster, Another, Baka to Test, Bocchi the Rock!, Code Geass, Death Note, Detektiv Conan, Food Wars, Horimiya, JoJo's Bizarre Adventure, Kaguya-sama, Konosuba, Lupin III, Neon Genesis Evangelion, Psycho Pass, Sousou no Frieren, SpongeBob, Steins;Gate, The Devil is a Part-Timer
 
 <!--##### Filme
 

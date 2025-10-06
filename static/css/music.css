@@ -4,12 +4,6 @@ html, body {
     overflow-y: auto;
 }
 
-@media (min-width: 1000px) {
-    html, body {
-        overflow-y: hidden
-    }
-}
-
 .music-container {
     width: 1000px;
     margin: 20px auto 0;

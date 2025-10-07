@@ -1,0 +1,4208 @@
+[
+  {
+    "name": "A Hat in Time",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "VA-11 Hall-A",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Hatsune Miku: Project DIVA Mega Mix",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Ace Attorney Invesigations: Miles Edgeworth",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Ace Attorney Investigations: Miles Edgeworth 2",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Advance Wars 1 + 2: Reboot Camp",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Animal Crossing",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Animal Crossing Happy Home Designer",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Animal Crossing: Let's Go to the City",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Animal Crossing: New Horizons",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Animal Crossing: New Horizons - Happy Home Paradise",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Animal Crossing: New Leaf",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Animal Crossing: Wild World",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno - Erschaffe eine Neue Welt",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 1404",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 1404 - History Edition",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 1503 - History Edition",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 1602",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 1602 - History Edition",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 1800",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 2070",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 1701 - History Edition",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Anno 2205",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Aperture Tag: The Paint Gun Testing Initiative",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Apollo Justice: Ace Attorney",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Astral Chain",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Banjo-Kazooie",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Banjo-Tooie",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "BattleBlock Theater",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Bayonetta",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Bayonetta 2",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Beat Saber",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Bowser's Fury",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "BoxBoy! + BoxGirl!",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Bravely Default",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Bravely Default II",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Cadence of Hyrule",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Captain Toad: Treasure Tracker",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      },
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Castlevania: Aria of Sorrow",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Castlevania: Circle of the Moon",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Castlevania: Harmony of Dissonance",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Castlevania: Symphony of the Night",
+    "versions": [
+      {
+        "plattform": "PSX",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Castlevania: Vampire's Kiss",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Catherine: Full Body",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Cave Story+",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Celeste",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Chameleon Twist",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Chrono Trigger",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Cities: Skylines",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Conker's Bad Fur Day",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Crash Bandicoot",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Crash Bandicoot 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Crash Bandicoot 3",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Danganronpa 2: Goodbye Despair",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Danganronpa V3: Killing Harmony",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Danganronpa: Trigger Happy Havoc",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "DeDeDe's Drum Dash Deluxe",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Diddy Kong Racing",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Sims 4",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Don't Starve (+ Don't Starve Together)",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Donkey Kong 64",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Donkey Kong Bananza",
+    "versions": [
+      {
+        "plattform": "Switch 2",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Counter-Strike: Global Offensive",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Donkey Kong Country Returns",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Donkey Kong Country Returns HD",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Donkey Kong Country: Tropical Freeze",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      },
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Doom",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Doom 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Doom 64",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Dr. Kawashima's Gehirn-Jogging",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "EarthBound",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Entropy:Zero 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Ever Oasis",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Evoland",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Evoland 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "F-Zero 99",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "F-Zero X",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Fallout 4",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Fantasy Life",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "HoloCure",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Fire Emblem Awakening",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Fire Emblem Echoes: Shadows of Valentia",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Fire Emblem Engage",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Fire Emblem Fates",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Fire Emblem: The Blazing Blade",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Fire Emblem: The Sacred Stones",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Fire Emblem: Three Houses",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Game & Wario",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Garry's Mod",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Hitman 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Genshin Impact",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Gex 64",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Ghost Trick",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Glover",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Go Vacation",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      },
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "God of War",
+    "versions": [
+      {
+        "plattform": "PS2",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "GoldenEye 007",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Half-Life 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Half-Life 2: Episode One",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Half-Life 2: Episode Two",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Half-Life: Blue Shift",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Half-Life: Opposing Force",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Hearts of Iron IV",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Hollow Knight",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Warriors",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Old School RuneScape",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Hyrule Warriors: Zeit der Verheerung",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Jump King",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Jump King: New Babe +",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Jump King: Ghost of the Babe",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Katamari Damacy REROLL",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Kid Icarus: Uprising",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kingdoms and Castles",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Crypt of the Necrodancer",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Kirby 64 - The Crystal Shards",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby Air Ride",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby Mass Attack",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby Squak Squad",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby Star Allies",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby und das Magische Garn",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby und das Vergessene Land",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Kirby und das Vergessene Land: Die Sternensplitter-Welt",
+    "versions": [
+      {
+        "plattform": "Switch 2",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby's Adventure Wii",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Kirby's Dream Buffet",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby's Dream Land",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Kirby's Dream Land 2",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Kirby's Dream Land 3",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Kirby's Pinball Land",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Kirby's Return to Dream Land Deluxe",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Planet Coaster",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Kirby: Planet Robobot",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Plants vs. Zombies",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Plants vs. Zombies: Replanted",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Kirby: Triple Deluxe",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Luigi's Mansion",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      },
+      {
+        "plattform": "GC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Luigi's Mansion 3",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Enter the Gungeon",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Factorio",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario & Luigi: Abenteuer Bowser",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario & Luigi: Abenteuer Bowser + Bowser Jr.'s Reise",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario & Luigi: Brothership",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Mario & Luigi: Dream Team Bros.",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario & Luigi: Superstar Saga + Bowsers Schergen",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario & Luigi: Zusammen durch die Zeit",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mario & Sonic bei den Olympischen Winterspielen",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Sonic Mania",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario + Rabbids: Kingdom Battle",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Mario + Rabbids: Sparks of Hope",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+{
+    "name": "Mini Metro",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario and Donkey Kong: Minis on the Move",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Golf",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Super R-Type",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart 64",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Kart",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart 7",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart 8",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart 8 Deluxe",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart DS",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart Wii",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart World",
+    "versions": [
+      {
+        "plattform": "Switch 2",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Kart: Double Dash!!",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Party",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Party 10",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Party 2",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Party 3",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Party 9",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Party DS",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario Party Superstars",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mario Picross 2",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mario Smash Football",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mario Tennis",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mario Tennis Aces",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario vs. Donkey Kong: Die Rückkehr der Mini-Marios",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario's Picross",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mario no Super Picross",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Master Detective Archives: Rain Code",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mega Man 2",
+    "versions": [
+      {
+        "plattform": "NES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mega Man X",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Metroid Dread",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Metroid Fusion",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Metroid Prime",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Metroid Prime 1 Remastered",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Metroid Prime 2",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Metroid Prime 3",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Metroid Prime 4",
+    "versions": [
+      {
+        "plattform": "Switch 2",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Metroid: Samus Returns",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Metroid: Zero Mission",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Minecraft",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Minecraft Dungeons",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mischief Makers",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Human Fall Flat",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Monster Hunter Rise",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Monster Hunter World",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Moonlighter",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Mother 3",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Muse Dash",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "MySims",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Mystical Ninja Starring Goemon",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Potion Craft",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "New Pokémon Snap",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "New Super Luigi U",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "New Super Mario Bros.",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "New Super Mario Bros. 2",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "New Super Mario Bros. U",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "New Super Mario Bros. Wii",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Newer Super Mario Bros. DS",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Newer Super Mario Bros. Wii",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "NieR: Automata",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "NieR: Replicant",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Nintendo Switch Sports",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Octopath Traveler",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Octopath Traveler II",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Okami HD",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Overwatch",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Paper Mario",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Paper Mario and the Origami King",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Paper Mario Color Splash",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Paper Mario Sticker Star",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Paper Mario: Die Legende vom Äonentor",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Papers, Please",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Part Time UFO",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Noita",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Persona 2: Eternal Punishment",
+    "versions": [
+      {
+        "plattform": "PSP",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Persona 2: Innocent Sin",
+    "versions": [
+      {
+        "plattform": "PSP",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Persona 3 Reload",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Persona 4 Golden",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Persona 5 Royal",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Persona 5 Strikers",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Persona 5 Tactica",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Persona Q2: New Cinema Labyrinth",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Persona Q: Shadow of the Labyrinth",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Phasmophobia",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Wright: Ace Attorney",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Wright: Ace Attorney – Dual Destinies",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Pizza Tower",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Wright: Ace Attorney – Justice for All",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Wright: Ace Attorney – Spirit of Justice",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Phoenix Wright: Ace Attorney − Trials and Tribulations",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pikmin",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pikmin 2",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pikmin 3",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pikmin 3 Deluxe",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pikmin 4",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Feuerrot",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Gelb",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Gold",
+    "versions": [
+      {
+        "plattform": "GBC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Karmesin",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Kristall",
+    "versions": [
+      {
+        "plattform": "GBC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Legenden: Arceus",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mond",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mystery Dungeon: Retterteam DX",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Omega Rubin",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Platin",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Schild",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Schwarz",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Schwarz 2",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Smaragd",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon SoulSilver",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Stadium 2",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon X",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon XD - Der Dunkle Strum",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon: Let's Go, Evoli!",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon: Strahlender Diamant",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Poly Bridge",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Portal",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Portal 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Portal Reloaded",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Sekiro: Shadows Die Twice",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "SteamWorld Dig",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Stronghold: Definitive Edition",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton and the New World of Steam",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton und das Geheimnisvolle Dorf",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton und das Vermächtnis von Aslant",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton und der Ruf des Phantoms",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton und die Maske der Wunder",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton und die Schatulle der Pandora",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton und die verlorene Zunkunft",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Professor Layton vs. Phoenix Wright: Ace Attorney",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Psychonauts",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Psychonauts 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Psychonauts in the Rhombus of Ruin",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Quake",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Rayman 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rayman 3",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rayman Legends",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rayman Legends: Definitive Edition",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rayman Origins",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rayman Raving Rabbids",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rhythm Heaven",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rhythm Heaven Fever",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rhythm Heaven Megamix",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Ring Fit Adventure",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Rock of Ages",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rock of Ages 2: Bigger and Boulder",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rock of Ages 3: Make & Break",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rusty Lake Hotel",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Rocket - Robot on Wheels",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Secret of Evermore",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Secret of Mana",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Cuphead",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Shantae and the Pirate's Curse",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Shantae: Half Genie Hero",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Shantae and the Seven Sirens",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Sonic Lost World",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Shin Megami Tensei: Persona",
+    "versions": [
+      {
+        "plattform": "PSP",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Plague Inc: Evolved",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Shovel Knight: King of Cards",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Shovel Knight: Plague of Shadows",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Shovel Knight: Shovel of Hope",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Shovel Knight: Specter of Torment",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Slime Rancher",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Splatoon",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Splatoon 2",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Splatoon 2: Octo Expansion",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Splatoon 3",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Splatoon 3 DLC",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "SpongeBob Schwammkopf und der magische Stift",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "SpongeBob Schwammkopf: Der Gelbe Rächer",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "SpongeBob Schwammkopf: Eiskalt Entwischt",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      },
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "SpongeBob Squarepants: Battle for Bikini Bottom Rehydrated",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Star Fox 64 3D",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Stardew Valley",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Steins;Gate",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Steins;Gate 0",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Subnautica",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "SUPER HOT VR",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario 3D All-Stars",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario 3D Land",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario 3D World",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      },
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario 64",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario 64 DS",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Advance 4: Super Mario Bros. 3",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Advance: Super Mario Bros. 2",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario All-Stars",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Bros.",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Bros. 2",
+    "versions": [
+      {
+        "plattform": "NES",
+        "status": "f"
+      },
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Bros. 3",
+    "versions": [
+      {
+        "plattform": "NES",
+        "status": "f"
+      },
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Bros. Lost Levels",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Bros. Wonder",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Galaxy",
+    "versions": [
+      {
+        "plattform": "Switch 2",
+        "status": "f"
+      },
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Galaxy 2",
+    "versions": [
+      {
+        "plattform": "Switch 2",
+        "status": "f"
+      },
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Land",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Land 2 - 6 Golden Coins",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Maker",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Maker 2",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Odyssey",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Party",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario RPG",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario Sunshine",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Mario World",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Meat Boy",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Metroid",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Smash Bros. Brawl",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Smash Bros. for 3DS",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Smash Bros. for Wii U",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Super Smash Bros. Ultimate",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Sushi Striker: The Way of Sushido",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Team Fortress 2",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Terranigma",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Terraria",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Binding of Isaac: Afterbirth",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Yakuza 0",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Yume Nikki",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "The Binding of Isaac: Afterbirth +",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Binding of Isaac: Rebirth",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls III: Morrowind",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Scribblenauts Unlimited",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Senran Kagura Shinovi Versus",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls IV: Oblivion - Remastered",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "The Elder Scrolls V: Skyrim",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Great Ace Attorney: Adventures",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Great Ace Attorney: Resolve",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda",
+    "versions": [
+      {
+        "plattform": "NES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda II: The Adventure of Link",
+    "versions": [
+      {
+        "plattform": "NES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: A Link Between Worlds",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: A Link to the Past",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      },
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Dusk and Dawn",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Echoes of Wisdom",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Four Swords Adventures",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Link's Awakening",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      },
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Link's Awakening DX",
+    "versions": [
+      {
+        "plattform": "GBC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Majora's Mask 3D",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Master of Time",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Ocarina of Time 3D",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Oracle of Ages",
+    "versions": [
+      {
+        "plattform": "GBC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Oracle of Seasons",
+    "versions": [
+      {
+        "plattform": "GBC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Phantom Hourglass",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Skyward Sword",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Skyward Sword HD",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Spirit Tracks",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Tears of the Kingdom",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: The Ancient Stone Tablets",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: The Minish Cap",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: The Missing Link",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: The Wind Waker HD",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Third Quest",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Twilight Princess",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legend of Zelda: Twilight Princess HD",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "The Legendary Starfy",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Graveyard Keeper",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Tiny and Big: Grandpa's Leftovers",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Tokyo Mirage Sessions ♯FE Encore",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Tomb Raider",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Tomb Raider II",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Tomb Raider III: Adventures of Lara Croft",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Tomodachi Life",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Touhou 6 - The Embodiment of Scarlet Devil",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Triangle Strategy",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Wario Land",
+    "versions": [
+      {
+        "plattform": "GB",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wario Land II",
+    "versions": [
+      {
+        "plattform": "GBC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Wario Land III",
+    "versions": [
+      {
+        "plattform": "GBC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Wario Land 4",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wario World",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare Gold",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare, Inc. - Minigame Mania",
+    "versions": [
+      {
+        "plattform": "GBA",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare, Inc. - Mega Party Games",
+    "versions": [
+      {
+        "plattform": "GC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare: D.I.Y.",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare: D.I.Y. Showcase",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare: Get It Together",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare: Move It!",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare: Smooth Moves",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare: Snapped!",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "WarioWare: Touched!",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "We Love Katamari",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Wii Fit Plus",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wii Party",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wii Party U",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wii Play",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wii Play Motion",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wii Sports",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Wii Sports Resort",
+    "versions": [
+      {
+        "plattform": "Wii",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Xenoblade Chronicles 2",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Yo-kai Watch",
+    "versions": [
+      {
+        "plattform": "3DS",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Yoshi's Crafted World",
+    "versions": [
+      {
+        "plattform": "Switch",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Yoshi's Island",
+    "versions": [
+      {
+        "plattform": "SNES",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Yoshi's Island DS",
+    "versions": [
+      {
+        "plattform": "DS",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Yoshi's Story",
+    "versions": [
+      {
+        "plattform": "N64",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Yoshi's Wooly World",
+    "versions": [
+      {
+        "plattform": "Wii U",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Baldur's Gate 3",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Besiege",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Black Desert Online",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Black Mesa",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Bloodstained: Ritual of the Night",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Bloons TD5",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Bloons TD6",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Castle Crashers",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Cruelty Squad",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Dark Souls: Remastered",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Dark Souls II",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "Dark Souls III",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Elden Ring",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Elden Ring: Shadow of the Erdtree",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Elden Ring Nightreign",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "n"
+      }
+    ]
+  },
+  {
+    "name": "Deus Ex",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "p"
+      }
+    ]
+  },
+  {
+    "name": "MiSide",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  },
+  {
+    "name": "Needy Girl Overdose",
+    "versions": [
+      {
+        "plattform": "PC",
+        "status": "f"
+      }
+    ]
+  }
+]

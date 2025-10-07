@@ -195,7 +195,35 @@ def collection():
 
 @app.route("/gamelog.html")
 def gamelog():
-    return render_template("gamelog.html")
+    data = load_from_json("gamelog/gamelog.json")
+
+    completed = []
+    planned = []
+    not_completed = []
+
+    for game in data:
+        for p in game.get("versions", []):
+            entry = {"name": game["name"], "plattform": p["plattform"]}
+            if p["status"] == "f":
+                completed.append(entry)
+            elif p["status"] == "p":
+                planned.append(entry)
+            elif p["status"] == "n":
+                not_completed.append(entry)
+
+    completed.sort(key=lambda x: x["name"].lower())
+    planned.sort(key=lambda x: x["name"].lower())
+    not_completed.sort(key=lambda x: x["name"].lower())
+
+    n = max(len(completed), len(planned), len(not_completed))
+
+    return render_template(
+        "gamelog.html",
+        completed=completed,
+        planned=planned,
+        not_completed=not_completed,
+        max=n,
+    )
 
 
 @app.route("/blog.html")

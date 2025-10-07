@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1006, initial-scale=1, user-scalable=yes">
+    <title>{{ g.site_title | upper }} | GAMELOG</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/98.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    {% include "includes.html" %}
+</head>
+
+<body>
+<div class="page-containter">
+    <div class="page">
+        <div class="window" style="max-width: 1006px; margin: 0 auto 0 auto">
+            <div class="title-bar">
+                <div class="title-bar-text">Gamelog</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <div class="sunken-panel music-body-left"
+                     style="height: 500px">
+                    <div style="height: 497px; overflow: auto; scrollbar-width: none">
+                        <table style="width: 100%; height: 100%">
+                            <thead style="text-align: center">
+                            <tr>
+                                <th></th>
+                                <th>Beendet</th>
+                                <th>Plattform</th>
+                                <th>Noch nicht beendet</th>
+                                <th>Plattform</th>
+                                <th>Geplant</th>
+                                <th>Plattform</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for i in range(max) %}
+                                <tr>
+                                    <td>{{ i + 1 }}</td>
+                                    <td>{{ completed[i].name if i < completed|length else '' }}</td>
+                                    <td>{{ completed[i].plattform if i < completed|length else '' }}</td>
+                                    <td>{{ not_completed[i].name if i < not_completed|length else '' }}</td>
+                                    <td>{{ not_completed[i].plattform if i < not_completed|length else '' }}</td>
+                                    <td>{{ planned[i].name if i < planned|length else '' }}</td>
+                                    <td>{{ planned[i].plattform if i < planned|length else '' }}</td>
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="status-bar">
+                <p class="status-bar-field">Press Alt+f4 for help</p>
+                <p class="status-bar-field">Commit Hash: {{ g.git_hash }}</p>
+                <p class="status-bar-field">Site Version: {{ g.version }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

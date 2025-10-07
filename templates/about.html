@@ -75,7 +75,6 @@
                         </div>
                         <div class="window-body">
                             <ul class="tree-view home-left-element" style="text-align: left">
-                                <li><a href="{{ url_for('index') }}">Homepage</a></li>
                                 <li><a href="https://github.com/Zetsuboushii">GitHub</a></li>
                                 <li><a href="https://open.spotify.com/user/fefuqa5sxojouw2paqibdy5wi">Spotify</a></li>
                                 <li><a href="https://www.instagram.com/zetsuboushii">Instagram</a></li>
@@ -128,19 +127,34 @@
                 </div>
             </div>
         </div>
-        <div class="window about-ad" style="height: 547px;">
-            <div class="title-bar">
-                <div class="title-bar-text">Image by Tokyo Gensou</div>
-                <div class="title-bar-controls">
-                    <button aria-label="Close"></button>
+        <div class="about-ad">
+            <div class="window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Sitemap</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    {% include "nav.html" %}
                 </div>
             </div>
-            <div class="window-body">
-                <div class="sunken-panel" style="height: 90%; overflow: hidden">
-                    <img src="{{ url_for('static', filename='imgs/akihabara.jpg') }}" alt=""
-                         style="height: 100%; width: 100%; display: block; object-fit: cover">
+            <!--
+            <div class="window" style="height: 547px;">
+                <div class="title-bar">
+                    <div class="title-bar-text">Image by Tokyo Gensou</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="window-body">
+                    <div class="sunken-panel" style="height: 90%; overflow: hidden">
+                        <img src="{{ url_for('static', filename='imgs/akihabara.jpg') }}" alt=""
+                             style="height: 100%; width: 100%; display: block; object-fit: cover">
+                    </div>
                 </div>
             </div>
+            -->
         </div>
     </div>
 </div>

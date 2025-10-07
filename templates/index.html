@@ -66,46 +66,7 @@
                              style="max-width: 200px">
                     </div>
                     <h4>-- Sitemap --</h4>
-                    <ul class="tree-view home-left-element" style="text-align: left">
-                        <li><a href="{{ url_for('index') }}">ZetsuNET</a>
-                            <ul>
-                                <li><a href="{{ url_for('about') }}">About the Webmaster</a></li>
-                                <li><a href="{{ url_for('blog') }}">Blogs</a></li>
-                                <li>Writing
-                                    <ul>
-                                        <li><a href="{{ url_for('totv_gdg') }}">Tome of the Vastlands: Geißel der
-                                            Gier</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="{{ url_for('music') }}">Music</a></li>
-                                <li>Videogames
-                                    <ul>
-                                        <li><a href="{{ url_for('collection') }}">Collection</a></li>
-                                        <li><a href="{{ url_for('gamelog') }}">Gamelog</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <details open>
-                                        <summary>Herbarium</summary>
-                                        <ul>
-                                            {% for p in plants %}
-                                                <li><a href="{{ url_for('herbarium', id=p.id) }}">{{ p.name }}</a></li>
-                                            {% endfor %}
-                                        </ul>
-                                    </details>
-                                </li>
-                                <li>Shrines</li>
-                                <li><a href="{{ url_for('license') }}">Licence</a></li>
-                                <li><a href="/feed.xml">RSS Feed</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="https://tome.zetsuboushii.site">Tome of the Vastlands</a>
-                            <ul>
-                                <li><a href="https://map.zetsuboushii.site">Vastlands Map</a></li>
-                                <li><a href="https://foundry.zetsuboushii.site">Sessions</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    {% include "nav.html" %}
                 </div>
                 <div class="home-right">
                     <div class="home-main" style="height: 100%;">

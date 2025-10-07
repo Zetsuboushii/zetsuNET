@@ -4,6 +4,22 @@
     "source": "Touhou"
   },
   {
+    "name": "Yuyuko Saigyouji",
+    "source": "Touhou"
+  },
+  {
+    "name": "Reisen Udongein Inaba",
+    "source": "Touhou"
+  },
+  {
+    "name": "Patchouli Knowledge",
+    "source": "Touhou"
+  },
+  {
+    "name": "Marisa Kirisame",
+    "source": "Touhou"
+  },
+  {
     "name": "Okabe Rintarou",
     "source": "Steins;Gate"
   },
@@ -12,8 +28,24 @@
     "source": "Steins;Gate"
   },
   {
+    "name": "Itaru Hashida",
+    "source": "Steins;Gate"
+  },
+  {
     "name": "Midna",
-    "source": "TLoZ: Twilight Princess"
+    "source": "The Legend of Zelda"
+  },
+  {
+    "name": "Link",
+    "source": "The Legend of Zelda"
+  },
+  {
+    "name": "Linebeck",
+    "source": "The Legend of Zelda"
+  },
+  {
+    "name": "Zanto",
+    "source": "The Legend of Zelda"
   },
   {
     "name": "Kogoro Mori",
@@ -21,6 +53,42 @@
   },
   {
     "name": "Ai Haibara",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Shinichi Kudo",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Vermouth",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Kaito Kid",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Heiji Hattori",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Hiroshi Agasa",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Yukiko Kudo",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Kogoro Mori",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Wataru Takagi",
+    "source": "Detektiv Conan"
+  },
+  {
+    "name": "Miwako Sato",
     "source": "Detektiv Conan"
   },
   {
@@ -36,7 +104,19 @@
     "source": "Vocal Synthesizer"
   },
   {
+    "name": "Hatsune Miku",
+    "source": "Vocaloid"
+  },
+  {
     "name": "Waluigi",
     "source": "Mario Spinoffs"
+  },
+  {
+    "name": "Hershel Layton",
+    "source": "Professor Layton"
+  },
+  {
+    "name": "Phoenix Wright",
+    "source": "Ace Attorney"
   }
 ]

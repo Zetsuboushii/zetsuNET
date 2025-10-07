@@ -77,11 +77,11 @@ body {
 }
 
 .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .about-container .about-main .about-body .about-body-left .about-body-left-fav-chars img {
-  max-height: 150px;
+  max-height: 115px;
   border: 5px outset #797979;
 }
 

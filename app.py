@@ -168,12 +168,18 @@ def about():
         },
     }
 
+    plants = []
+    plants_json = load_from_json("herbarium/herbarium.json")
+    for p in plants_json:
+        plants.append({"name": p["nickname"], "id": p["id"]})
+
     return render_template(
         "about.html",
         intro=intro_md,
         interests=interests_md,
         favourites=favourites_md,
         favs=favs,
+        plants=plants
     )
 
 

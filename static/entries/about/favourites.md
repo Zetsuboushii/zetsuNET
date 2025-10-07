@@ -2,7 +2,7 @@
 
 ##### Videospiele
 
-Anno 1602, Anno 1503, Half-Life 2, Mario Kart 8 Deluxe, Portal 1, Portal 2, Rayman Legends, Super Smash Bros. Ultimate, The Legend of Zelda: Link's Awakening DX, The Legend of Zelda: Majora's Mask, The Legend of Zelda: The Minish Cap, The Legend of Zelda: Twilight Princess, WarioWare Gold
+Anno 1602, Anno 1503, Anno 1404, Rhythm Heaven, Pikmin 1, Pikmin 2, Pikmin 3, Animal Crossing: Wild World, Octopath Traveler, Mario & Luigi: Abenteuer Bowser, Professor Layton und die Schatulle der Pandora, Half-Life 2, Mario Kart 8 Deluxe, Portal 1, Portal 2, Rayman Legends, Super Smash Bros. Ultimate, The Legend of Zelda: Link's Awakening DX, The Legend of Zelda: Majora's Mask, The Legend of Zelda: The Minish Cap, The Legend of Zelda: Twilight Princess, WarioWare Gold
 
 ##### Videospielkonsolen
 
@@ -10,7 +10,11 @@ DSi XL, Game Boy Color, Super Nintendo Entertainment System, Wii
 
 ##### Serien
 
-Lupin III., Monster, Another, Baka to Test, Bocchi the Rock!, Code Geass, Death Note, Detektiv Conan, Food Wars, Horimiya, JoJo's Bizarre Adventure, Kaguya-sama, Konosuba, Lupin III, Neon Genesis Evangelion, Psycho Pass, Sousou no Frieren, SpongeBob, Steins;Gate, The Devil is a Part-Timer
+Steins;Gate, Lupin III., Monster, Another, Code Geass, Death Note, Detektiv Conan, Food Wars!, Horimiya, JoJo's Bizarre Adventure, Kaguya-sama, Konosuba, Neon Genesis Evangelion, Psycho Pass, Sousou no Frieren, SpongeBob, The Devil is a Part-Timer
+
+##### Bücher
+
+Girls' Last Tour, Detektiv Conan, Maria's Judgement
 
 <!--##### Filme
 
@@ -34,7 +38,7 @@ Döner, Jägerschnitzel, Rosenkohl, Spätzle, Wildbraten, Bismarckhering, Katsu 
 
 ##### Getränke
 
-Asahi™ Super Dry, Dr Pepper™ (das Getränk der Intellektuellen), Eistee (Grüntee-Limette / Schwarztee-Pfirsich-Hibiskus), <s>Karbonisiertes Wasser</s>, Cappucino, Red Bull™ Purple Edition, Riegele™ Spezi
+Asahi™ Super Dry, Dr Pepper™ (das Getränk der Intellektuellen), Eistee (Grüntee-Limette / Schwarztee-Pfirsich-Hibiskus), <s>Karbonisiertes</s> Wasser, Cappucino, Red Bull™ Purple Edition, Riegele™ Spezi
 
 ##### Farben
 

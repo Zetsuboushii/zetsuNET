@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form method="post">
+    {% if error %}
+        <p style="color:red">{{ error }}</p>
+    {% endif %}
+    <label for="pw">Passwort:</label>
+    <input type="password" name="password" id="pw">
+    <button type="submit">Login</button>
+</form>
+</body>
+</html>

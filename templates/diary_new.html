@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diary New</title>
+</head>
+<body>
+<h1>Neuer Tagebuch-Eintrag</h1>
+
+{% if error %}
+    <p style="color:red">{{ error }}</p>
+{% endif %}
+
+<form method="post">
+    <label for="title">Titel (optional):</label><br>
+    <input type="text" id="title" name="title" style="width: 100%;"><br><br>
+
+    <label for="content">Inhalt:</label><br>
+    <textarea id="content" name="content" rows="15" style="width: 100%;"></textarea><br><br>
+
+    <button type="submit">Speichern</button>
+</form>
+
+</body>
+</html>

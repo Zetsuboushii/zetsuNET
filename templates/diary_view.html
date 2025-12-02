@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diary View</title>
+</head>
+<body>
+<h1>{{ entry.title or entry.id }}</h1>
+<p><small>{{ entry.created_at }}</small></p>
+<pre>{{ entry.content }}</pre>
+
+<p><a href="{{ url_for('diary_index') }}">Zurück</a></p>
+
+</body>
+</html>

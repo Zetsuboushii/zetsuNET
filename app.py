@@ -19,9 +19,6 @@ from cryptography.fernet import Fernet
 
 app = Flask(__name__, static_folder="static")
 
-# app.secret_key = os.environ.get("FLASK_SECRET_KEY", "dev-only-change-me")
-app.secret_key = "baba"
-
 app.config["FREEZER_DESTINATION_IGNORE"] = ["index"]
 app.config["FREEZER_RELATIVE_URLS"] = True
 app.config["FREEZER_REMOVE_EXTRA_FILES"] = False
@@ -89,26 +86,6 @@ DIARY_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # -----------------------------------------------------------------------------
-# Auth Helpers
-# -----------------------------------------------------------------------------
-
-def is_logged_in() -> bool:
-    return session.get("admin_logged_in", False)
-
-
-def require_login(fn):
-    from functools import wraps
-
-    @wraps(fn)
-    def wrapper(*args, **kwargs):
-        if not is_logged_in():
-            return redirect(url_for("login", next=request.path))
-        return fn(*args, **kwargs)
-
-    return wrapper
-
-
-# -----------------------------------------------------------------------------
 # Generic Helper Functions
 # -----------------------------------------------------------------------------
 
@@ -170,74 +147,13 @@ def load_file(filename):
 
 
 # -----------------------------------------------------------------------------
-# Encryption & Storage
-# -----------------------------------------------------------------------------
-
-def get_fernet() -> Fernet:
-    # secret = os.environ.get("DIARY_KEY")
-    secret = "secret"
-    if not secret:
-        raise RuntimeError("DIARY_KEY env var not set")
-
-    key_bytes = hashlib.sha256(secret.encode("utf-8")).digest()
-    key = base64.urlsafe_b64encode(key_bytes)
-    return Fernet(key)
-
-
-def encrypt_diary_entry(data: dict) -> bytes:
-    f = get_fernet()
-    payload = json.dumps(data).encode("utf-8")
-    return f.encrypt(payload)
-
-
-def decrypt_diary_entry(token: bytes) -> dict:
-    f = get_fernet()
-    decrypted = f.decrypt(token)
-    return json.loads(decrypted.decode("utf-8"))
-
-
-def save_diary_entry(entry_id: str, data: dict) -> None:
-    token = encrypt_diary_entry(data)
-    path = DIARY_DIR / f"{entry_id}.json.enc"
-    with open(path, "wb") as f:
-        f.write(token)
-
-
-def load_diary_entry(entry_id: str) -> dict | None:
-    path = DIARY_DIR / f"{entry_id}.json.enc"
-    if not path.exists():
-        return None
-    with open(path, "rb") as f:
-        token = f.read()
-    return decrypt_diary_entry(token)
-
-
-def list_diary_entries() -> list[dict]:
-    entries = []
-    for path in DIARY_DIR.glob("*.json.enc"):
-        entry_id = path.stem.replace(".json", "")
-        try:
-            data = load_diary_entry(entry_id)
-            data["id"] = entry_id
-            entries.append(data)
-        except Exception:
-            continue
-
-    def sort_key(e):
-        return e.get("created_at", "")
-
-    entries.sort(key=sort_key, reverse=True)
-    return entries
-
-
-# -----------------------------------------------------------------------------
 # Request Hooks
 # -----------------------------------------------------------------------------
 
 @app.before_request
 def before_request():
     g.site_title = "ZetsuNET"
-    g.version = "b4.4"
+    g.version = "b5.0"
     g.git_hash = get_git_hash()
 
     g.static = "/static/"
@@ -510,51 +426,6 @@ def login():
 def logout():
     session.clear()
     return redirect(url_for("index"))
-
-
-# -----------------------------------------------------------------------------
-# Private Pages
-# -----------------------------------------------------------------------------
-
-@app.route("/diary")
-@require_login
-def diary_index():
-    entries = list_diary_entries()
-    return render_template("diary_index.html", entries=entries)
-
-
-@app.route("/diary/<entry_id>")
-@require_login
-def diary_view(entry_id):
-    entry = load_diary_entry(entry_id)
-    if not entry:
-        return "Not found", 404
-    return render_template("diary_view.html", entry=entry)
-
-
-@app.route("/diary/new", methods=["GET", "POST"])
-@require_login
-def diary_new():
-    if request.method == "POST":
-        title = request.form.get("title", "").strip()
-        content = request.form.get("content", "").strip()
-
-        if not content:
-            return render_template("diary_new.html", error="Should not be empty")
-
-        now = datetime.now(timezone.utc).isoformat()
-        entry_id = datetime.now().strftime("%Y%m%d-%H%M%S")
-
-        data = {
-            "title": title,
-            "content": content,
-            "created_at": now,
-        }
-
-        save_diary_entry(entry_id, data)
-        return redirect(url_for("diary_view", entry_id=entry_id))
-
-    return render_template("diary_new.html")
 
 
 # -----------------------------------------------------------------------------

@@ -19,6 +19,7 @@ C:\ZETSUOS> Wähle einen Blog:
     [1] Zetsu's 3rd Great Japan Adventure (<a href="{{ url_for('blog_entry', blog='japan-3') }}">JAPAN-3</a>)
     [2] Study Impressions (<a href="{{ url_for('blog_entry', blog='studimpr') }}">STUDIMPR</a>)
     [3] Zetsu's Kitchen (<a href="{{ url_for('blog_entry', blog='cooking') }}">COOKING</a>)
+    [4] Zetsu's Trash Taste on Tech (<a href="{{ url_for('blog_entry', blog='tech') }}">TECH</a>)
 {% if entries %}
 C:\ZETSUOS> cd {{ blog | upper }}
 {% include "blog-entry.html" %}{% endif %}

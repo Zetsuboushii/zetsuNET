@@ -17,17 +17,6 @@
                     <li><a href="{{ url_for('gamelog') }}">Gamelog</a></li>
                 </ul>
             </li>
-            <li>
-                <details open>
-                    <summary>Herbarium</summary>
-                    <ul>
-                        {% for p in plants %}
-                            <li><a href="{{ url_for('herbarium', id=p.id) }}">{{ p.name }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </details>
-            </li>
-            <li>Shrines</li>
             <li><a href="{{ url_for('license') }}">Licence</a></li>
             <li><a href="/feed.xml">RSS Feed</a></li>
         </ul>
@@ -35,14 +24,14 @@
     <li><a href="https://tome.zetsuboushii.site">Tome of the Vastlands</a>
         <ul>
             <li><a href="https://map.zetsuboushii.site">Vastlands Map</a></li>
-            <li><a href="https://foundry.zetsuboushii.site">Sessions</a></li>
+            <li><a href="http://foundry.zetsuboushii.site">Sessions</a></li>
         </ul>
     </li>
     <li>
         <details open>
             <summary>Webcircle</summary>
             <ul>
-                <li><a href="https://kucera-server.de/">Marcel's Webseite</a></li>
+                <li><a href="https://markura.dev/">Marcel's Webseite</a></li>
             </ul>
         </details>
     </li>

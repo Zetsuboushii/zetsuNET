@@ -153,7 +153,7 @@ def load_file(filename):
 @app.before_request
 def before_request():
     g.site_title = "ZetsuNET"
-    g.version = "b5.1"
+    g.version = "b5.2"
     g.git_hash = get_git_hash()
 
     g.static = "/static/"

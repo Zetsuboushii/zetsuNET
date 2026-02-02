@@ -1,1 +1,3 @@
-Hier liste ich ein paar meiner wertesten Playlists auf. Ich weiß, das sind Spotify Embeds, ja, aber es ist nun mal deutlich einfacher so einen allgemeinen Überblick über meinen Musikgeschmack zu geben, als würde ich jetzt hier tausende redundante, manuelle Aufzählungen von Songs machen. In einer vorherigen Version meiner Website habe ich dies bestimmt auch nicht getan :) 
+Musik ist ein essentieller Teil meines Tages. Ohne Musik auf den Ohren würde ich draußen in der Bahn oder auf der Straße straight-up sterben. Da es aber sehr viel verschiedene Musik gibt, darunter auch bodenlos beschissene Musik, muss ich einfach mal die <b>objektiv</b> richtige Musik präsentieren. Denn mein Musikgeschmack ist gut, jeder der was anderes sagt, ist ein Nichtsgönner und Neider :)
+
+P.S.: Unten links packe ich ein paar von mir erlesene Lyrics rein, da mir Seiten, auf denen Lyrics bereitsgestellt werden, teils echt ranzig sind.

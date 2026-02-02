@@ -24,6 +24,17 @@ app.config["FREEZER_RELATIVE_URLS"] = True
 app.config["FREEZER_REMOVE_EXTRA_FILES"] = False
 app.config["FREEZER_DEFAULT_MIMETYPE"] = "text/html"
 
+
+@app.before_request
+def before_request():
+    g.site_title = "ZetsuNET"
+    g.version = "b5.3"
+    g.git_hash = get_git_hash()
+
+    g.static = "/static/"
+    g.debug = app.debug
+
+
 # -----------------------------------------------------------------------------
 # Constants & Paths
 # -----------------------------------------------------------------------------
@@ -147,20 +158,6 @@ def load_file(filename):
 
 
 # -----------------------------------------------------------------------------
-# Request Hooks
-# -----------------------------------------------------------------------------
-
-@app.before_request
-def before_request():
-    g.site_title = "ZetsuNET"
-    g.version = "b5.2"
-    g.git_hash = get_git_hash()
-
-    g.static = "/static/"
-    g.debug = app.debug
-
-
-# -----------------------------------------------------------------------------
 # Public Pages
 # -----------------------------------------------------------------------------
 
@@ -274,14 +271,7 @@ def totv_gdg():
 @app.route("/music.html")
 def music():
     intro_md = load_from_markdown("music/intro.md")
-    playlists = {
-        "daily": load_from_markdown("music/daily.md"),
-        "vocaloid": load_from_markdown("music/vocaloid.md"),
-        "schizo": load_from_markdown("music/schizo.md"),
-        "citypopfusion": load_from_markdown("music/citypop-fusion.md"),
-        "conan": load_from_markdown("music/conan.md"),
-        "silly": load_from_markdown("music/silly.md"),
-    }
+    music = load_from_markdown("music/music.md")
 
     lyrics = []
     lyrics_entries = glob.glob(os.path.join("static/entries/music/lyrics", "*.json"))
@@ -289,7 +279,7 @@ def music():
         lyrics.append(load_from_json(entry.replace("static/entries", "")))
 
     return render_template(
-        "music.html", intro=intro_md, playlists=playlists, lyrics=lyrics
+        "music.html", intro=intro_md, music=music, lyrics=lyrics
     )
 
 

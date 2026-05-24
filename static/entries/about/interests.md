@@ -1,5 +1,11 @@
 #### Dinge, die mich interessieren
 
+##### Japan bereisen
+
+Japan ist ein Land, das mich schon lange fasziniert hat. Früher primär durch Anime und Videospiele, seit meinem ersten Besuch in 2023 jedoch hat mich die Kultur, die Menschen und die Landschaften Japans fest im Bann. Selbst nach der vierten Reise in dieses Land, habe ich noch lange nicht alles gesehen. Mit jedem Mal zeigt es mir, dass ich nur noch mehr sehen möchte. Es erfüllt mich wahrlich mit Freude, meinen Fortschritt in der Sprache live und praxisnah anwenden zu können. Ich habe so viele tolle Erinnerungen hier geschaffen und würde dies unter keinen Umständen missen wollen. Jede Interaktion mit den Menschen und jede neue Erfahrung in Japan bereichert mein Leben ungemein. Es ist ein Land, das mich immer wieder aufs Neue begeistert und inspiriert. 
+
+Mein initiales Ziel war es, einmal jede der 47 Präfekturen zu bereisen. Da dieses Ziel nun bereits beinahe erreicht ist, habe ich mir vorgenommen, auch die abgelegeneren und weniger bekannten Orte in Japan zu erkunden. Es gibt so viele versteckte Schätze und einzigartige Kulturen innerhalb Japans, die es zu entdecken gilt. Von den belebten Straßen Tokios bis zu den ruhigen Dörfern in den Bergen. Jede Region hat ihren eigenen Charme und ihre eigene Geschichte. Ich freue mich darauf, weiterhin neue Orte zu entdecken und meine Liebe zu diesem faszinierenden Land weiter zu vertiefen.
+
 ##### Softwareentwicklung
 
 Ich beschäftige mich in meiner Freizeit, wie man vielleicht an dem Fakt, dass ich eine persönliche Website gebastelt habe, merkt, viel mit Themen der Informatik. Da ich gefühlt Endstufe Parkinson habe, ist mir das präzise Herumfummeln an kleinen Hardware-Bauteilchen leider mehr oder weniger vergönnt. Dafür allerdings kann ich den lieben langen Tag vor einem Bildschirm sitzen und unlesbaren Code schreiben, bei dem ich selbst binnen einer Woche wieder vergessen habe, wie dieser noch gleich funktionierte.

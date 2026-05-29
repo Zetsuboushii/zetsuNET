@@ -14,7 +14,7 @@ Steins;Gate, Lupin III., Monster, Another, Code Geass, Death Note, Detektiv Cona
 
 ##### Bücher
 
-Girls' Last Tour, Detektiv Conan, Maria's Judgement
+Girls' Last Tour, Detektiv Conan, Maria's Judgement, Yotsubato!, Azumanga Daioh!, Nichijou
 
 <!--##### Filme
 
@@ -22,7 +22,7 @@ Chihiros Reise ins Zauberland, Das Wandelnde Schloss, Demon Slayer: Mugen Train,
 
 ##### Interpreten/Bands
 
-FAKE TYPE., DYES IWASAKI, KANKAN, kiyosumi, usedcvnt, BEATMARIO, DECO*27, Kikuo, Houshou Marine, Alligatoah, PANXI, TUYU, YOASOBI 
+Kasane Teto, Zundamon, Hatsune Miku, FAKE TYPE., DYES IWASAKI, KANKAN, kiyosumi, usedcvnt, BEATMARIO, Houshou Marine, Alligatoah, TUYU 
 
 ##### Soundtracks
 
@@ -38,7 +38,7 @@ Döner, Jägerschnitzel, Rosenkohl, Spätzle, Wildbraten, Bismarckhering, Katsu 
 
 ##### Getränke
 
-Asahi™ Super Dry, Dr Pepper™ (das Getränk der Intellektuellen), Eistee (Grüntee-Limette / Schwarztee-Pfirsich-Hibiskus), <s>Karbonisiertes</s> Wasser, Cappucino, Red Bull™ Purple Edition, Riegele™ Spezi
+Dr Pepper (das Getränk der Intellektuellen aus Auserwählten), Calpis, Asahi Super Dry, Tschunk, Pocari Sweat, Eistee (Grüntee-Limette / Schwarztee-Pfirsich-Hibiskus), Wasser, Cappucino, Red Bull Purple Edition, Riegele Spezi
 
 ##### Farben
 
